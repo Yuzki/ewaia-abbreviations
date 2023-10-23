@@ -1,0 +1,86 @@
+/* ページ全体に背景色を設定 */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* タイトルのスタイル */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* チェックボックスのスタイル */
+.form-check-input {
+    margin-right: 10px;
+}
+
+/* 入力フィールドのスタイル */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* ボタンのスタイル */
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* 検索結果のスタイル */
+#searchResults {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 800px;
+}
+
+#searchResults div {
+    margin: 15px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#searchResults div:last-child {
+    border-bottom: none;
+}
+
+/* Bootstrapのカードスタイルをカスタマイズ */
+.card {
+    border: none;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
