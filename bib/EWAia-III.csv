@@ -12,7 +12,7 @@ abbreviation,full,type
 "Cal Wunschopfer","W. Caland, Altindische Zauberei. Darstellung der altindischen Wunschopfer. [VKNA Deel X No. 1, 1908]. Nachdruck Amsterdam 1983.",reference
 "CentRenou","Langue, style et structure dans le monde indien. Centenaire de Louis Renou, Actes du colloque international (Paris, 25-27 janvier 1996). Paris 1996.",reference
 "Couture","A. Couture, L'enfance de Krishna. Traduction des chapitres 30 à 78. Laval 1991.",reference
-"C2", "s. S-W, C2 (unten III, XXX).",reference
+"C2","s. S-W, C2 (unten III, XXX).",reference
 "DudenFWB","Duden[.] Das Große Fremdwörterbuch. Herkunft und Bedeutung der Fremdwörter. Mannheim etc. 1994.",reference
 "EggermontACP","P. H. O. Eggermont, Alexander's Campaigns in Sind and Baluchistan and the Siege of the Brahmin Town of Harma- telia. Leuven 1975.",reference
 "EI","Epigraphia Indica. Delhi.",reference
@@ -33,7 +33,7 @@ abbreviation,full,type
 "Fs Lazard","Études Irano-Aryennes Offertes à G. Lazard. [Stir Cahier 7). Paris 1989.",reference
 "Fs Li Fang-kuei","Bulletin of the Institute of History and Philology. Academia Sinica. 39 [In Honor of Dr. Li Fang-kuei). Taipei 1969.",reference
 "Fs Lochner-Hüttenbach","Studia Onomastica et Indogermanica. Fest-schrift Fritz Lochner von Hüttenbach zum 65. Geburtstag. Graz 1995.",reference
-"Fs Mańczak", "Munus Amicitiae. Studia linguistica in honorem Witoldi Mańczak septuagenarii. Krakau 1995.",reference
+"Fs Mańczak","Munus Amicitiae. Studia linguistica in honorem Witoldi Mańczak septuagenarii. Krakau 1995.",reference
 "Fs Puhvel","Studies in Honor of Jaan Puhvel, Pt. I, II JIES Monogr. Nr. 20, 21, 1997).",reference
 "Fs Roth","Festgruß an R. v. Roth zum Doktor-Jubi- läum 24. August 1893. Stuttgart 1893.",reference
 "Fs Rūᶄe-Draviᶇa","Symposium Balticum. A Festschrift to hon- our Professor Velta Rüke-Draviņa. Ham- burg 1990.",reference
@@ -43,7 +43,7 @@ abbreviation,full,type
 "Fs Watkins","G. Fussman und D. König, Die Felsbildsta- tion Shatial. [Materialien zur Archäologie der Nordgebiete Pakistans Bd. 2]. Mainz 1997.",reference
 "GIndAPh","Grundriß der Indo-Arischen Philologie und Altertumskunde. Straßburg.",reference
 "GiovStudio II, III","P. Di Giovine, Studi sul Perfetto Indoeuro- peo (o. I, XXXI). Parte II, III [Biblioteca di Ricerche Linguistiche e Filologiche 40, 41]. Rom 1996.",reference
-"Gode", "s. Apte2, o. III XX.",reference
+"Gode","s. Apte2, o. III XX.",reference
 "Goto, Mat 1997","T. Gotō, Materialien zu einer Liste altindi- scher Verbalformen: 16. chad, 17, chand/ chad, 18. chard/chrd, 19. dagh/dhag, 20. dves/dvis, 21. bandh/badh, 22. 'man, 23. 2man, 24. mnă, 25. 'yav/yu, 26. yav/yu, 27. san', 28. star/str, 29. star/stj. Bulletin of the National Museum of Ethnology (o. 1, XXXII, II, XVI) 22 (1997 [1998]) 1001-1059.",reference
 "Gs Alsdorf","Studien zum Jainismus und Buddhismus. Gedenkschrift für L. Alsdorf. [Alt- und Neuindische Studien 23]. Wiesbaden 1981.",reference
 "Gs Kuryłowicz I","Kuryłowicz Memorial Volume, Part One, Krakau 1995.",reference
@@ -69,9 +69,9 @@ abbreviation,full,type
 "JollyMedicin","J. Jolly, Medicin. [GIndAPh III, 10]. Straßburg 1901.",reference
 "Justi, Nb","F. Justi, Iranisches Namenbuch. Marburg 1895, Nachdruck Hildesheim 1963.",reference
 "KarttunenIHW","K. Karttunen, India and the Hellenistic World. [StudOr 83]. Helsinki 1997.",reference
-"Karve", "s. Apte2, o. III XX.",reference
+"Karve","s. Apte2, o. III XX.",reference
 "Katre, Pāṇ","Aṣṭādhyāyi of Pāṇini, Roman Transliteration and English Translation by S. M. Katre. Delhi etc. 1989.",reference
-"Kazzazi, „Mann“ und „Frau"","K. Kazzazi, „Mann“ und „Frau“ im Rgveda. Mit einem Exkurs über Wörter für „Frau“ im Atharvaveda. Innsbruck 2001.",reference
+"Kazzazi, „Mann“ und „Frau“","K. Kazzazi, „Mann“ und „Frau“ im Rgveda. Mit einem Exkurs über Wörter für „Frau“ im Atharvaveda. Innsbruck 2001.",reference
 "KirfelKosm","W. Kirfel, Die Kosmographie der Inder nach den Quellen dargestellt. Bonn - Leipzig 1920.",reference
 "Kittel","F. Kittel, A Kannada-English Dictionary. Mangalore 1894.",reference
 "KuiKS","F. B. J. Kuiper, Selected Writings on Indian Linguistics and Philology [LSIE 8]. Amsterdam - Atlanta 1997.",reference
@@ -196,7 +196,7 @@ abbreviation,full,type
 "Mbh","Mahābhārata.","literature"
 "Mlat.","Mittellatein.",language
 "Mrcch","Mr̩cchakaṭikā.","literature"
-"Naiṣ","Naiṣadhacarita.,"literature"
+"Naiṣ","Naiṣadhacarita.","literature"
 "Nalac ","Nalacampū.","literature"
 "Ne.","Neuenglisch.","language"
 "Nīlak.","Nīlakaṇṭha.","literature"
@@ -212,8 +212,7 @@ abbreviation,full,type
 "Pārśvan","Pārśvanāthacarita.","literature"
 "Phal.","Phalūṛa.","literature"
 "Prab","Prabodhacandrodaya.","literature"
-"PrabhĀ","Prabhācandra, Ārādhanākathāprabandha.",literature
-"PracaṇPracandapandava. Prasannaraghava. Pürnabhadra.","literature"
+"PrabhĀr","Prabhācandra, Ārādhanākathāprabandha.",literature
 "Pracaṇḍ","Pracaṇḍapāṇḍava.",literature
 "Prasannar","Prasannarāghava.",literature
 "Pūrṇabh","Pūrṇabhadra.","literature"

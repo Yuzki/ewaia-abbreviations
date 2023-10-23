@@ -53,7 +53,7 @@ abbreviation,full,type
 "Hoffin, Inj","K. Hoffmann, Der Iajunktiv im Veda. Ein~ synchronische Funktionsuntersuchung. Heidelberg 1967.", reference
 "IC","Indogermanische Chronik. Bibliogrl!.phischer An-hang iu Spr (13tf.).", reference
 "JüS","Jüngere Sprache . .[VgL die o. I 2f. (§ 2.2) getrof-fene Einteilung).", reference
-"Kan.","Kannada (Kanara, Kanaresisch).", "language"
+"Kan.","Kannada (Kanara, Kanaresisch).","language"
 "Keith, TS","A. B. Keith, Tbe Veda ofthe Black Yajus School entitled Taittii:iya Sarihitä •. [Harvard C>rientiil Se-. ries Vol. 18, 19]. Cambridge, Mass; l~l4, Reprint Delhi etc. 1967.", reference
 "AcLH","Acta Linguistica Hafnensia. Kopenhagen",reference
 "Andreas-Henning","F. C. Andrcos, Mitteliranische Manichaica aus Chinesisch-Turkestan. Aus dem Nachlaß herausgegeben von W. B. Henning. 1-ffi. Berlin (SbAkBerlin) 1932, 1933, 1934 [Henning. SelP 1 lff., 19Iff., 275ff.]",reference
@@ -71,7 +71,7 @@ abbreviation,full,type
 "Eggeling","The Satapatha-Brähmana ... Translated by J. Eggeling. Oxford 1882-1900.",reference
 "Em, SelP","B. A van Nooten (ed.), Sanskrit Studies of M. 8. Emeneau. Selected Papers. Berkeley 1988.",reference
 "Emm, SGS","R. E. Emmerick, Saka Grammatical Studies. London 1968.",reference
-"Ernout-Meillet","A. Emout - A. Meillet, Dictionnaire etymologique de 1a langue latine. Histoire des mots. 4än• Mition, 4~" tirage augmente • • • par J. Andre. Paris 1985.",reference
+"Ernout-Meillet","A. Emout - A. Meillet, Dictionnaire etymologique de 1a langue latine. Histoire des mots. 4än• Mition, 4~ tirage augmente • • • par J. Andre. Paris 1985.",reference
 "AGI","Archivio Glottologico Italiano",reference
 "Andreas-Barr","F. C. Andreas, Bruchstücke einer Peblevi-Übersetzung der Psalmen. Aus dem Nachlass herausgegeben von W. B. Henning. 1-4. Berlin (SbAkBerlin) 1932, 1933, 1934 [Henning. SelP 1 ÄpDhS APILKU Är",reference
 "ArchOr","Archiv orientalni PratJ.",reference
@@ -127,17 +127,17 @@ abbreviation,full,type
 "Emér","Emérita. Boletin de lingüistica y filologia clasica. Madrid.",reference
 "Fs Abaev","Iransko-Indijskoe Jazykoznanie. Tipologija fonologija morfologija (K 1sie¡111 piro11stogo 11b re¡ultaty. Tbilisi 1976.",reference
 "Fs Polomé","Languages and Cultures. Studies in Honor of Edgar C. Polomé. Berlin-New York-Amsterdam 1988",reference
-"Bader, Langue des dieux", "F. Bader, ta langue des clieux, ou l'hermétisme des poètes indo-européens. [Testi Linguistici 14). Pisa 1989.", "reference"
-"BaldiChange","Ph. Baldi (ed.), Linguistic Change and Reconstruction Methodology. Bertin. New York 1990", "reference"
-"BlochAs","J. Bloch, Les inscriptions d'Asoka. Paris 1950", "reference"
-"Cal, KS","W. Caland, Kleine Schrift1m. [Glasenapp-Stiftung Bd. 27]. Stuttgart 1990", "reference"
-"CampSIE","E. Campanile (ed.), Studi indoeuropei. Pisa 1985", "reference"
-"Drlnd","Drevnjaja Indija. Jazyk. Kul'tura. Tejcst. Moskau 1985", "reference"
-"Eich, Habilschr","H. Eichner, Studien zu den indogermanischen Numeralia: Rekonstruktion des urindogermanischen Formensystems und Deklinationssystem seiner Einzelsprachen, wie es im Kardinalia zwei bis vier erscheint. Habilitationsschrift Universität Regensburg 1982 [Münchner Studien]", "reference"
-"Fs Bolelli II","Tra linguistica storica e linguistica generale, Scritti in onore di T. Bolelli. Pisa 1985", "reference"
-"Fs de Jong","lndological and Buddhist Studies. Volume in Honour of Professor J. W. de Jong on his Sixtieth Birthday. Canberra 1982", "reference"
-"Fs Hofmann","Ost und West: Band 2: Aufsätze zur Slavischen und Baltischen Philologie und allgemeinen Sprachwissenschaft. Frankfurter Abhandlungen zur Slavistik Band 24. Wiesbaden 1976", "reference"
-"Fs Lamotte","Indianisme et Bouddhisme. Mélanges offerts à Mgr Etienne Lamotte. Louvain-la-Neuve 1980", "reference"
-"Fs Otten I","Festschrift Heinrich Otten. 12.9. 1913. Wiesbaden 1973", "reference"
-"Fs Otten II","Documentum Asiae Minoris Antiquae. Festschrift für Heinrich Otten zum 70. Geburtstag. Wiesbaden 1988", "reference"
-"Fs Thomas","Studia Indogermanica et Slavica Werner Thomas zum 65 Geburtstag. [Supplementa Philologiae Slavicae, Supplementband 26]. München 1988", "reference"
+"Bader, Langue des dieux","F. Bader, ta langue des clieux, ou l'hermétisme des poètes indo-européens. [Testi Linguistici 14). Pisa 1989.","reference"
+"BaldiChange","Ph. Baldi (ed.), Linguistic Change and Reconstruction Methodology. Bertin. New York 1990","reference"
+"BlochAs","J. Bloch, Les inscriptions d'Asoka. Paris 1950","reference"
+"Cal, KS","W. Caland, Kleine Schrift1m. [Glasenapp-Stiftung Bd. 27]. Stuttgart 1990","reference"
+"CampSIE","E. Campanile (ed.), Studi indoeuropei. Pisa 1985","reference"
+"Drlnd","Drevnjaja Indija. Jazyk. Kul'tura. Tejcst. Moskau 1985","reference"
+"Eich, Habilschr","H. Eichner, Studien zu den indogermanischen Numeralia: Rekonstruktion des urindogermanischen Formensystems und Deklinationssystem seiner Einzelsprachen, wie es im Kardinalia zwei bis vier erscheint. Habilitationsschrift Universität Regensburg 1982 [Münchner Studien]","reference"
+"Fs Bolelli II","Tra linguistica storica e linguistica generale, Scritti in onore di T. Bolelli. Pisa 1985","reference"
+"Fs de Jong","lndological and Buddhist Studies. Volume in Honour of Professor J. W. de Jong on his Sixtieth Birthday. Canberra 1982","reference"
+"Fs Hofmann","Ost und West: Band 2: Aufsätze zur Slavischen und Baltischen Philologie und allgemeinen Sprachwissenschaft. Frankfurter Abhandlungen zur Slavistik Band 24. Wiesbaden 1976","reference"
+"Fs Lamotte","Indianisme et Bouddhisme. Mélanges offerts à Mgr Etienne Lamotte. Louvain-la-Neuve 1980","reference"
+"Fs Otten I","Festschrift Heinrich Otten. 12.9. 1913. Wiesbaden 1973","reference"
+"Fs Otten II","Documentum Asiae Minoris Antiquae. Festschrift für Heinrich Otten zum 70. Geburtstag. Wiesbaden 1988","reference"
+"Fs Thomas","Studia Indogermanica et Slavica Werner Thomas zum 65 Geburtstag. [Supplementa Philologiae Slavicae, Supplementband 26]. München 1988","reference"
