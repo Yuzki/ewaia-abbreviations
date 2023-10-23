@@ -11,7 +11,7 @@ Discord Bot
 Abbreviation list
 
 - JAIBS
-- EWAia
+- [EWAi](https://yuzki.github.io/SktTool/bib/web/search.html)
 
 ## POStag
 
