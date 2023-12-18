@@ -13,6 +13,10 @@ Abbreviation list
 - JAIBS
 - [EWAi](https://yuzki.github.io/SktTool/bib/web/search.html) (page for searching abbreviations)
 
+## concordance
+
+[Vedic Concordance](https:yuzki.github.io/SktTool/concordance/bloomfield_web/index.html) (page for searching Vedic Concordance)
+
 ## POStag
 
 POS tagger for Vedic Sanskrit
