@@ -15,7 +15,7 @@ Abbreviation list
 
 ## concordance
 
-[Vedic Concordance](https:yuzki.github.io/SktTool/concordance/bloomfield_web/index.html) (page for searching Vedic Concordance)
+[Vedic Concordance](https://yuzki.github.io/SktTool/concordance/bloomfield_web/index.html) (page for searching Vedic Concordance)
 
 ## POStag
 
