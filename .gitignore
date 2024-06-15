@@ -4,3 +4,4 @@ Sandhi/t2t
 text
 tmp
 .env
+__pycache__
