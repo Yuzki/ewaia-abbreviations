@@ -36,3 +36,4 @@ http://id.nii.ac.jp/1001/00223156/
 - Gandhari Unicode to Unicode
 - metrical analysis for Veda
 - transliteration: Harvard-Kyoto, SLP1, Roman, CSX+
+- devanagari to roman: Devanagari to ISO 15919 romanization
