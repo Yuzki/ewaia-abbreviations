@@ -11,7 +11,7 @@ Discord Bot
 Abbreviation list
 
 - JAIBS
-- [EWAi](https://yuzki.github.io/SktTool/bib/web/search.html) (page for searching abbreviations)
+- [EWAia](https://yuzki.github.io/SktTool/bib/web/search.html) (page for searching abbreviations)
 
 ## concordance
 
@@ -35,5 +35,5 @@ http://id.nii.ac.jp/1001/00223156/
 - collocation
 - Gandhari Unicode to Unicode
 - metrical analysis for Veda
-- transliteration: Harvard-Kyoto, SLP1, Roman, CSX+
+- ~~transliteration: Harvard-Kyoto, SLP1, Roman, CSX+~~ ([new repo](https://github.com/Yuzki/SanskritTransliteration))
 - devanagari to roman: Devanagari to ISO 15919 romanization
