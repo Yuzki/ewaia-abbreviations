@@ -33,7 +33,7 @@ http://id.nii.ac.jp/1001/00223156/
 ## utils
 
 - collocation
-- Gandhari Unicode to Unicode
+- Gandhari Unicode to Unicode (Google Colab version is [here](https://colab.research.google.com/drive/1EVCpsTPfu2G0lnHJE_3atHXUXkuDGQj8?usp=sharing))
 - metrical analysis for Veda
 - ~~transliteration: Harvard-Kyoto, SLP1, Roman, CSX+~~ ([new repo](https://github.com/Yuzki/SanskritTransliteration))
 - devanagari to roman: Devanagari to ISO 15919 romanization
