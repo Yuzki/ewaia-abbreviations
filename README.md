@@ -10,7 +10,7 @@ Discord Bot
 
 Abbreviation list
 
-- JAIBS
+- ~~JAIBS~~ [new repo](https://github.com/Yuzki/veda-bib)
 - [EWAia](https://yuzki.github.io/SktTool/bib/web/search.html) (page for searching abbreviations)
 
 ## concordance
