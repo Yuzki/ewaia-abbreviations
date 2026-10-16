@@ -1,43 +1,43 @@
-# データの出典と来歴
+# Data Sources and Provenance
 
-## 原資料と変換
+## Original source and conversion
 
-Manfred Mayrhofer, *Etymologisches Wörterbuch des Altindoarischen*, Heidelberg: Winter, 1992–2001 の Abkürzungsverzeichnis を出典として、SktTool の `bib/README.md` が記録しています。OCR 後、ChatGPT (GPT-3.5) で略号・正式名称・種別の CSV に整形しています。OCR 誤字と分類の誤りがあるという原記録を保持しています。書誌の参考: [CiNii Research](https://cir.nii.ac.jp/crid/1971993809670356013)。書誌情報は再利用許諾の証拠ではありません。
+The source is the Abkürzungsverzeichnis of Manfred Mayrhofer, *Etymologisches Wörterbuch des Altindoarischen*, Heidelberg: Winter, 1992–2001, as recorded in SktTool's `bib/README.md`. After OCR, the list was formatted with ChatGPT (GPT-3.5) into CSV files of abbreviation, full title, and type. The original record's note that there are OCR typos and classification errors is retained. Bibliographic reference: [CiNii Research](https://cir.nii.ac.jp/crid/1971993809670356013). Bibliographic information is not evidence of permission to reuse.
 
-| 生成元 CSV / JSON キー | 件数 |
+| Source CSV / JSON key | Entries |
 | --- | ---: |
 | `bib/EWAia-I.csv` | 515 |
 | `bib/EWAia-I-New.csv` | 142 |
 | `bib/EWAia-II.csv` | 18 |
 | `bib/EWAia-III.csv` | 257 |
-| 合計 | 932 |
+| Total | 932 |
 
-`bib/web/joincsv.py` が表の順序で読み込み、`bib/web/ewaia.json` に出力します。各配列の各行は `abbreviation`, `full`, `type` の文字列 3 列です。生成処理は元の順序・空白・綴り・分類を保持します。`report`, `literature`, `übrige`, ` reference` も原値です。ファイル名だけでは各 CSV の原資料の巻・版・ページや I-New の具体的対応は確認できません。
+`bib/web/joincsv.py` reads the files in the order of the table and writes `bib/web/ewaia.json`. Each row of each array has 3 string columns: `abbreviation`, `full`, and `type`. The generation script preserves the original order, whitespace, spelling, and classification. Values such as `report`, `literature`, `übrige`, and ` reference` are also original values. The file names alone do not show which volume, edition, or pages of the original source each CSV corresponds to, nor what I-New specifically corresponds to.
 
-## 根拠となる履歴
+## Supporting history
 
-以下は [SktTool](https://github.com/Yuzki/SktTool) の原コミット ID です。独立化では対象パスのみを残したため、新履歴の SHA は異なります。対応表と復旧用履歴はローカルの作業引継ぎに保存しています。
+These are the original commit IDs in [SktTool](https://github.com/Yuzki/SktTool). The split kept only the relevant paths, so the SHAs in the new history differ. The mapping table and the history needed for recovery are kept in local working handoff files.
 
-| 原コミット | 内容 |
+| Original commit | Content |
 | --- | --- |
-| [c6caf1f](https://github.com/Yuzki/SktTool/commit/c6caf1f) | CSV と出典説明 (2023-10-21) |
-| [fcd7b48](https://github.com/Yuzki/SktTool/commit/fcd7b48) | 修正 (2023-10-23) |
-| [917e766](https://github.com/Yuzki/SktTool/commit/917e766) | JSON 生成処理・生成物 (2023-10-23) |
-| [ac8ef75](https://github.com/Yuzki/SktTool/commit/ac8ef75) | Web 検索 (2023-10-23) |
-| [ea074cc](https://github.com/Yuzki/SktTool/commit/ea074cc) | GPL v3 の LICENSE 追加 (2024-07-05) |
-| [af1da5b](https://github.com/Yuzki/SktTool/commit/af1da5b) | データ取得 URL の変更 (2024-07-15) |
-| [be5b132](https://github.com/Yuzki/SktTool/commit/be5b132), [34ee6f1](https://github.com/Yuzki/SktTool/commit/34ee6f1) | 検索 HTML の変更 (2025-05-21) |
+| [c6caf1f](https://github.com/Yuzki/SktTool/commit/c6caf1f) | CSV files and source notes (2023-10-21) |
+| [fcd7b48](https://github.com/Yuzki/SktTool/commit/fcd7b48) | Fixes (2023-10-23) |
+| [917e766](https://github.com/Yuzki/SktTool/commit/917e766) | JSON generation script and generated output (2023-10-23) |
+| [ac8ef75](https://github.com/Yuzki/SktTool/commit/ac8ef75) | Web search (2023-10-23) |
+| [ea074cc](https://github.com/Yuzki/SktTool/commit/ea074cc) | Added GPL v3 LICENSE (2024-07-05) |
+| [af1da5b](https://github.com/Yuzki/SktTool/commit/af1da5b) | Changed the data fetch URL (2024-07-15) |
+| [be5b132](https://github.com/Yuzki/SktTool/commit/be5b132), [34ee6f1](https://github.com/Yuzki/SktTool/commit/34ee6f1) | Changes to the search HTML (2025-05-21) |
 
-対象コード・CSV の git author には Yuzki と Yuzuki Tsukagoshi の名義があります。ユーザー確認により、対象コードの全寄与は Yuzuki Tsukagoshi 本人によるもので、外部由来コードはないと確認されています。独立プロジェクトの自作コードは MIT ライセンスです（[LICENSE](LICENSE)）。履歴には当時の GPL 本文・文書・権利表示も保持しています。今回のコードライセンス選択は過去の GPL 配布分を変更・取り消すものではありません。文書に他機能への言及があっても、対象外コード・データは独立化した履歴に含めていません。
+The git authors of the relevant code and CSV files appear under the names Yuzki and Yuzuki Tsukagoshi. The user has confirmed that all contributions to the relevant code were made by Yuzuki Tsukagoshi personally and that it contains no code from external sources. The independent project's own code is licensed under the MIT License ([LICENSE](LICENSE)). The history also retains the GPL text, documents, and rights notices of the time. The current choice of code license does not change or revoke any earlier GPL distribution. Even where documents mention other features, the code and data outside this project's scope are not included in the split history.
 
-## 権利の確認状況
+## Rights status
 
-旧リポジトリには GPL v3 本文が置かれていました。これは当時の権利表示の証拠として履歴に保持しています。独立プロジェクトの自作コードはユーザー確認に基づき MIT とし、現行の [LICENSE](LICENSE) に記載しています。これは過去の GPL 配布分を変更・取り消すものではありません。
+The old repository contained the text of GPL v3. It is retained in the history as evidence of the rights notice at that time. On the user's confirmation, the independent project's own code is licensed under MIT, as stated in the current [LICENSE](LICENSE). This does not change or revoke any earlier GPL distribution.
 
-以下は未確認です。
+The following remain unverified:
 
-- 各 CSV に対応する原資料の巻・版・ページ、OCR 元の入手経路、スキャンの利用条件。
-- 原資料の権利表示、現在の権利者、再配布許諾と適用できるデータ条件。
-- 各 CSV に含まれるデータの再配布許諾と適用できる条件。
+- The volume, edition, and pages of the original source that each CSV corresponds to, how the OCR source was obtained, and the terms of use of the scans.
+- The rights notice of the original source, its current rights holder, the redistribution permission, and the data terms that apply.
+- The redistribution permission and applicable terms for the data contained in each CSV.
 
-OCR・AI 変換を経たことや短い略号であることだけで自由利用可能と判断していません。コードの MIT ライセンスをデータへ適用せず、MIT・CC BY・CC0 等を未確認のデータに付与していません。データ条件が確定するまでデータの新規公開・配布を保留します。Bootstrap / Popper の MIT 条件は別に維持します（ルート README 参照）。
+The data is not treated as freely usable merely because it went through OCR and AI conversion or because the abbreviations are short. The code's MIT License is not applied to the data, and MIT, CC BY, CC0, or similar terms have not been assigned to data whose status is unverified. New publication and distribution of the data are on hold until the data terms are settled. The MIT terms of Bootstrap and Popper are maintained separately (see the root README).

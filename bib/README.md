@@ -2,10 +2,10 @@
 
 Mayrhofer, Manfred. 1992–2001. *Etymologisches Wörterbuch des Altindoarischen*. Heidelberg: Winter (Bearbeitet 1985–, in den Faszikeln erschienen 1986–).
 
-原資料の略号一覧を OCR し、ChatGPT (GPT-3.5) で略号・正式名称・種別の CSV に整形したデータです。元の指示では正式名称の先頭の `=` と途中の改行を除き、言語名を `language`、文献名を `reference`、文法事項を `grammar`、その他を `other` とするよう依頼していました。実際の CSV にはこの 4 分類以外の値や先頭空白もあり、現在の生成処理はすべてそのまま保持します。
+This data comes from the list of abbreviations (German: *Abkürzungsverzeichnis*) in the original source. The list was OCR'd and then formatted with ChatGPT (GPT-3.5) into CSV files of abbreviation, full title, and type. The original instructions asked for the leading `=` and any mid-entry line breaks to be removed from the full title, and for entries to be classed as `language` (language names), `reference` (titles of works), `grammar` (grammatical terms), or `other` (everything else). The actual CSV files also contain values outside these 4 categories, as well as leading whitespace, and the current generation script preserves all of it as is.
 
-- OCR による誤字があります。
-- ChatGPT による種別の誤りがあります。
-- 変換前の原文・プロンプト例は抽出された git 履歴の本ファイルに残っています。
+- There are typos from OCR.
+- There are incorrect type assignments from ChatGPT.
+- The original text before conversion and an example prompt remain in this file's git history, as extracted.
 
-自作コードは MIT ライセンスです。データの再配布条件は未決定で、原資料の巻・ページ、入手経路、権利表示、許諾を確認できるまでデータの公開・配布を保留しています。4 CSV と生成 JSON の対応や出典履歴は [DATA_SOURCES.md](../DATA_SOURCES.md) を参照してください。ファイル名から原資料の巻・版・ページを断定しないでください。
+The project's own code is licensed under the MIT License. The redistribution terms for the data are undecided, and publication and distribution of the data are on hold until the volume and pages of the original source, how it was obtained, its rights notice, and the permission to use it can be verified. For the mapping between the 4 CSV files and the generated JSON, and for the source history, see [DATA_SOURCES.md](../DATA_SOURCES.md). Do not infer the volume, edition, or page of the original source from the file names.
