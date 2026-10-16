@@ -1,7 +1,7 @@
-bak
-data
-Sandhi/t2t
-text
-tmp
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.pytest_cache/
+.ty_cache/
 .env
-__pycache__

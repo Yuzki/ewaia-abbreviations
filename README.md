@@ -1,39 +1,35 @@
-# SktTool
+# EWAia Abbreviation Search
 
-## app
+Manfred Mayrhofer の *Etymologisches Wörterbuch des Altindoarischen* (EWAia) の略号・正式名称を検索する静的サイトです。略号と正式名称の大文字小文字を区別しない部分一致で検索し、略号・正式名称・種別を元の順序で表示します。
 
-Discord Bot
+[SktTool](https://github.com/Yuzki/SktTool) の関連コード・CSV・出典説明をコミット履歴とともに独立させました。経緯と対象は [SktTool issue #4](https://github.com/Yuzki/SktTool/issues/4) を参照してください。EWAia 本文検索、Register、JAIBS 略号、その他の Sanskrit ツールは含みません。
 
-- Cologne Digital Sanskrit Dictionaries
+## ローカルで使う
 
-## bib
+リポジトリ直下で実行します。Python 3 と uv が必要です。
 
-Abbreviation list
+```sh
+uv run python -m http.server 8000 --bind 127.0.0.1
+```
 
-- ~~JAIBS~~ [new repo](https://github.com/Yuzki/veda-bib)
-- [EWAia](https://yuzki.github.io/SktTool/bib/web/search.html) (page for searching abbreviations)
+<http://127.0.0.1:8000/> を開くと `bib/web/search.html` へ移動します。JSON は同じサイト内の `bib/web/ewaia.json` から取得し、SktTool のデータ配信には依存しません。相対 URL のため GitHub Pages 等のサブパスでも使用できます。公開設定はこのリポジトリの作業に含みません。
 
-## concordance
+文字入力で検索します。チェックボックスの変更は次の入力で反映されます。空文字を入力した場合は選択対象の全件、両チェックが OFF の場合は 0 件になります。既存の Search ボタンには処理がありません。この動作と既存の画面は独立化に際して維持しています。
 
-[Vedic Concordance](https://yuzki.github.io/SktTool/concordance/bloomfield_web/index.html) (page for searching Vedic Concordance)
+## データを再生成する
 
-## POStag
+```sh
+uv run python bib/web/joincsv.py
+```
 
-POS tagger for Vedic Sanskrit
+Python 標準ライブラリのみで 4 CSV から 932 件を生成します。スクリプトの絶対パスを指定すれば別の作業ディレクトリからも実行できます。JSON のキー、行順、文字列、種別を保持し、必要なヘッダーや値の欠落はエラーとして報告します。空白の除去、重複排除、Unicode 正規化、OCR 修正は行いません。
 
-https://www.hi.u-tokyo.ac.jp/JADH/2021/programme.html#sp1
+原資料・CSV の対応・変換経緯・権利上の未確認事項は [DATA_SOURCES.md](DATA_SOURCES.md)、出典説明は [bib/README.md](bib/README.md) を参照してください。OCR と ChatGPT (GPT-3.5) による変換を含み、誤字と種別の誤りがあります。
 
-## Sandhi
+## 依存と条件
 
-Sandhi splitter for Vedic Sanskrit
+画面は CDN の Bootstrap 5.0.2 (CSS/JS) と Popper 2.9.2 (JS) を既存の SRI 付きで読み込みます。これらは MIT ライセンスです（[Bootstrap](https://github.com/twbs/bootstrap/blob/v5.0.2/LICENSE)、[Popper](https://github.com/floating-ui/floating-ui/blob/v2.9.2/LICENSE.md)）。第三者の著作権・ライセンス条件は維持されます。CDN の利用にはネットワーク接続が必要です。
 
-http://id.nii.ac.jp/1001/00223156/
+**独立プロジェクトとしてのコード・データの新規公開条件は未決定のため、公開・配布を保留しています。** 既存の [LICENSE](LICENSE) は SktTool で配布されていた GPL v3 本文を証拠として保持しています。今回の抽出で GPL-3.0 を改めて選択したものではなく、過去の GPL 配布分の権利を取り消すものでもありません。コードの権利保有・外部寄与の確認とライセンス選択、原資料の権利表示・再配布許諾・データ条件の確認が必要です。データに MIT や CC 条件を推定で付与していません。
 
-
-## utils
-
-- collocation
-- Gandhari Unicode to Unicode (Google Colab version is [here](https://colab.research.google.com/drive/1EVCpsTPfu2G0lnHJE_3atHXUXkuDGQj8?usp=sharing))
-- metrical analysis for Veda
-- ~~transliteration: Harvard-Kyoto, SLP1, Roman, CSX+~~ ([new repo](https://github.com/Yuzki/SanskritTransliteration))
-- devanagari to roman: Devanagari to ISO 15919 romanization
+SktTool 側の移転案内・リダイレクトは別作業です。UI 統一・翻訳・機能追加・OCR 修正もこの独立化の範囲外です。
