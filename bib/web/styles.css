@@ -1,0 +1,32 @@
+/*
+ * EWAia search: service-specific layout on top of the shared VEDA AI styles.
+ * Uses shared tokens only; never edit the vendored files.
+ */
+
+/* The two search fields sit side by side when there is room. */
+.ewaia-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--veda-space-5);
+}
+
+.ewaia-fields > .veda-legend {
+  flex-basis: 100%;
+}
+
+/*
+ * Entry text comes from the source list and its language is not recorded per
+ * entry (lang=""), so it must not inherit Japanese UI spacing or line breaking.
+ * A font list with full Latin Extended coverage keeps transliteration marks intact.
+ */
+.ewaia-text {
+  font-family: var(--veda-font-translit);
+  letter-spacing: 0;
+  line-break: auto;
+  font-variant-ligatures: none;
+}
+
+.ewaia-full {
+  margin: 0;
+  line-height: var(--veda-line-height-translit);
+}
