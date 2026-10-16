@@ -4,8 +4,8 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 
-const { searchEntries, countEntries, validateData } = require("../bib/web/script.js");
-const data = require("../bib/web/ewaia.json");
+const { searchEntries, countEntries, validateData } = require("../assets/script.js");
+const data = require("../data/ewaia.json");
 
 const BOTH = { abbreviation: true, full: true };
 const ABBREVIATION = { abbreviation: true, full: false };

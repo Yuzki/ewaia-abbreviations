@@ -6,13 +6,13 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 
-const { FALLBACK, formatFallback } = require("../bib/web/script.js");
+const { FALLBACK, formatFallback } = require("../assets/script.js");
 
-const web = path.join(__dirname, "../bib/web");
-const profiles = require("../bib/web/locales/profiles.json");
-const en = require("../bib/web/locales/en.json");
-const ja = require("../bib/web/locales/ja.json");
-const html = fs.readFileSync(path.join(web, "search.html"), "utf8");
+const assets = path.join(__dirname, "../assets");
+const profiles = require("../assets/locales/profiles.json");
+const en = require("../assets/locales/en.json");
+const ja = require("../assets/locales/ja.json");
+const html = fs.readFileSync(path.join(__dirname, "../index.html"), "utf8");
 
 const PLURAL_FORMS = new Set(["zero", "one", "two", "few", "many", "other"]);
 
@@ -48,7 +48,7 @@ test("profiles declare English (default) and Japanese with existing dictionaries
     assert.deepEqual(Object.keys(profiles.languages).sort(), ["en", "ja"]);
     for (const [lang, profile] of Object.entries(profiles.languages)) {
         assert.equal(profile.status, "supported", lang);
-        assert.ok(fs.existsSync(path.join(web, "locales", profile.messages)), profile.messages);
+        assert.ok(fs.existsSync(path.join(assets, "locales", profile.messages)), profile.messages);
     }
 });
 

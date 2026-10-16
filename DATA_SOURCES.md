@@ -4,15 +4,17 @@
 
 The source is the Abkürzungsverzeichnis of Manfred Mayrhofer, *Etymologisches Wörterbuch des Altindoarischen*, Heidelberg: Winter, 1992–2001, as recorded in SktTool's `bib/README.md`. After OCR, the list was formatted with ChatGPT (GPT-3.5) into CSV files of abbreviation, full title, and type. The original record's note that there are OCR typos and classification errors is retained. Bibliographic reference: [CiNii Research](https://cir.nii.ac.jp/crid/1971993809670356013). Bibliographic information is not evidence of permission to reuse.
 
-| Source CSV / JSON key | Entries |
-| --- | ---: |
-| `bib/EWAia-I.csv` | 515 |
-| `bib/EWAia-I-New.csv` | 142 |
-| `bib/EWAia-II.csv` | 18 |
-| `bib/EWAia-III.csv` | 257 |
-| Total | 932 |
+| JSON key | Source CSV | Entries |
+| --- | --- | ---: |
+| `bib/EWAia-I.csv` | `data/source/EWAia-I.csv` | 515 |
+| `bib/EWAia-I-New.csv` | `data/source/EWAia-I-New.csv` | 142 |
+| `bib/EWAia-II.csv` | `data/source/EWAia-II.csv` | 18 |
+| `bib/EWAia-III.csv` | `data/source/EWAia-III.csv` | 257 |
+| Total | | 932 |
 
-`bib/web/joincsv.py` reads the files in the order of the table and writes `bib/web/ewaia.json`. Each row of each array has 3 string columns: `abbreviation`, `full`, and `type`. The generation script preserves the original order, whitespace, spelling, and classification. Values such as `report`, `literature`, `übrige`, and ` reference` are also original values. The file names alone do not show which volume, edition, or pages of the original source each CSV corresponds to, nor what I-New specifically corresponds to.
+The JSON keys keep the CSV paths from before the directory restructure (they are labels, not file locations), so the data file is unchanged byte for byte.
+
+`scripts/joincsv.py` reads the files in the order of the table and writes `data/ewaia.json` (plus an identical copy at the legacy URL `bib/web/ewaia.json`). Each row of each array has 3 string columns: `abbreviation`, `full`, and `type`. The generation script preserves the original order, whitespace, spelling, and classification. Values such as `report`, `literature`, `übrige`, and ` reference` are also original values. The file names alone do not show which volume, edition, or pages of the original source each CSV corresponds to, nor what I-New specifically corresponds to.
 
 ## Supporting history
 

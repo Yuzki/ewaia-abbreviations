@@ -10,7 +10,7 @@
 (function () {
     "use strict";
 
-    const DATA_URL = "./ewaia.json";
+    const DATA_URL = "data/ewaia.json";
 
     // English messages for dynamic text before the dictionaries load or when
     // they fail. Must match locales/en.json (checked by tests/locales.test.cjs).
