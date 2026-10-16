@@ -27,7 +27,7 @@ the upstream tree at the pinned commit.
 
 Nothing else was copied: no upstream documentation, examples, reference
 catalog, upstream locale dictionaries, history, or tests. This service's own
-dictionaries live in `bib/web/locales/`.
+dictionaries live in `assets/locales/`.
 
 To verify, run from this directory:
 
@@ -45,15 +45,15 @@ must be confirmed by the upstream owner before this pilot is published.
 ## Rules
 
 - Do not edit these files. Service-specific styling belongs in
-  `bib/web/styles.css`, which is loaded after them.
+  `assets/styles.css`, which is loaded after them.
 - Report problems in the shared assets upstream instead of patching the copy.
 
 ## Update and rollback
 
 - **Update:** copy the new pinned commit or tag into a new sibling directory
-  (for example `vendor/veda-design/0.1.1/`), record its commit and digests in
-  a new `SOURCE.md`, switch the paths in `bib/web/search.html`, and repeat the
+  (for example `assets/vendor/veda-design/0.1.1/`), record its commit and digests in
+  a new `SOURCE.md`, switch the paths in `index.html`, and repeat the
   checks in the root README. Keep the old directory until the new one is
   verified.
-- **Rollback:** point `bib/web/search.html` back at the previous directory, or
+- **Rollback:** point `index.html` back at the previous directory, or
   revert the pilot commits to restore the pre-pilot page.

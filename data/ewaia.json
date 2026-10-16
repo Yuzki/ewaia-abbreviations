@@ -1,0 +1,4670 @@
+{
+    "bib/EWAia-I.csv": [
+        {
+            "abbreviation": "A.",
+            "full": "Anmerkung [- Anm.].",
+            "type": "other"
+        },
+        {
+            "abbreviation": "AArmL",
+            "full": "Annual of Armenian Linguistics. Clevelaod, Ohio.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Aav.",
+            "full": "Altavestisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "AAWL",
+            "full": "Abhandlungen der geistes- und sozialwissenschaftlichen Klasse der Akademie der Wissenschaften und der Literatur in Mainz.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Abaev",
+            "full": "V. I. Abaev, Istoriko-Etimologiceskij Slovar' Osetinskogo Jazyka. Moskau-Leningrad Bd. I (1958) ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AbhAkWiss[ ].",
+            "full": "Abhandlungen der [ ] Akademie der Wissenschaften. [Philosoph.-histor. Klasse).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AblDu",
+            "full": "Ablativ Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "AblPl",
+            "full": "Ablativ Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "AblSg",
+            "full": "Ablativ Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "AC",
+            "full": "L'antiquite classique. Br\u00fcssel.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AcNeoph",
+            "full": "Acta Neophilologica. Laibach.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AcOr",
+            "full": "Acta Orientalia, ediderunt Societates Orientales Danica Fennica Norvegica Svecica. Kopenhagen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ae.",
+            "full": "Altenglisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Ahd.",
+            "full": "Althochdeutsch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Aia.",
+            "full": "Altindoarisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "AiGr",
+            "full": "J. Wackemagel (- A. Debrunner - L. Renou - R. Hauschild), Altindische Grammatik. G\u00f6ttingen, Bd. I (1896) ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AION",
+            "full": "Annali del Seminario di Studi del Mondo Classico, Sezione linguistica. Pisa. (1 (1979) ff.; l\u00f6st AION-L ab].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AION-L",
+            "full": "Annali dell'Istituto Orientale di Napoli, Sezione linguistica. Neapel. [S. AION].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Air.",
+            "full": "Altirisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Ait\u0100r",
+            "full": "Aitareya-\u00c4ra.oyaka.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "AitB",
+            "full": "Aitareya-Br\u00e4hmaoa .",
+            "type": "other"
+        },
+        {
+            "abbreviation": "AkkDu",
+            "full": "Akkusativ Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "AkkPI",
+            "full": "Akkusativ Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "AkkSg",
+            "full": "Akkusativ Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "AKS",
+            "full": "Ausgew\u00e4hlte Kleine Schriften. [S. Mb).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Aksl.",
+            "full": "Altkirchenslavisch",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Alb.",
+            "full": "Albanisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Alsdorf, Vegetarismus",
+            "full": "L. Alsdorf, Beitr\u00e4ge zur Geschichte von Vegetarismus und Rinderverehrung in Indien. AA WL 1961 Nr. 6, Wiesbaden 1962.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AM",
+            "full": "Asia Maior . London.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ambr",
+            "full": "R. Ambrosini .",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AmJPh",
+            "full": "American Journal of Philology. Baltimore.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "An.",
+            "full": "Altnordisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Anm.",
+            "full": "Anmerkung .",
+            "type": "other"
+        },
+        {
+            "abbreviation": "AnnBhl",
+            "full": "Annals of the Bhandarkar Oriental Research Institute. Poona.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "A\u00d6AW",
+            "full": "Anzeiger der \u00d6sterreichischen Akademie der WJSSenschaften. Philosophisch-historische Klasse. Wien.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AoF",
+            "full": "AJtorientalische Forschungen . Schriften zur Geschichte und Kultur des Alten Orienls . Berlin.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AON",
+            "full": "Acta Orientalia Neerlandica. Proceedings of the Congress of the Dutch Oriental Society held in Leiden . .. 1970. Leiden 1971.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ap.",
+            "full": "Altpersisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Apabhr.",
+            "full": "Apabhra.ri:lsa.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "ApH",
+            "full": "W. Brandenstein - M. Mayrhofer, Handbuch des Altpersischen. Wiesbaden 1964.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Apreu\u00df.",
+            "full": "Altpreu\u00dfisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "\u0100pSS",
+            "full": "\u00c4pastamba-Srautas\u00fctra.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "ArchLing",
+            "full": "Archivum Linguisticum. Glasgow . [S. das folgende).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "ArchLing, N. S.",
+            "full": "Archivum Linguisticum. New Series. Menston, Yorks.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Arm.",
+            "full": "Armenisch .",
+            "type": "language"
+        },
+        {
+            "abbreviation": "ASNP",
+            "full": "Annali della Scuola Normale Superiore di Pisa. Lettere, storia e filosofia. Florenz.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AV",
+            "full": "Atharvaveda-Sarhhit\u00e4.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Av.",
+            "full": "Avestisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "AVP",
+            "full": "A V, Paippal\u00e4da-Rezension.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bai",
+            "full": "H. W. Bailey.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bai, Dict",
+            "full": "H. W. Bailey, Dictionary of Khotan Saka. Cambridge 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BaltLing",
+            "full": "T. F. Magner - W. R. Schmalstieg (edd.), Baltic Linguistics. University Park, Pa. - London 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BammLar",
+            "full": "A. Bammesberger, Studien zur Laryngaltheorie. [Erg\u00e4nzungshefte zu KZ Nr. 33). G\u00f6ttingen 1984.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BauSS",
+            "full": "Baudhiiyana-Srautas\u00fctra.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "BB",
+            "full": "Beitr\u00e4ge zur Kunde der indogermanischen Sprachen. [Begr\u00fcndet von A. Bezzenberger]. G\u00f6ttin- gen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bee",
+            "full": "R. S. P. Beekes.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Belardi, SMeM",
+            "full": "W. Belard~ Studi Mithraici e Mazclei. Rom 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Benv",
+            "full": "E. (- E.) Benveniste.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Benv, Hel",
+            "full": "E. Benveniste, Hittite et Indo-Europeen. Etudes comparatives. Paris 1962.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Benv, Instit",
+            "full": "E. Benveniste, Le vocabulaire des institutions lndo-europeennes. 2 Bde. Paris 1969.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Benv, Oss",
+            "full": "E. Benveniste, Etudes sur la langue ossete. Paris 1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "bes.",
+            "full": "besonders.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "BhG",
+            "full": "Bhagavad-Git\u00e4.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BhP",
+            "full": "Bhav~ya-Pur\u00e4!)a.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BNF",
+            "full": "Beitr\u00e4ge zur Namenforschung [Neue Folge, 1966tf.; - BzN]. Heidelberg.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bohl",
+            "full": "S. Bohl, Ausdrucksmittel f\u00fcr ein Besitzverh\u00e4ltnis im Vedischen und Griechischen. Louvain-la- Neuve 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bollee, Studien [I]",
+            "full": "W. B. Bollee, Studien zum S\u00fcyagada. Teil I. Wiesbaden 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Br",
+            "full": "Br\u00e4hmlll)a.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Brereton, \u0100dityas",
+            "full": "J. P. Brereton, The J.lgvedic \u00c4dityas. [American Oriental Series Vol. 63]. New Haven 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Brugmann, Demonstr",
+            "full": "K. Brugmann, Die Demonstrativa der indogermanischen Sprachen. Eine bedeutungsgeschicht- llche Untersuchung. Leipzig [AbhAkWiss XXII No. VI] 1904.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Brugmann, Grundriss",
+            "full": "K. Brugmann [und B. Delbr\u00fcck], Grundriss der vergleichenden Grammatik der indogermani- schen Sprachen Zweite Bearbeitung . Stra\u00dfburg 1897-1916. [Nachdruck Berlin-New York 1970).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Brugmann, W\u00f6rter f\u00fcr 'heute'",
+            "full": "K. Brugmann, Zu den W\u00f6rtern f\u00fcr 'heute', 'gestern', 'morgen' in den indogermanischen Sprachen. Berichte \u00fcber die Verhandlungen der S\u00e4chsischen Gesellschaft der Wissenschaften zu Leipzig 69 (1917) 1. Heft.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BSOAS",
+            "full": "Bulletin of the School of Oriental and African Studies. London. [Bis 1943 = BSOSJ.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BSOS",
+            "full": "Bulletin of the School of Oriental Studies. London. [S. BSOAS.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bthl",
+            "full": "C. Bartholomae .",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bthl, Wb.",
+            "full": "C. Bartholomae, Altiranisches W\u00f6rterbuch. Stra\u00dfburg 1904. (Zweiter Nachdruck Berlin-New York 1979).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bthl, ZAirWb",
+            "full": "C. Bartholomae, Zum altiranischen W\u00f6rterbuch. Nacharbeiten und Vorarbeiten. [lF 19, Beiheft). Stra\u00dfburg 1906. [Nachdruck zusammen mit Bthl, Wb 1979).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "buddh.",
+            "full": "buddhistisch .",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Bur",
+            "full": "T. Burrow.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bur, Skr",
+            "full": "T. Burrow, Tue Sanskrit Language. New and revised edition. London 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BzN",
+            "full": "Beitr\u00e4ge zur Namenforschung . Heidelberg. (- BNF].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Cal",
+            "full": "W. Caland.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Cal, \u0100p\u015aS",
+            "full": "W. Caland, Das Srautas\u00fctra des \u00c4pastarnba. Aus dem Sanskrit \u00fcbersetzt. I (G\u00f6ttingen-Leipzig 1921) ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Camp",
+            "full": "E. Campanile.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CampMat",
+            "full": "E. Campanile ( ed.), Nuovi Matcriali per la Ricerca lndoeuropeistica. Pisa 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CampProbl",
+            "full": "E. Campanile (ed.), Problemi di Lingua e di Cultura nel Carnpo lndoeuropeo. Pisa 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CFS",
+            "full": "Cahiers Ferdinand de Saussure. Genf.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Chantraine",
+            "full": "P. Chantraine, Dictionnaire etymologique de la langue grecque. Paris 1968(-1980).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Charp",
+            "full": "J. Charpentier.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "ChU",
+            "full": "Ch\u00e4ndogya-Upani~ad.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Colllnd I",
+            "full": "Collectanea lndoeuropaea I. Univerza v Ljubljani, Filozofska Fakulteta, Oddelek za primerjalno jezikoslovje in orientalistiko. Series Comparativa m. Laibach 1978",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CPHL",
+            "full": "Current Progress in Historical Linguistics. Proceedings of the Second International Conference on Historical Linguistics, Tucson, Arizona, 12-16 January 1976. [North-Holland Linguistic Series 31). Amsterdam-New York-Oxford 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "c.-r.",
+            "full": "comptes-rendus.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Dand, VedBibl",
+            "full": "RN. Dandekar, Vedic Bibliography. Vol. I, Bom-bay 1946; II, Poona 1961; III, Poona 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Darms",
+            "full": "G. Darms, Schw\u00e4her und Schwager, Hahn und Huhn. Die Vrddhi-Ableitung im Germanischen. [MSS Beiheft 9, Neue Folge}. M\u00fcnchen 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DatDu",
+            "full": "Dativ Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "DatPl",
+            "full": "Dativ Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "DatSg",
+            "full": "Dativ Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "DB",
+            "full": "Dareios, Behistun.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Deb",
+            "full": "A. Debrunner.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DED^2",
+            "full": "T. Burrow-M. B. Emeneau, A Dravidian Etymological Dictionary. Second Edition. Oxford 1984.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Devlamminck-Jucquois, ComplGot I",
+            "full": "B. Devlamminck-G. Jucquois, Complements aux dictionnaires etymologiques du gotique. Tome I (A-F), L\u00f6wen 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "de Vries",
+            "full": "J. de Vries, Altnordisches etymologisches W\u00f6rterbuch. Leiden 1961.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Dh\u0101",
+            "full": "Dh\u00e4tupii\\ha.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "DSe",
+            "full": "Dareios, Susa e.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "DumDieux",
+            "full": "G. Dumezil, Les dieux souverains des lndo-Europeens. Paris 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DumRituels",
+            "full": "G. Dumezil, Rituels indo-europeens lt Rome. Paris 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Eich",
+            "full": "H. Eichner.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Eich-K",
+            "full": "I. Eichner-Kilhn.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Eil",
+            "full": "W. Eilers.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Ern",
+            "full": "M. B. Emeneau.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Emm",
+            "full": "R E. Emmerick.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "EmmSk",
+            "full": "R E: Emmerick-P. 0. Skjmrv0, Studies in the Vocabulary of Khotanese, I (Wien 1982) ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u00c9t",
+            "full": "\u00c9\u014dtimologija. Moskau.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "\u00c9tMithr",
+            "full": "\u00c9tudes mithriaques. Actes du 2\u00b0 Congres International Tllheran, du 1\u00b0' au 8 septembre 1975. [Acta lranica 17). Teheran-L\u00fcttich-Leiden 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Euler, d\u014dnom d\u014d-",
+            "full": "W. Euler, d\u014dnom d\u014d-. Einejigura etymologica der Sprachen Altitaliens. [IBS-VKS 29). Innsbruck 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EVP",
+            "full": "s. Renou, EVP.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "F",
+            "full": "Farhang i o\u012bn.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "F. (\u00b0F), f.",
+            "full": "Femininum.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Fassunke [= Steinbauer]",
+            "full": "D. Fassunke [= Steinbauer], Die Vertretung der urindogermanischen Medine Aspiratae im Lateinischen. Magisterarbeit Regensburg 1979. [Maschinenschriftlich vervielf\u00e4ltigt].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Feist",
+            "full": "S. Feist, Vergleichendes W\u00f6rterbuch der Gotischen Sprache. Mit Einschlu\u00df des Krimgotischen und sonstiger zerstreuter \u00dcberreste des Gotischen. Dritte neubearbeitete und vermehrte Auflage. Leiden 1939.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fem.",
+            "full": "Femininum.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Fiugr.",
+            "full": "Finnisch-Ugrisch, Finnougrisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "FoLH",
+            "full": "Folia Linguistica Historica. Den Haag.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fraenkel",
+            "full": "E. Fraenkel, Litauisches etymologisches W\u00f6rterbuch. Heidelberg 1962, 1965.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Friedrich, Trees",
+            "full": "P. Friedrich, Proto-Indo-European Trees. Tue Arboreal System of a Prebistoric People. Chicago-London 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Frisk",
+            "full": "H. Frisk, Griechisches etymologisches W\u00f6rterbuch. Heidelberg 1960-1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Frisk, ldg.",
+            "full": "H. Frisk, lndogermanica. [G\u00f6teborgs H\u00f6gskolas Arsskrift XLIV 1). G\u00f6teborg 1938.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Frisk, KS",
+            "full": "H. Frisk, Kleine Schriften zur Indogermanistik und griechischen Wortkunde. G\u00f6teborg 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Bechert",
+            "full": "Freundliche Gr\u00fc\u00dfe zur Halbzeit. Festschrift f\u00fcr Johannes Bechert. Bremen. Institut f\u00fcr Sprachwissenschaft, 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Beeler",
+            "full": "American Indian and lndoeuropean Studies. Papers in Honor of Madison S. Beeler. Den Haag etc. 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Belvalkar",
+            "full": "Felicitation Volume Presented to Professor S. K. Belvalkar. Benares 1957.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Benveniste",
+            "full": "Melanges Linguistiques offerts A Emile Benveniste. Louvain 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Bolelli",
+            "full": "Studi Linguistici in onore di Tristano Bolelli. Pisa 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Bonfante",
+            "full": "Scritti in onore di Giuliano Bonfante. Brescia 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Braun",
+            "full": "Slavisches Spektrum. Maximilian Braun zum 80. Geburtstag. Wiesbaden 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Brown",
+            "full": "lndological Studies in \u00b7 Honor of W. Norman Brown. New Haven 1962.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Collitz",
+            "full": "Studies in Honor of Hermann Collitz. Baltimore 1933.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Danielsson",
+            "full": "Symbolae Philologicae 0. A. Danielsson Octogenario Dicatae. Uppsala 1932.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Debrunner",
+            "full": "Sprachgeschichte und Wortbedeutung. Festschrift Albert Debrunner gewidmet von Sch\u00fclern, Freunden und Kollegen. Bern 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Dickenmann",
+            "full": "Commentationes Linguisticae et Philologicae Emesto Dickenmann lustrum claudenti quintum decimum. Heidelberg 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Dum\u00e9zil",
+            "full": "Homage to Georges Dum\u00e9zil. [JIES Monograph No. 3]. Washington 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Georgiev",
+            "full": "Studia linguistica in honorem Vladimiri I. Georgiev. Sofia 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Gordon",
+            "full": "The Bible World. Essays in Honor of Cyrus H. Gordon. New York 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Haugen",
+            "full": "Studies for Einar Haugen. Presented by friends and colleagues. Den Haag-Paris 1972.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Hili Om",
+            "full": "Linguistic and Literary Studies in Honor of Archibald A. Hill. III: Historical and Comparative Linguistics. Den Haag etc. 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Hoens",
+            "full": "Selected Studies on Ritual in the Indian Religions. Essays to D. J. Hoens. (Supplement to Numen XLV]. Leiden 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Issatschenko",
+            "full": "Opuscula Slavica et Linguistica. Festschrift f\u00fcr Alexander Issatschenko. Klagenfurt 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Jacobi",
+            "full": "Beitr\u00e4ge zur Literaturwissenschaft und Geistesgeschichte Indiens. Festgabe, Hermann Jacobi zum 75. Geburtstag dargebracht von Freunden, Kollegen und Sch\u00fclern. Bonn 1926.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Kaegi",
+            "full": "Festgabe, Adolf Kaegi von Sch\u00fclern und Freunden dargebracht zum 30. September 1919. Frauenfeld 1919.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Kirfel",
+            "full": "Studia lndologica. Festschrift f\u00fcr Willibald Kirfel zur Vollendung seines 70. Lebensjahres. (Bonner Orientalistische Studien N. S. Band 3]. Bonn 1955.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Knobloch",
+            "full": "Sprachwissenschaftliche Forschungen. Festschrift f\u00fcr Johann Knobloch. (IBK 23]. Innsbruck 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Krause",
+            "full": "Indogermanica. Festschrift f\u00fcr Wolfgang Krause. Heidelberg 1960.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Kuhn",
+            "full": "Aufs\u00e4tze zur Kultur und Sprachgeschichte vornehmlich des Orients, Ernst Kuhn gewidmet M\u00fcnchen(-Breslau) 1916.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Kuiper",
+            "full": "Pratid\u00e4nam. Indian, Iranian and Indo-European Studies Presented to Franciscus Bernardus Jacobus Kuiper on his sixtieth birthday. Den Haag-Paris 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Kury\u0142owicz",
+            "full": "Symbolae Linguisticae in Honorem Georgii Kury\u0142owicz. Breslau etc. 1965.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Leroy",
+            "full": "Recherches de Linguistique. Hommages a Maurice Leroy. Br\u00fcssel 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Maikiel",
+            "full": "For Yakov Malkiel. Proceedings of the Eighth Annual Meeting of the Berkeley Linguistic Society. Berkeley 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Neumann",
+            "full": "Serta Indogermanica. Festschrift f\u00fcr G\u00fcnter Neumann zum 60. Geburtstag. Innsbruck 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Nyberg",
+            "full": "Donum Natalicium H. S. Nyberg Oblatum. Stockholm 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Pagliaro",
+            "full": "Studia Classica et Orientalia Antonino Pagliaro Oblata. 3 Bde., Rom 1969.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Pallottino",
+            "full": "Gli Etruschi e Roma. Atti dell'incontro di studi in onore di Massimo Pallottino. Rom 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Palmer",
+            "full": "Studies in Greek, Italic, and Indo-European Linguistics offered to Leonard R. Palmer. Innsbruck 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Saksena",
+            "full": "Jitam. Dr. Babu Ram Saksena Felicitation Volume [= Journal of the Akhila Bharatiya Sanskrit Parishad 11-15, 1979-1983).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Schubring",
+            "full": "Beitr\u00e4ge zur indischen Philologie und Altertumskunde. Walther Schubring zum 70. Geburtstag dargebracht von der deutschen Indologie. (Alt- und Neu-Indische Studien 7). Hamburg 1951.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Sommer",
+            "full": "Corona Linguistica. Festschrift Ferdinand Sommer... dargebracht von Freunden, Sch\u00fclern und Kollegen. Wiesbaden 1955.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Szemer\u00e9nyi",
+            "full": "Studies in Diachronie, Synchronie, and Typological Linguistics, Festschrift for Oswald Szemer\u00e9nyi. Amsterdam 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Taqizadeh",
+            "full": "A Locust's Leg. Studies in Honour of S. H. Taqizadeh. London 1962.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Vogel",
+            "full": "India Antiqua. A Volume of Oriental Studies presented ... to Jean Philippe Vogel. Leiden 1947.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Wackemagel",
+            "full": "Avn&pov. Festschrift f\u00fcr Jacob Wackernagel. G\u00f6ttingen 1923.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Waldschmidt",
+            "full": "Beitr\u00e4ge zur Indienforschung. Ernst Waldschmidt zum 80. Geburtstag gewidmet. Berlin 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Weber",
+            "full": "Gurup\u00fcj\u00e4kaumudi. Festgabe zum f\u00fcnfzigj\u00e4hrigen Doctorjubil\u00e4um Albrecht Weber dargebracht von seinen Freunden und Sch\u00fclern. Leipzig 1896.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Weijnen",
+            "full": "Liber Amicorum Weijnen. Een bundel opstellen aangeboden aan Prof. Dr. A. Weijnen bij zijn zeventigste verjaardag. Assen 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Weller",
+            "full": "Asiatica. Festschrift Friedrich Weller zum 65. Geburtstag gewidmet von seinen Freunden, Kollegen und Sch\u00fclern. Leipzig 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Widengren",
+            "full": "Ex Orbe Religionum. Studia Geo Widengren ... Oblata. 2 Teile. Leiden 1972.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fut.",
+            "full": "Futurum.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "FuW",
+            "full": "Aexion und Wortbildung. Akten der V. Fachtagung der Indogermanischen Gesellschaft Regensburg, 9.-14. September 1973. Wiesbaden 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GA",
+            "full": "Abhandlungen der [k\u00f6niglichen] Gesellschaft [- Akademie] der Wissenschaften zu G\u00f6ttingen. Phil.-hist. Klasse.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ge",
+            "full": "K. (F.) Geldner.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "GenAblSg",
+            "full": "Genetiv-Ablativ Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "GenDu",
+            "full": "Genetiv Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "GenLokDu",
+            "full": "Genetiv-Lokativ Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "GenPl",
+            "full": "Genetiv Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "GenSg",
+            "full": "Genetiv Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Germ.",
+            "full": "Germanisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Gersb",
+            "full": "I. Gershevitch.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Gersh, Hymn",
+            "full": "I. Gershevitch, The Avestan Hymn to Mithra. Cambridge 1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GeRV",
+            "full": "K. F. Geldner, Der Rig-Veda. Aus dem Sanskrit \u00fcbersetzt und mit einem laufenden Kommentar versehen. [Harvard Oriental Series Vol. 33-36]. 4 Teile. Cambridge (Mass.) - London - Wiesbaden 1951-1957.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GeStudien",
+            "full": "K. Geldner, Studien zum Avesta. [Erstes Heft). Stra\u00dfburg 1882.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ghosh, Formations",
+            "full": "B. Ghosh, Les formations nominales et verbales en p du Sanskrit. Paris 1933.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GlrPh",
+            "full": "Grundri\u00df der Iranischen Philologie. 2 Bde. Stra\u00dfburg 1895-1904. [Nachdruck Berlin-New York 1974).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GL",
+            "full": "General Linguistics. University Park, Pennsylvania.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Glo",
+            "full": "Glotta. Zeitschrift f\u00fcr griechische und lateinische Sprache. G\u00f6ttingen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GN",
+            "full": "Nachrichten der [k\u00f6niglichen) Gesellschaft der Wissenschaften zu G\u00f6ttingen. Phil.-hist. Klasse.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gonda, SelStud",
+            "full": "J. Gonda, Selected Studies. 5 Bde. Leiden 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gr.",
+            "full": "[Alt]Griechisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Grassm",
+            "full": "H. Grassmann, W\u00f6rterbuch zum Rig-Veda. Leipzig 1873. [Nachdruck Wiesbaden 1976].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Chatterji",
+            "full": "Suniti Kumar Chatterji Commemoration Volume. University of Burdwan 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Erdo\u030bdi",
+            "full": "Hommage \u00e0 Joseph Erdo\u030bdi [= \u00c9tudes finno-ougriennes tome 15, 1978-79, Num\u00e9ro special]. Paris-Budapest 1982. [Als Festschrift angelegt, aber durch den Tod des Jubilars zur Gedenkschrift geworden].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs G\u00fcntert",
+            "full": "Antiquitates Indogermanicae. Studien zur Indogermanischen Altertumskunde und zur Sprach- und Kulturgeschichte der indogermanischen V\u00f6lker. Gedenkschrift f\u00fcr Hermann G\u00fcntert. Innsbruck 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Henning",
+            "full": "W. B. Henning Memorial Volume. London 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Kerns",
+            "full": "Bono Homini Donum. Essays in Historical Linguistics in Memory of J. Alexander Kerns. Amsterdam 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Kronasser",
+            "full": "Investigationes Philologicae et Comparativae. Gedenkschrift f\u00fcr Heinz Kronasser. Wiesbaden 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Minorsky",
+            "full": "Iran and Islam. In Memory of the Late Vladimir Minorsky. Edinburgh 1971.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Morgenstieme",
+            "full": "Monumentum Georg Morgenstieme. I, II[= Acta Iranica 21, 22), Leiden 1981, 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Nyberg",
+            "full": "Monumentum H. S. Nyberg. 1-IV [= Acta Iranica 4-7], Teheran-L\u00fcttich-Leiden 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GSolnd",
+            "full": "Gennan Scholars on India. Contributions to Indian Studies. Ed. by the Cultural Department, Embassy of the Federal Republic of Germany, New Delhi. Vol. l, Benares 1973. Vol. Il, Bombay 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs RaghuVira",
+            "full": "Studies in Indo-Asian Art and Culture 2. Acharya RaghuVira Commemoration Volume. New Delhi 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Renou",
+            "full": "Melanges d'indianisme a Ja memoire de Louis Renou. Paris 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Unvala",
+            "full": "Dr. J. M. Unvala Memorial Volume. Bombay 1964.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hau",
+            "full": "C. Hauri.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hau, -ena",
+            "full": "C. Hauri, Zur Vorgeschichte des Ausgangs -Ena des Instr. Sing. der A-St\u00e4mme des Altindischen. [KZ Erg\u00e4nzungsheft Nr. 17]. G\u00f6ttingen 1963.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hauschild",
+            "full": "[A. Thumb-]R. Hauschild, Handbuch des Sanskrit. Eine Einf\u00fchrung in das sprachwissenschaftliche Studium des Altindischen. Bd. I 1, I 2, II. Heidelberg 1953-1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Havers",
+            "full": "W. Havers, Neuere Literatur zum Sprachtabu. [Sb\u00d6AW 223,5]. Wien 1946.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Henning, SelP",
+            "full": "W. B. Henning, Selected Papers I, Il [= Acta Iranica 14, 15]. Teheran-L\u00fcttich-Leiden 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hertel, Beitr",
+            "full": "J. Hertel, Beitr\u00e4ge zur Erkl\u00e4rung des Awestas und des Vedas. [AbhAkWissLeipzig 40,2]. Leipzig 1929.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hes.",
+            "full": "Hesych.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Heth.",
+            "full": "Hethitisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Hethldg",
+            "full": "Hethitisch und lndogermanisch. Vergleichende Studien zur historischen Grammatik und zur dialektgeographischen Stellung der indogermanischen Sprachgruppe Altkleinasiens. Edd. E. Neu und W. Meid. Innsbruck 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hi.",
+            "full": "Hindi.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Hier.",
+            "full": "Hieroglyphisch, hieroglyphen-(- bild-)luwisch. [S. dazu KEWA IV 210].",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Hiersche, Asp",
+            "full": "R. Hiersche, Untersuchungen zur Frage der Tenues aspiratae im Indogermanischen. Wiesbaden 1964.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hinz, N\u00dc",
+            "full": "W. Hinz, Altiranisches Sprachgut der Neben\u00fcberlieferungen .. [G\u00f6ttinger Orientforschungen, III. Reihe: Iranica, Band 3]. Wiesbaden 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hock, Substratum",
+            "full": "H. H. Hock, Substratum lnfluence on (Rig-Vedic) Sanskrit? Studies in the Linguistic Sciences, Papers on Historical Linguistics: Theory and Method Vol 5, Number 2 (Fall, 1975), S. 76-125.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hoffm",
+            "full": "K. Hoffmann.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HoffmA",
+            "full": "K. Hoffinann, Aufs\u00e4tze zur lndoiranistik. Wiesbaden 1975-1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hom.",
+            "full": "Homerisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "HoR",
+            "full": "History of Religions. Chicago.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HSPh",
+            "full": "Harvard Studies in Qassical Philology. Cambridge (Mass.)",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hs(s)",
+            "full": "Handschrift(en).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "H\u00fcb",
+            "full": "H. Hilbschmann.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "H\u00fcb, Gr",
+            "full": "H. Hilbschmann, Armenische Grammatik. I. Theil: Armenische Etymologie. Leipzig 1895, 1. [Nachdruck Hildesheim-New York 1972].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Humb",
+            "full": "H. Humbach.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Humb, Ga",
+            "full": "H. Humbach, Die Gatbas des Zarathustra. Band I, II. Heidelberg 1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IAV",
+            "full": "Indoarisch im Alten Vorderasien.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IBK",
+            "full": "Innsbrucker Beitr\u00e4ge zur Kulturwissenschaft. Innsbruck.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "lBS(-VKS)",
+            "full": "Innsbrucker Beitr\u00e4ge zur Sprachwissenschaft (Vortr\u00e4ge [und kleinere Schriften]). Innsbruck.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Idg.",
+            "full": "Indogermanisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "IESt",
+            "full": "Indo-European Studies. Cambridge (Mass.).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IF",
+            "full": "Indogermanische Forschungen. Zeitschrift f\u00fcr Indogermanistik und allgemeine Sprachwissenschaft. Zuletzt Berlin-New York.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IIJ",
+            "full": "lndo-Iranian Journal. Zuletzt Dordrecht-Boston.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Iir.",
+            "full": "Indoiranisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Imp.",
+            "full": "Imperativ.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Impf.",
+            "full": "Imperfekt.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "IndJaz",
+            "full": "Indijskoe Jazykomanie. Moskau 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IndStud",
+            "full": "Indische Studien. Beitr\u00e4ge f\u00fcr die Kunde des indischen Alterthums. Berlin, sp\u00e4ter Leipzig.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "lndT",
+            "full": "Indologica Taurinensia. Official Organ of the International Association of Sanskrit Studies. Turin.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Inf.",
+            "full": "Infinitiv.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "InL",
+            "full": "Incontri Linguistici. Zuletzt Pisa.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ins",
+            "full": "S. Insler.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ins, Ga",
+            "full": "S. Inster, The G\u00e4tb\u00e4s of Zarathustra. [= Acta Iranica 8). Teheran-L\u00fcttich-Leiden 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "InstrDu",
+            "full": "Instrumental Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "InstrPl",
+            "full": "Instrumental Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "InstrSg",
+            "full": "Instrumental Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "IPNB",
+            "full": "Iranisches Personennamenbuch. Bd. I (Wien 1979) ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JA",
+            "full": "Journal asiatique. Paris.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JamHumb, Pu",
+            "full": "K. M. JamaspAsa-H. Humbach, Pursisnih\u00e4. A Zoroastrian Catechism. Wiesbaden 1971.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JAOS",
+            "full": "Journal of the American Oriental Society. New Haven (Conn.).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Jav.",
+            "full": "Jungavestisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "JB",
+            "full": "Jaiminiya-Br\u00e4hmaQ.a.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JIES",
+            "full": "The Journal of lndo-European Studies. Zuletzt Washington (D.C.).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Joachim",
+            "full": "U. Joachim, Mehrfachpr\u00e4sentien im J.{gveda. [Europ\u00e4ische Hochschulschriften Reihe XXI Band 4]. Frankfurt a.M.-Bem-Las Vegas 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Joki",
+            "full": "A. J. Joki, Uralier und Indogermanen. Die \u00e4lteren Ber\u00fchrungen zwischen den uralischen und indogermanischen Sprachen. [Suomalais-Ugri-Iaisen Seuran Toimituksia 151]. Helsinki 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JuB",
+            "full": "Jaiminiya-Upani$ad-Br\u00e4hmaQ.a.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Justi, Hb",
+            "full": "F. Justi, Handbuch der Zendsprache. Altbactrisches Woerterbuch. Grammatik. Chrestomathie. Leipzig 1864. [Nachdruck Wiesbaden 1969].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KammArier",
+            "full": "A. Kammenhuber, Die Arier im Vorderen Orient. Heidelberg 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "K\u0101\u1e6dh",
+            "full": "K\u00e4thaka-Samhit.ii.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KB",
+            "full": "Kau$itaki-Br\u00e4hmaQ.a.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KBS",
+            "full": "Klageofurter Beitr\u00e4ge zur Sprachwissenschaft. Klagenfurt.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kel, NR",
+            "full": "J. Kellens, Les noms-racines de l' Avesta. [Beitr\u00e4ge zur Iranistik Band 7]. Wiesbaden 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kent",
+            "full": "R. G. Kent, Old Persian. Grammar, Texts, Lexicon. [American Oriental Series Vol. 33). Second Edition, Revised. New Haven (Conn.) 1953.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KEWA",
+            "full": "M. Mayrhofer, Kurzgefa\u00dftes etymologisches W\u00f6rterbuch des Altindischen. A Concise Etymological Sanskrit Dictionary. 4 Bde., Heidelberg 1956-1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kho.",
+            "full": "Khowar.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Khot.",
+            "full": "Khotansakisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kiehnle",
+            "full": "C. Kiehnle, Vedisch uk$ und uk$/vak$. Wortgeschichtliche und exegetische Untersuchungen. [Alt-und Neu-Indische Studien 21]. Wiesbaden 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kl.",
+            "full": "Klassisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kli",
+            "full": "G. Klingenschmitt.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kli, Altarm Verbum",
+            "full": "G. Klingenschmitt, Das altarmenische Verbum. Wiesbaden 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kli, Farhang",
+            "full": "G. Klingenschmitt, Farhang-i \u00f6im. Edition und Kommentar. Phil. Diss. Erlangen-N\u00fcrnberg 1968. [Fotokopie).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "K\u00f6lv",
+            "full": "B. K\u00f6lver, Verschliffene Pr\u00e4fixe im Altindischen. [Abhandlungen f\u00fcr die Kunde des Morgenlandes XLII, 3]. Wiesbaden 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kortl",
+            "full": "F. Kortlandt.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Krat",
+            "full": "Kratylos. Kritisches Berichts- und Rezensionsorgan f\u00fcr indogermanische und allgemeine Sprachwissenschaft. Wiesbaden.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KS",
+            "full": "Kleine Schriften.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ksl.",
+            "full": "Kirchenslavisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kui",
+            "full": "F. [B. J.J Kuiper.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kui, Nas",
+            "full": "F. B. I. Kuiper, Die indogermanischen Nasalpr\u00e4sentia. Ein Versuch zu einer morphologischen Analyse. Amsterdam 1937.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kui, Nounlnfl",
+            "full": "F. B. I. Kuiper, Notes on Vedic Noun-Inflexion. [MKNA Deel 5, N\u00b0 4). Amsterdam 1942.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kui, Shortening",
+            "full": "F. B. J. Kuiper, Shortening of Final Vowels in the Rigveda. [MKNA Deel 18, N\u00b0 11]. Amsterdam 1955.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kur",
+            "full": "I. Kurylowicz.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kur, \u00c9t",
+            "full": "I. Kurylowicz, \u00c9tudes Indoeuropeennes [I]. [Polska Akadetaja Umiej~tnosci, Prace Komisji J~zykowej N' 21]. Krakau 1935.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KZ",
+            "full": "Zeitschrift f\u00fcr Vergleichende Sprachforschung. Begr\u00fcndet von Adalbert Kuhn. Zuletzt G\u00f6ttingen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Larson (ed.), Myth",
+            "full": "G. I. Larson (ed.), Myth in Indo-European Antiquity. Berkeley-Los Angeles-London 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lat",
+            "full": "Lateinisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "LautgEt",
+            "full": "Lautgeschichte und Etymologie. Akten der VI. Fachtagung der Indogermanischen Gesellschaft Wien, 24.-29. September 1978. Wiesbaden 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Leum",
+            "full": "E. und I. Leumann, Etymologisches W\u00f6rterbuch der Sanskrit-Sprache. Lieferung I: Einleitung und a bis j\u00fc. [Indica Heft 1]. Leipzig 1907.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lewy, KS",
+            "full": "E. Lewy, Kleine Schriften. [Deutsche Akademie der Wissenschaften zu Berlin, Ver\u00f6ffentlichungen der Sprachwissenschaftlichen Kommission I]. Berlin 1961.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lg",
+            "full": "Language. Journal of the Linguistic Society of America. Baltimore (Md.).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Liebert",
+            "full": "G. Liebert, Das Nominalsuffix -ti- im Altindischen. Ein Beitrag zur altindischen und vergleichenden Wortbildungslehre. Lund 1949.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lindeman, TrRepr",
+            "full": "F. O. Lindeman, The triple representation of Schwa in Greek and some related problems of Indo-European phonology. Oslo-Bergen-Troms0 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ling",
+            "full": "Linguistica. Laibach.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lit.",
+            "full": "Litauisch .",
+            "type": "language"
+        },
+        {
+            "abbreviation": "LokDu",
+            "full": "Lokativ Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "LokPl",
+            "full": "Lokativ Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "LokSg",
+            "full": "Lokativ Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Lo",
+            "full": "H. Lommel.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lo, Y\u0101st's",
+            "full": "H. Lommel, Die Y\u00e4st 's des Awesta. \u00dcbersetzt und eingeleitet. [Quellen der Religionsgeschichte Bd. 15, Gruppe 6). G\u00f6ttingen-Leipzig 1927.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "LP",
+            "full": "Lingua Posnaniensis. Posen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "LSAMH 1973",
+            "full": "Linguistic Society of America. 481h Annual Meeting Dec. 28-30, 1973, San Diego, California. Meeting Handbook.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "L\u00fcders, PhilInd",
+            "full": "H. L\u00fcders, Philologica lndica. Ausgew\u00e4hlte kleine Schriften. G\u00f6ttingen 1940.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "L\u00fcders, Varu\u1e47a",
+            "full": "H. L\u00fcders, VaruQa. Aus dem Nachla\u00df herausgegeben von L. Alsdorf. 2 Bde., G\u00f6ttingen 1951, 1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ludwig",
+            "full": "A. Ludwig, Der Rigveda oder die heiligen Hymnen der Br\u00e4hmana. Zum ersten Male vollst\u00e4ndig ins Deutsche \u00fcbersetzt mit Commentar und Einleitung. 6 Bde., Prag (sp\u00e4ter auch Leipzig, Wien) 1876-1888.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "M. (\u00b0M), m.",
+            "full": "Maskulinum.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Ma.",
+            "full": "Malayalam.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "MacK",
+            "full": "D. N. MacKenzie, A Concise Pahlavi Dictionary. London 1971.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Man.",
+            "full": "Manich\u00e4isch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Manessy, -as-",
+            "full": "J. Manessy, Les substantifs en -as- dans la llk-Sruphit\u00e4. Contribution A l'etude de la morphologie vedique. Dakar 1961.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Manessy-Guitton, Recherches",
+            "full": "J. Manessy-Guitton, Recherches sur les derives nominaux a bases sigmatiques en sanscrit et en latin. Dakar 1963.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "M-Br",
+            "full": "M. Meier(-Br\u00fcgger).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mbret",
+            "full": "Mittelbretonisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Mh",
+            "full": "M. Mayrhofer.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, AirN",
+            "full": "M. Mayrhofer, Die altiranischen Namen. [IPNB Bd. [). Wien 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, AKS",
+            "full": "M. Mayrhofer, Ausgew\u00e4hlte kleine Schriften. Wiesbaden 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, IAV",
+            "full": "M. Mayrhofer, Die Indo-Arier im Alten Vorderasien. Mit einer analytischen Bibliographie. Wiesbaden 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, Ll",
+            "full": "M. Mayrhofer, Lautlehre (Segmentale Phonologie des Indogermanischen). [Indogermanische Grammatik U2J. Heidelberg 1986.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, Mythos",
+            "full": "M. Mayrhofer, Die Arier im Vorderen Orient - ein Mythos? Mit einem bibliographischen Supplement. [Sb\u00d6AW 294,3). Wien 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, Nach hundert Jahren",
+            "full": "M. Mayrbofer, Nach hundert Jahren. Ferdinand de Saussures Fr\u00fchwerk und seine Rezeption durch die heutige Indogermanistik. [SbAkHeidelberg 1981, 8]. Heidelberg 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, OnP",
+            "full": "M. Mayrhofer, Onomastica Persepolitana. Das altiranische Namengut der Persepolis-T\u00e4felchen. [Sb\u00d6AW 286 c: Ver\u00f6ffentlichungen der Iranischen Kommission Bd. 1). Wien 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mi.",
+            "full": "Mittelindoarisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Minard, Trois \u00e9nigmes",
+            "full": "A. Minard, Trois \u00e9nigmes sur les cent chemins. Recherches sur le Satapatha-Br\u00e4hmaQa. Bd. I [Annales de l'Universite de Lyon. 3\u2022m\u2022 serie, Lettres, Fase. 17], Paris 1949; II [Publications de l'Institut de Civilisation Indienne, Serie in-8\u00b0, Fase. 3), Paris 1956.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Miran.",
+            "full": "Mitteliranisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "MithrSt",
+            "full": "Mithraic Studies. Proceedings of the First International Congress of Mithraic Studies. Manchester 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MK",
+            "full": "A. A. Macdonell-A. B. Keith, Vedic Index of Names and Subjects. 2 Bde., London 1912 [Neudruck Delhi usw. 1967].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MKNA",
+            "full": "Mededelingen van de [Koninklijke] Nederlandse Akademie van Wetenschappen, Afdeling Letterkunde, Nieuwe Reeks.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mkymr.",
+            "full": "Mittelkymrisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Mn",
+            "full": "Manu-Smrti.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MO",
+            "full": "Le monde oriental. Uppsala.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Morg",
+            "full": "G. Morgenstierne.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MorglD",
+            "full": "G. Morgenstierne, lrano-Dardica. [Beitr\u00e4ge zur Iranistik Bd. SJ. Wiesbaden 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MorgIIFL",
+            "full": "G. Morgenstierne, lndo-lranian Frontier Languages. 6 Bde. [Instittutet for Sammenlignende Kulturforskning, Serie B, XI, XXXV, XL, LVIII]. 2nd edition. Oslo-Bergen-Troms0 1973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Morg, Voc.",
+            "full": "G. Morgenstieme, An Etymological Vocabulary of Pashto. [Skrifter utgitt av Det Norske Videnskaps-Akademi i Oslo II. Hist.-Filos. Klasse. 1927. No. 3). Oslo 1927.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mp.",
+            "full": "Mittelpersisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "MS",
+            "full": "Maitr\u00e4ya.Qi-Sarilhit\u00e4.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MSS",
+            "full": "M\u00fcnchener Studien zur Sprachwissenschaft. M\u00fcnchen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Myk.",
+            "full": "Mykenisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Mylius",
+            "full": "K. Mylius, Sanskritischer Index der jungvedischen Namen und Sachen. Erschien in Folgen in den B\u00e4nden 17 (1976) bis 19 (1978) der Ethnographisch-arch\u00e4ologischen Zeitschrift (Berlin). Gemeinhin ohne Seitenangabe zitiert, da der Index die Lemmata in der Sanskrit-Reihenfolge bringt.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "N. (\u00b0N), n.",
+            "full": "Neutrum.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Nachtr",
+            "full": "Nachtr\u00e4ge.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Narten, Aor",
+            "full": "J. Narten, Die sigmatischen Aoriste im Veda. Wiesbaden 1964.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Narten, AS",
+            "full": "J. Narten, Die Am:ih Sp:iotas im Avesta. Wiesbaden 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Nehring, Studien",
+            "full": "A. Nehring, Studien zur indogermanischen Kultur und Urheimat. In W. Koppers (ed.), Wiener Beitr\u00e4ge zur Kulturgeschichte und Linguistik IV (1936) = Die lndogermanen- und Germanenfrage (Leipzig-Salzburg 1936) S. 7-229.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Neisser",
+            "full": "W. Neisser, Zum W\u00f6rterbuch des J.lgveda. Zwei Hefte. [Abhandlungen f\u00fcr die Kunde des Morgenlandes XVI, 4 und XVIIl, 3). Leipzig 1924, 1930. [Nachdruck Nendeln 1966).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "N.F.",
+            "full": "Neue Folge.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Ni.",
+            "full": "Neuindoarisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "NomDu",
+            "full": "Nominativ Dual.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "NomPl",
+            "full": "Nominativ Plural.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "NomSg",
+            "full": "Nominativ Singular.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Nowcki",
+            "full": "H. Nowicki, Die neutralen s-St\u00e4mme im indo-iranischen Zweig des Indogermanischen. Phil. Diss. W\u00fcrzburg 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Np.",
+            "full": "Neupersisch;",
+            "type": "language"
+        },
+        {
+            "abbreviation": "N.pr.",
+            "full": "Nomen proprium.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "NTS",
+            "full": "Norsk Tidsskrift for Sprogvidenskap. Oslo.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Nu., nu.",
+            "full": "Nuristan(sprachen), n\u00fcrist\u00e4ni.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "N\u00dc",
+            "full": "Neben\u00fcberlieferung(en).",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Nyb, ManP",
+            "full": "H. S. Nyberg, A Manual of Pahlavi. 2 Teile. Wiesbaden 1964, 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Oett",
+            "full": "N. Oettinger, Die Stammbildung des hethitischen Verbums. [Erlanger Beitr\u00f6ge zur Sprach- und Kunstwissenschaft Bd. 64). N\u00fcrnberg 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Old",
+            "full": "H. Oldenberg.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Old, KS",
+            "full": "H. Oldenberg, Kleine Schriften. 2 Teile. [Glasenapp-Stiftung Bd. I, 1-2). Wiesbaden 1967.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Old, Not",
+            "full": "H. Oldenberg, llgveda. Textkritische und exegetische Noten. 2 Bde. [GA N.F. XI,5 und Xl\u00df,3). Berlin 1909, 1912. [Nachdruck Nendeln 1970).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Orbis",
+            "full": "Orbis. Bulletin international de documentation linguistique. L\u00f6wen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Orm.",
+            "full": "Ormuri.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Oss.",
+            "full": "Ossetisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "P\u0101.",
+            "full": "P\u0101li.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "P\u0101\u1e47",
+            "full": "P\u0101\u1e47ini.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "PAPhilosS",
+            "full": "Proceedings of the American Philosophical Society. Philadelphia.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Part.",
+            "full": "Partizip.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "PB",
+            "full": "Paiicavimsa-Br\u00e4hmaoa [= Tfu)4ya-Mah\u00e4-Br\u00e4hmaoaJ.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Perfekt",
+            "full": "Perfekt.",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Pet",
+            "full": "M. Peters.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Petersson, Heterokl",
+            "full": "H. Petersson, Zur Kenntnis der indogermanischen Heteroklisie. [Lunds Univ. ArsskriftAvd. l, Bd. 18, No. 7). Lund 1922.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Pet, Lar",
+            "full": "M. Peters, Untersuchungen zur Vertretung der indogermanischen Laryngale im Griechischen. [Sb\u00d6A W 377 = Ver\u00f6ffentlichungen der Kommission f\u00fcr Linguistik und Kommunikationsforschung Heft 8]. Wien 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "PhilInd",
+            "full": "Actes du x\u2022 congres international des linguistes, Teil IV. Bukarest 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "PICL X/4",
+            "full": "Proceedings of the 11 th International Congress of Linguists, Bologna-Florenz 1972. 2 Bde. Florenz 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "PICL XI",
+            "full": "Proceedings of the 11 th International Congress of Linguists, Bologna-Florenz 1972. 2 Bde. Florenz 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Pkt.",
+            "full": "Prakrit.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "PNSAC 1980",
+            "full": "Proceedings of the Nordic South Asia Conference held in Helsinki, June 10-12, 1980 [= Studia Orientalia Vol. SO]. Helsinki 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Pok",
+            "full": "J. Pokomy, Indogermanisches etymologisches W\u00f6rterbuch. 1. Band. Bern-M\u00fcnchen 1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Polsky",
+            "full": "M. 8. Polsky, Container/Contained. Tue Meaning of Parjanya in the Vedic SDJT1hit\u00e4s. Phil. Diss. Princeton 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "PorzigGliederung",
+            "full": "W. Porzig, Die Gliederung des indogermanischen Sprachgebiets. Heidelberg 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "PTSDict",
+            "full": "The Pali Text Society's Pali-English Dictionary. Ed. by T. W. Rhys Davids and W. Stede. Chipstead, Surrey 1925.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Puhvel",
+            "full": "J. Puhvel, Hittite Etymological Dictionary. Vol. 1-2 (Berlin-New York-Amsterdam 1984) ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Puhvel, Analecta",
+            "full": "J. Puhvel, Analecta lndoeuropaea. [IBS Bd. 35].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "PW",
+            "full": "O . B\u00f6htlingk-R. Roth, Sanskrit-W\u00f6rterbuch, herausgegeben von der Kaiserlichen Akademie der Wissenschaften. [,,(Gro\u00dfes) Petersburger Worterbuchj. 7 Teile. St. Petersburg 1855-1875. [Neudruck Osnabr\u00fcck-Wiesbaden 1966].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "pw",
+            "full": "O. B\u00f6htlingk, Sanskrit-W\u00f6rterbuch in k\u00fcrzerer Fassung. (- PW]. 7 Bde. St. Petersburg 1879-1. [Nachdruck Graz 1959].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "QIG",
+            "full": "Quaderni dell'lstituto di Glottologia. Bologna.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RauMetalle",
+            "full": "W. Rau, Metalle und Metallger\u00e4te im vedischen Indien. [AA WL 1973, 8]. Mainz-Wiesbaden 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RauVedA",
+            "full": "W. Rau, Zur vedischen Altertumskunde. [AA WL 1983, l]. Mainz-Wiesbaden 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "REIE",
+            "full": "Revue des Etudes lndo-Europeennes. Bukarest, sp\u00e4ter Tschernowitz.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "'\u03a1\u1fc6\u03bc\u03b1",
+            "full": "'\u03a1\u1fc6\u03bc\u03b1:. Mitteilungen zur idg., vornehmlich indo-iranischen Wortkunde sowie zur holothetischen Sprachthe~rie. M\u00fcnchen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Renou, EVP",
+            "full": "L. Renou, Etudes vediques et p\u00e4Qineennes. Tome 1-XVII. [Publications de l'Institut de Civilisation Indienne, Serie in-8\u00b0, Fase. l, 2, 4, 6, 9, 10, 12, 14, 16-18, 20, 22, 23, 26, 27, 30]. Paris 1955-1969.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Renou, -tu-",
+            "full": "L. Renou, Monographies Sanskrites II: Le suffixe -tu- et la constitution des infinitifs. Paris 1937.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Roth, NirErl",
+            "full": "R. Roth, J\u00e4ska's Nirukta ... herausgegeben und erl\u00e4utert. G\u00f6ttingen 1852 (Nachdruck Darmstadt 1976]. - [2. Teil:] Erl\u00e4uterungen zum Nirukta.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RPh",
+            "full": "Revue de Philologie, de Litterature et d'Histoire anciennes. Paris.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RRLing",
+            "full": "Revue Roumaine de Linguistique. Bukarest.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RSO",
+            "full": "Rivista degli Studi Orientali. Rom.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RV",
+            "full": "~gveda-Samhitii.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "RV-Pr\u0101t",
+            "full": "~eda-Pr\u00e4tis\u00e4khya.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Sadnik-Aitzetm\u00fcller",
+            "full": "L. Sadnik-R. Aitzetmilller, Vergleichendes Wdrterbuch der slavischen Sprachen. Band I, A/B. Wiesbaden 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sa\u1e41h",
+            "full": "Sa\u1e41hit\u00e4.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "SbAkBerlin",
+            "full": "Sitzungsberichte der [K\u00f6nigl.] Preu\u00dfischen Akademie der Wissenschaften. Phil.-hist. Klasse. Berlin.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SbAkHeidelberg",
+            "full": "Sitzungsberichte der Heidelberger Akademie der Wissenschaften. Phil.-hist. Klasse. Heidelberg.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sb\u00d6AW",
+            "full": "Sitzungsberichte der \u00d6sterreichischen Akademie der Wissenschaften. Phil.-hist. Klasse. Wien.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u015aB",
+            "full": "\u015aatapatha-Br\u00e4hmana.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Scheft",
+            "full": "1. Scheftelowitz.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schi",
+            "full": "J. Schindler.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schi, Wn",
+            "full": "J. Schindler, Das Wurzelnomen im Arischen und Griechischen. Phil. Diss. W\u00fcrzburg 1972 [Teildruck].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schlerath",
+            "full": "8. Schlerath, Awesta-W\u00f6rterbuch, Vorarbeiten I: Index locorum zur Sekund\u00e4rliteratur des Awesta. Vorarbeiten II: Konkordanz. Wiesbaden 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schm",
+            "full": "R. Schmitt.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schm, Di",
+            "full": "R. Schmitt, Dichtung und Dichtersprache in indogermanischer Zeit. Wiesbaden 1967.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schmidt, Nasalpr",
+            "full": "W. P. Schmid, Untersuchungen zur Stellung der Nasalpr\u00f6sentien im indo-iranlschen Verbalsystem. Diss. T\u00fcbingen 1955. [Maschinenschriftl.].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schmidt, Br\u0329l",
+            "full": "H.-P. Schmidt, Br\u0329haspati und lndra. Unter-suchungen zur vedischen Mythologie und Kulturgeschichte. Wiesbaden 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schmidt, Nachtr",
+            "full": "R. Schmidt, Nachtr\u00e4ge zum Sanskrit-W\u00f6rterbuch in k\u00fcrzerer Fassung von Otto B\u00f6htlingk. Leipzig 1928.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schmidt, Pers",
+            "full": "G. Schmidt, Stammbildung und Aexion der indo-germanischen Personalpronomina. Wiesbaden 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schmitt-Brandt",
+            "full": "R. Schmitt-Brandt, Die Entwicklung des indoger-manischen Vokalsystems. [W1SSenschaftliche Bibliothek Bd. VII]. Heidelberg 1967, 21973.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schrader, KS",
+            "full": "F. 0. Schrader, Kleine Schriften. [Glasenapp-Stiftung Bd. 19). Wiesbaden 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schulze, KS",
+            "full": "W. Schulze, Kleine Schriften. G\u00f6ttingen 1934. (21966 mit Nachtr\u00e4gen, S. 783-895).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schwyzer",
+            "full": "E. Schwyzer, Griechische Grammatik. 2 Bde. [Handbuch der Altertumswissenschaft II 1,1-2). M\u00fcnchen 1939, 1950.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Seebold",
+            "full": "E. Seebold, Vergleichendes und etymologisches W\u00f6rterbuch der germanischen starken Verben. (Janua Linguarum Series Practica 85). Den Haag-Paris 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SelP",
+            "full": "Selected Papers.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SelStud",
+            "full": "Selected Studies.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sg.",
+            "full": "Singular.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Sha",
+            "full": "A. Sharma, Beitr\u00e4ge zur vedischen Lexikogra-phie: Neue W\u00f6rter in M. Bloomfields Vedic Con-cordance. (~\u00b5ex 5/6). M\u00fcnchen 1959/1960.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SII",
+            "full": "Studien zur Indologie und Iranistik. Reinbek.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SILTA",
+            "full": "Studi italiani de linguistica teorica ed applicata. Padua.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Singh.",
+            "full": "Singhalesisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Skr.",
+            "full": "Sanskrit.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "SMEA",
+            "full": "Studi Micenei ed Egeo-anatolici. Rom.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sommer, Nacht",
+            "full": "F. Sommer, Schriften aus dem Nachla\u00df. [MSS Beih. l, N.F.). M\u00fcnchen 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SP",
+            "full": "Siimba-Pur\u00e4on.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Specht, Dekl",
+            "full": "F. Specht, Der Ursprung der indogermanischen Deklination. G\u00f6ttingen 1944.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Spr",
+            "full": "Die Sprache. Zeitschrift f\u00fcr Sprachwissenschaft. Wiesbaden-Wien.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Sprw",
+            "full": "Sprachwissenschaft. Heidelberg.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Sprwlnnsbruck",
+            "full": "Sprachwissenschaft in Innsbruck. Arbeiten von Mitgliedern und Freunden des Instituts f\u00fcr Sprachwissenschaft der Universit\u00e4t Innsbruck. [IBK Sonderheft SO]. Innsbruck 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u015arS\u016b",
+            "full": "\u015arauta-S\u016btra.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "SSL",
+            "full": "Studi e saggi linguistici. Supplemento alla rivista ,,L'ltalia dialettale\u201c. \u00b7 Pisa.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "StangVglGramm",
+            "full": "C. S. Stang, Vergleichende Grammatik der Bal-tischen Sprachen. Oslo-Bergen-Troms0 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Steinbauer",
+            "full": "s. Fassunke.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Stlr",
+            "full": "Studia Iranica. Paris.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Stru",
+            "full": "K. Strunk.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Stru, NuA",
+            "full": "K. Strunk, Nasalpr\u00e4sentien und Aoriste. Heidel-berg 1967.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Su\u015br",
+            "full": "Su\u015bruta.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SV",
+            "full": "S\u00e4maveda.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Szem",
+            "full": "0. Szemerenyi.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Szem, Sync",
+            "full": "0. Szemerenyi, Syncope in Greek and lndo-European and the Nature of Indo-European Ac-cent. [Quaderni della Sezione Linguistica degli Annali, Istituto Orientale di Napoli, III]. Neapel 1964.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "TA",
+            "full": "Taittiriya-\u00c4rimyaka.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Ta.",
+            "full": "Tamil.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "TB",
+            "full": "Taittiriya-Br\u00e4hmaoa.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Ted",
+            "full": "P. Tedesco.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Thi",
+            "full": "P. Thieme.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Thi, KS",
+            "full": "P. Thieme, Kleine Schriften. [Glasenapp-Stiftung Bd. S,1-2). Wiesbaden 1971.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Thi. MaA",
+            "full": "P. Toieme, Mitra and Aryarnan. [Transactions of the Connecticut Academy of Arts and Sciences 41). New Haven (Conn.) 1957.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Thi. Studien",
+            "full": "P. Thieme, Studien zur indogermanischen Won-kunde und Religionsgeschichte. [Berichte \u00fcber die Verhandlungen der S\u00e4chsischen Akademie der W1SSenschaften zu Leipzig, phil.-hist. Klasse Bd. 98 Heft 5). Berlin 1952.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Thi, Unt",
+            "full": "P. Toieme, Untersuchungen zur Wortkunde und Auslegung des Rigveda. [Hallische Monographien Nr. 7). Halle 1949.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Tischler",
+            "full": "J. Tischler, Hethitisches etymologisches Glossar. [IBS Bd. 20]. Teil I (Innsbruck 1983) tf.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "TLIE",
+            "full": "Travaux de Linguistique indo-europeenne. Br\u00fcs-sel.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Toch.",
+            "full": "Tocharisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Toporov",
+            "full": "V. I. Toporov, Prusskij Jazyk. Slovar'. A-0 [Bd. I], Moskau 1975, ff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "TPS",
+            "full": "Transactions of the Philological Society. Oxford.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "TS",
+            "full": "Taittiriya-Sarhhit\u00e4.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Tu",
+            "full": "R. L. Turner, A Comparative Dictionary of the lndo-Aryan Languages. London-New York-To-ronto 1966. [Wird nach Nummern der Lemmata, nicht nach Seitenzahlen, zitiert].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "TuAdd",
+            "full": "R. L. Turner, A Comparative Dictionary of the lndo-Aryan Languages. Addenda and Corrigenda, ed. by J. C. Wright London 1985. (Zitierweise wie bei Tu).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Tucci, Report",
+            "full": "G. Tucci, Preliminary Report on Two Scientific Expeditions in Nepal. (Serie Orientale Roma X, 1 ). Rom 1956.",
+            "type": "report"
+        },
+        {
+            "abbreviation": "Uhl",
+            "full": "C. C. Uhlenbeck, Kurzgefa\u00dftes etymologisches Worterbuch der Altindischen Sprache. Amsterdam 1898/1899. [Nachdruck Osnabr\u00fcck 1973].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "V\u0101k",
+            "full": "V\u0101k. Poona.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Var 76",
+            "full": "Varia 1976. [Acta lranica 12). Teheran-L\u00fcttich-Leiden 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Var 77",
+            "full": "Varia 1977. (Acta Iranica 16]. Teheran-L\u00fcttich-Leiden 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Vasmer",
+            "full": "M. Vasmer, Russisches etymologisches W\u00f6rter-buch. 3 Bde. Heidelberg 1953, 1955, 1958.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "VBdh",
+            "full": "Visvo(-]Bandhu [S\u00e4stri), A Vedic Word-Concor-dance. 5 Vois., sub-divided into sixteen Parts. Labore 1942-Hoshiarpur 1965.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Vd",
+            "full": "Videvd\u00e4t.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "VedStud",
+            "full": "R. Pischel-K. Geldner, Vedische Studien. 3 Bde. Stuttgart 1889, 1892, 1901.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Verbum",
+            "full": "Verbum. Revue de linguistique publiee par l'Uni-versite de Nancy II. Nancy.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "VIJ",
+            "full": "Vishveshvaranand lndological Journal. Hosbiar-pur.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "VokDu",
+            "full": "Vokativ Dual.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "VokPl",
+            "full": "Vokativ Plural.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "VokSg",
+            "full": "Vokativ Singular.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "VS",
+            "full": "Viijasaneyi-Sarhhit\u00e4.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "VSGAJ",
+            "full": "Voprosy sravnitel'noj grammatiki amtjanskogo jazyka / Hayoc\u2022 lezvi hamematakanowt'yon harc\u2022er. Erevan 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "VWind",
+            "full": "A. J. Van Windekens .",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "VWmdTokh",
+            "full": "A. J. Van Windekens, Le Tokharien confronte avec les autres langues indo-europeennes. Vol. I, II, 1-2. (Travaux publies par Je Centre International de Dialectologie Generale de l'Universite catholique neerlandaise de Louvain Fase. XI-XIII]. L\u00f6wen 1976-1982.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Wack",
+            "full": "J. Wackernagel.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Wack, KS",
+            "full": "J. Wackernagel, Kleine Schriften. 3 Bde. G\u00f6ttingen 1953-1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Wack, Synt",
+            "full": "J. Wackernagel, Vorlesungen \u00fcber Syntax. 2 Reihen. Basel 1920, 1924.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Watk",
+            "full": "C. Watkins.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "WH",
+            "full": "A. Walde, Lateinisches etymologisches W\u00f6rterbuch. Dritte, neubearbeitete Auflage von J. 8. Hofinann. 3 Bde. Heidelberg 1938, 1954, 1956.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "WhiLanm",
+            "full": "Atharva-Veda Sarhhit\u00e4, Translated . .. by W. D. Whitney, Revised and Edited by C. R. Lanman. [Harvard Oriental Series VII, VIII]. Cambridge (Mass.) 1905.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Wlkander, Feuerpriester",
+            "full": "S. Wikander, Feuerpriester in Kleinasien und Iran. [Acta Reg. Societatis Humaniorum Litterarum Lundensis XLJ. Lund 1946.",
+            "type": "report"
+        },
+        {
+            "abbreviation": "Woj",
+            "full": "0. Wojtilla",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Word",
+            "full": "Word. Journal of the International Linguistic Association. New York.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "WP",
+            "full": "A. Walde, Vergleichendes W\u00f6rterbuch der indogermanischen Sprachen. Herausgegeben und bearbeitet von J. Pokomy. 3 Bde. Berlin-Leipzig 1927, 1930, 1932 [Nachdruck Berlin 1973].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "WuS",
+            "full": "W\u00f6rter und Sachen. Kulturhistorische Zeitschrift f\u00fcr Sprach- und Sachforschung [bzw. N.F.: Zeitschrift f\u00fcr indogermanische Sprachwissenschaft, Volksforschung und Kulturgeschichte]. Heidelberg.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "W\u00fcst",
+            "full": "W. Wust, Vergleichendes und etymologisches W\u00f6rterbuch des Alt-Indoarischen (Altindischen). 1. Teil; 2. Teil [bis S. 208]. [Indogermanische Bibliothek 1. Abteilung, 2. Reihe, 4). Heidelberg 1935.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "W\u00fcst, ApSt",
+            "full": "W. W\u00fcst, Altpersische Studien. Sprach- und kulturgeschichtliche Beitr\u00e4ge zum Glossar der Ach\u00e4meniden-lnschriften. ('Pi'j\u00b5\u00ab 8-11). M\u00fcnchen 1966.",
+            "type": "report"
+        },
+        {
+            "abbreviation": "W\u00fcst, pel",
+            "full": "W. W\u00fcst, Idg. ~~ 1/elcu-'Axt, Beil'. Eine pal\u00e4olinguistische Studie. [Suomalaisen Tiedeakatemian Toimituksia B 93, 1). Helsinki 1956.",
+            "type": "research"
+        },
+        {
+            "abbreviation": "W\u00fcst, Stilg",
+            "full": "W. W\u00fcst, Stilgeschichte und Chronologie des ~gveda. (Abhandlungen f\u00fcr die Kunde des Morgenlandes XVII 4). Leipzig 1928.",
+            "type": "research"
+        },
+        {
+            "abbreviation": "WZKM",
+            "full": "Wiener Zeitschrift f\u00fcr die Kunde des Morgenlandes. Wien.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "WZKS",
+            "full": "Wiener Zeitschrift f\u00fcr die Kunde S\u00fcdasiens [bis Bd. 13: Sild- und Ostasiens) und Archiv f\u00fcr indisehe Philosophie. Leiden-K\u00f6ln-Wien.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "WZUB",
+            "full": "WtSSenschaftliche Zeitschrift der Humboldt-Universit\u00e4t zu Berlin. Gesellschafts- und sprachwissenschaftliche Reihe. Berlin.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "Y",
+            "full": "Yasna.",
+            "type": "text"
+        },
+        {
+            "abbreviation": "Y\u0101j\u00f1",
+            "full": "Y\u0101j\u00f1avalkya-Smrti.",
+            "type": "text"
+        },
+        {
+            "abbreviation": "Yt",
+            "full": "Ya!t.",
+            "type": "text"
+        },
+        {
+            "abbreviation": "ZCPh",
+            "full": "Zeitschrift f\u00fcr Celtische Philologie. Zuletzt T\u00fcbingen.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "ZDMG",
+            "full": "Zeitschrift der Deutschen Morgenl\u00e4ndischen Gesellschaft. Zuletzt Wiesbaden.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "ZDMG-Suppl. III (1, 2)",
+            "full": "Zeitschrift der Deutschen Morgenl\u00e4ndischen Gesellschaft Supplement III, 1,2: XIX. Deutscher Orientalistentag vom 28. September bis 4. Oktober 1975 in Freiburg im Breisgau. Vortr\u00e4ge. Wiesbaden 1977.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "ZII",
+            "full": "Zeitschrift f\u00fcr Indologie und Iranistik. Leipzig.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "ZimmerAiL",
+            "full": "H. Zimmer, Altindisches Leben. Die Kultur der vedischen Arier. Berlin 1879.",
+            "type": "book"
+        },
+        {
+            "abbreviation": "ZPSK",
+            "full": "Zeitschrift f\u00fcr Phonetik, Sprachwissenschaft und Kommunikationsforschung. Berlin.",
+            "type": "journal"
+        },
+        {
+            "abbreviation": "ZyskHealing",
+            "full": "K. G. Zysk, Religious Healing in the Veda. With translations and annotations of medical hymns from the 8gveda and the Atharvaveda and renderings from the corresponding ritual texts. [Transactions of the American Philosophical Society Vol. 75, Part 7). Philadelphia 1985.",
+            "type": "book"
+        }
+    ],
+    "bib/EWAia-I-New.csv": [
+        {
+            "abbreviation": "As.",
+            "full": "Alts\u00e4chsisch",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Bee, Dev",
+            "full": "R. S. P. Beekes, The Development of th Proto-Indo-European Laryngeals in Greek. Den Haag-Paris 1969",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bee, Origins",
+            "full": "R. S. P. Beekes, The Origins of Indo-European Nominal Inflection. Innsbruck 1985",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Brixhe",
+            "full": "C. Brixhe, Le dialecte grec de Pamphylie. Paris 1976",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BSL",
+            "full": "Bulletin de la soci\u00e9t\u00e9 de linguistique. Paris.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Dandekar",
+            "full": "Amr\u0329tadh\u0101r\u0101. Professor R. N. Dandekar Felicitation Volume. Delhi 1984",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Eilers",
+            "full": "Festschrift f\u00fcr Wilhelm Eilers. Wiesbaden 1967",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Geiger",
+            "full": "Studia Indo-Iranica. Festschrift f\u00fcr Wilhelm Geiger. Leipzig 1931",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Humbach",
+            "full": "Studia Grammatica Iranica. Festschrift f\u00fcr Helmut Humbach. M\u00fcnchen 1986",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Morgenstierne",
+            "full": "Indo-Iranica. M\u00e9langes pr\u00e9sent\u00e9s \u00e0 Georg Morgenstierne. Wiesbaden 1964",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Risch.",
+            "full": "o\u00dfo\u00dfpe\u00dfro\u00dfsi. Festschrift f\u00fcr Ernst Risch zum 75 Geburtstag. Berlin-New York 1986.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Turner",
+            "full": "Sir Raplh Turner Jubilee Volume. I, II. Poona 1958, 1959",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GGA",
+            "full": "G\u00f6ttingische Gelehrte Anzeigen. G\u00f6ttingen",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Got\u014d",
+            "full": "T. Got\u014d, Die I. \u201ePr\u00e4sensklasse\u201c im Vedischen. Untersuchung der vollstufigen thematischen Wurzelpr\u00e4sentia. Wien 1987. (Korr.-Nachtr.)",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gr\u0329S\u016b",
+            "full": "Gr\u0329S\u016b",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "G\u00fcnt, ArWk",
+            "full": "H. G\u00fcntert, Der arische Weltk\u00f6nig und Heiland Halle (Saale) 1923.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Jamison, -\u00e1ya-",
+            "full": "S. W. Jamison, Function and Form in the -\u00e1ya- Formations of the Rig Veda and Atharva Veda. [Erg\u00e4nzungshefte zu KZ Nr. 31]. G\u00f6ttingen 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JRAS.",
+            "full": "Jounal of the Royal Asiatic Society. London",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kui, PMW.",
+            "full": "F. B. Kuiper, Proto-Munda Words in Sanskrit [MKNA Deel 51, N\u00b03]. Amsterdam 1948",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "LALIES",
+            "full": "LALIES. Actes des sessions de linguistique et de litt\u00e9rature. Paris",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lo, KS",
+            "full": "H. Lommel, Kleine Schriften. [Glasenapp-Stiftung Bd. 16]. Wiesbaden 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Morg, Shughni",
+            "full": "G. Morgenstierne, Etymological Vocabulary of the Shughni Group. Wiesbaden 1974.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bielmeier, Unters",
+            "full": "R. Bielmeier, Historische Untersuchung zurn Erb-und Lchnwortanteil im ossetischeri Grundwortschatz. Frankfurt u.a. 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Buck",
+            "full": "C. D. Buclc, A Dictionary of Selected Synonyims in the Principal Indo-European Languages. Chicago 1949",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Euler, Gemeinsamkeiten",
+            "full": "W. Euler, Indoiranisch-griechische Gemeinsamkeiten der Nominalbildung und deren indogermanische  Grundlagen. Innsbruck 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Falk, Brudersch",
+            "full": "H. Falk, Bruderschaft und W\u00fcrfelspiel,. Untersuchungen zur Entwicklungsgeschichte des vedisehen Opfers. Freiburg 1986.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Frisk, Nom",
+            "full": "H. Frisk, Zur indoiranischen und griechischen Nominalbildung. G\u00f6teborg 1934.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Frisk, -th-",
+            "full": "H. Frisk, Suffixales -th- im Indogermanischen G\u00f6teborg 1936.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Ambrosini",
+            "full": "Scritti in onore di Riccarcio Ambrosini. Pisa 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Bally",
+            "full": "M\u00e9langes de linguistique offerts \u00e0 Charles Bally. Genf 1939.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs DuchesneGuillemin",
+            "full": "Orientalia J. Duchesne-Guillemin Emerito. Oblata. [Acta Iranica 23]. Leiden 1984.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Hoenigswald",
+            "full": "Festschrift for Henry Hoenigswald; T\u00fcbingen 1987",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Hrozn\u00fd",
+            "full": "Symbolae ad Studia Orientis Pertinentes Frederico Hrozn\u00fd Dedicatae. Pars I-V [= Archiv Orient\u00e1ln\u00ed 17, 18]. rag 1949; 1950.]",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Mastrelli",
+            "full": "Studi linguistici e filologici per Carlo Alberto, Mastrelli. Pisa 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Sarma",
+            "full": "Surabhi. Sreekrishna Sarma Felicitation Volume. Tirupati 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Tovar",
+            "full": "Navicula Tubingensis. Studia in Honorem Antonii Tovar, T\u00fcbingen 1984.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Wintemitz",
+            "full": "Festschrift Moriz Winteriniz. Leipzig 1993,",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gersh, Gramm",
+            "full": "I. Gershevitch, A Grammar of Manichean Sogdian. Oxford 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GrammKat",
+            "full": "Grammatische Kategorien[.] Funktion und Geschichte. Akten der VII Fachtagung der Indogermanischen Gesellschaft Berlin, 20-25. Februar 1983. Wiesbaden 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Alsdorf, KS",
+            "full": "M. Alsdorf, Kleine Schriften. [Glasenapp-Stiftuog Bd. 10). Wiesbaden 1974.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Andreev-Pe\u0161\u010dereva, Jagnobskie teksty",
+            "full": "M. S. Andreev - E. M. Pe\u0161\u010dereva, Jagnobskie teksty s prilo\u017eteniem jagnobsko-russkogo slovarja. Leningrad 1957.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "AnttSchweb",
+            "full": "R. Anttila, Proto-lndo-European Schwebeablaut [University of California Publications in Lingu-istics Vol. 58). Berkeley - Los Angeles 1969.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "AsS",
+            "full": "Asiatische Studien / Etudcs asiatiques. Z\u00fcrich.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Benv, Orig",
+            "full": "E. Benveniste, Origines de Ja formation des noms en indo-europeen. [I). Paris 1935.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Cal, Zaub",
+            "full": "W. CaJand, Altindisches Zauberritual. [VKNA N. R. Deel 1D N\u00b0 2,1900). Nachdruck Wiesbaden 1967.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Dand, VedBibl [o. I 11]",
+            "full": "Dazu Vol. IV, Poona 1985.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Eich, Diss",
+            "full": "H. Eichner, Untersuchungen zur hethitischen Deklination. Diss. Univ. Erlangen-N\u00fcrnberg [Teildruck) 1974.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Fs Chatterji",
+            "full": "Suniti Kumar Chatterji Jubilee'Vol\u00fcme.' [= Indian Linguistics 16, 1955).",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Fs Rahn",
+            "full": "AINirMA. Festschrift f\u00fcr Helmut Rahn; Heidelberg 1987.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Fs Whatmough",
+            "full": "Studies Presented to Joshtia Whatmough. Den Haag 1957.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Gs Cowgill",
+            "full": "Studies in Memory of Warren Cowgill (1929'.. 1985). Berlin - New York 1987.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Hoffin, Inj",
+            "full": "K. Hoffmann, Der Iajunktiv im Veda. Ein~ synchronische Funktionsuntersuchung. Heidelberg 1967.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "IC",
+            "full": "Indogermanische Chronik. Bibliogrl!.phischer An-hang iu Spr (13tf.).",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "J\u00fcS",
+            "full": "J\u00fcngere Sprache . .[VgL die o. I 2f. (\u00a7 2.2) getrof-fene Einteilung).",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "Kan.",
+            "full": "Kannada (Kanara, Kanaresisch).",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Keith, TS",
+            "full": "A. B. Keith, Tbe Veda ofthe Black Yajus School entitled Taittii:iya Sarihit\u00e4 \u2022. [Harvard C>rientiil Se-. ries Vol. 18, 19]. Cambridge, Mass; l~l4, Reprint Delhi etc. 1967.",
+            "type": " reference"
+        },
+        {
+            "abbreviation": "AcLH",
+            "full": "Acta Linguistica Hafnensia. Kopenhagen",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Andreas-Henning",
+            "full": "F. C. Andrcos, Mitteliranische Manichaica aus Chinesisch-Turkestan. Aus dem Nachla\u00df herausgegeben von W. B. Henning. 1-ffi. Berlin (SbAkBerlin) 1932, 1933, 1934 [Henning. SelP 1 lff., 19Iff., 275ff.]",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u0100pDhS",
+            "full": "\u0100pastamba-Dhannas\u00fctra",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "APILKU",
+            "full": "Arbejdspapirer, udsendt aflnstitut for Lingvistlk, K0benhavns Universitet. Kopenhagen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u0100r",
+            "full": "\u0100ra\u1e47yaka",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Berger, Probl",
+            "full": "H. Berger, Zwei Probleme der mittelindischen Lautgeschichte. [M\u00fcnchener lndologische Studien, Heft 1). M\u00fcnchen 1955.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BiOr",
+            "full": "Bibliotheca Orientalis. Leiden.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bur, Shwa",
+            "full": "T. Burrow, Thc Problem of Shwa in Sanskrit. Oxford 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CalRaV, \u015aBK\u0101\u1e47v",
+            "full": "The \u015aatapatha Br\u0101hma\u1e47a in the K\u0101\u1e47viya Recension, ed. for the first time by Dr. W. Caland, revised by Dr. Raghu Vira. Labore 1926, Nachdruck Delhi u.a. 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Charp, Brahman",
+            "full": "J. Charpentier, Brahman. Eine sprachwissenschaftlich-religionswissenschaftliche Untersuchung. Uppsala Universitets Arsskrift 1932 : 8.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Das, Lebensspanne",
+            "full": "R. P. Das, Das Wissen von der Lebensspanne der B\u00e4ume. Surap\u00e4las Vrq\u00e4yurveda kritisch ediert, \u00fcbersetzt und kommentiert. [Alt- und Neu-Indische Studien 34). Stuttgart 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Davary, Baktr",
+            "full": "G. D. Davary, Baktrisch. Ein W\u00f6rterbuch. Heidelberg 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DPe",
+            "full": "Dareios, Persepolis e.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Eggeling",
+            "full": "The Satapatha-Br\u00e4hmana ... Translated by J. Eggeling. Oxford 1882-1900.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Em, SelP",
+            "full": "B. A van Nooten (ed.), Sanskrit Studies of M. 8. Emeneau. Selected Papers. Berkeley 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Emm, SGS",
+            "full": "R. E. Emmerick, Saka Grammatical Studies. London 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Ernout-Meillet",
+            "full": "A. Emout - A. Meillet, Dictionnaire etymologique de 1a langue latine. Histoire des mots. 4\u00e4n\u2022 Mition, 4~ tirage augmente \u2022 \u2022 \u2022 par J. Andre. Paris 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AGI",
+            "full": "Archivio Glottologico Italiano",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Andreas-Barr",
+            "full": "F. C. Andreas, Bruchst\u00fccke einer Peblevi-\u00dcbersetzung der Psalmen. Aus dem Nachlass herausgegeben von W. B. Henning. 1-4. Berlin (SbAkBerlin) 1932, 1933, 1934 [Henning. SelP 1 \u00c4pDhS APILKU \u00c4r",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "ArchOr",
+            "full": "Archiv orientalni PratJ.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u00c4S",
+            "full": "\u00c4ltere Sprache",
+            "type": "language"
+        },
+        {
+            "abbreviation": "BEI",
+            "full": "Bulletin d'\u00c9tudes Indiennes",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Beriv, Titres",
+            "full": "E. Benveniste, Titres et noms propres en Iranien Ancien. Paris 1936.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BergRelig",
+            "full": "A. Bergaigne, La religion vedique d'apres les hymnes du Rig-Veda. 3 Bde. Par\u00eds 1878-1897. Nachdruck 1963.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CalPB",
+            "full": "W. Caland, Pancavimsa-Brahmana. The Brahmana of Twenty-Five Chapters (Translated). Calcutta 1931.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CampSostr",
+            "full": "E. Campanile (ed.), Problemi di sostrato nelle lingue indoeuropee. Pisa 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CompLl",
+            "full": "R. Schmitt (ed.), Compennium Linguarum Iranicarum. Wiesbaden 1989.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Edg, Dict",
+            "full": "F. Edgerton, Buddhist Hybrid Sanskrit. Grammar and Dictionary. Vol. II: Dictionary. New Haven 1953.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Etter, Frages",
+            "full": "A. Etter, Die Frages\u00e4tze im Vedischen. Berlin-New York 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Asmussern",
+            "full": "A 'Green Leaf' Papers for Professor Jes P. Asmussen. Leiden 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Boyce",
+            "full": "Papers in Honour of Professor Mary Boyce. 2 Bde. Leiden 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Scherer",
+            "full": "Donum Indogermanicum. Festgabe f\u00fcr Anton Scherer zum 70. Geburtstag. Heidelberg 1971.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Schrijnen",
+            "full": "Donum Natalicium: Schrijnen Volume. A Volume of Essays Presented to Dr. Jos. Schrijnen. Nijmegen 1947.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Sternbach",
+            "full": "Ludvika Sternbach Abhinandana-Granthavali. Ludwik Sternbach Felicitation Volumes. 2 Parts. Lucknow 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Vasmer",
+            "full": "Festschrift f\u00fcr Max Vasmer zum 70. Geburtstag. Wiesbaden 1956.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gaut",
+            "full": "Gautam, Dharma\u015b\u0101stra.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Amg.",
+            "full": "Ardha-M\u00e4gadhi.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Aor.",
+            "full": "Aorist.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "A\u015b.",
+            "full": "In A\u015boka-Inschriften erscheinend.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Berneker",
+            "full": "E. Berneker, Slavisches etymologisches W\u00f6rterbuch. I. Band, Heidelberg 1908-1913[f.].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Em, LgLingA",
+            "full": "Language and Linguistic Area. Essays by M. B. Emeneau. Stanford 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Gipper",
+            "full": "Collectanea Philologica. Festschrift f\u00fcr Helmut Gipper zum 65. Geburtstag. 2 Bde, Baden-Baden 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Sch\u00fctzeichel",
+            "full": "Althochdeutsch. Herausgegeben von R Bergmann u. a. [Rudolf Sch\u00fctzeichel zum 20. Mai 1987 gewidmet). 2 Bde, Heidelberg 1987.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Geiger, P\u0101",
+            "full": "W. Geiger, P\u0101li, Literatur und Sprache. [Grundri\u00df der lndo-Arischen Philologie und Altertumskunde I 7). Stra\u00dfburg 1916.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gobh",
+            "full": "Gobhila-Grhyas\u00fctra.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hinz-Koch",
+            "full": "W. Hinz - H. Koch, Elarnisches W\u00f6rterbuch (in 2 Teilen). [Arch\u00e4ologische Mitteilungen aus Iran, Erg\u00e4nzungsband 17). Berlin 1987.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Inj.",
+            "full": "Injunktiv.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kaus.",
+            "full": "Kausativum.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kel-Pir I",
+            "full": "I. Kellens - E. Pirart, Les textes vieil-avestiques. Volume I: Introduction, texte et traduction. Wiesbaden 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Klein, DiscGrammar",
+            "full": "J. S. Klein, Toward a Discourse Grammar of the Rigveda. 2 Teile. Heidelberg 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Konj.",
+            "full": "Kortjunktiv.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Krause-Thomas",
+            "full": "W. Krause - W. Thomas, Tocharisches W\u00f6rterbuch. Band I, Heidelberg 1960; Band II (von W. Thomas). Heidelberg 1964.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kur, AkzAbl",
+            "full": "J. Kurylowicz, Indogermanische Grammatik. Band II, Akzent Ablaut Heidelberg 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "LarTheor",
+            "full": "A. Banimesberger (ed.), Die Laryngaltheorie und die Rekonstruktion des indogermanischen Laut- und Formenbestandes. Heidelberg 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh,ZNdA",
+            "full": "M. Mayrhofer, Zum Namenrecht des Avesta. [Sb\u00d6AW 308, Wien 1977].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AIED",
+            "full": "Ancient Indo-European Dialects. Proceedings of the Conference on Indo-European Linguists Held at the University of California, Los Angeles, April 25-27, 1963. Edited by H. Birnbaum and J. Puhvel. Berkeley and Los Angeles 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AiGr, IG",
+            "full": "J. Wackernagel, Altindische Grammatik. Introduction generale ... par t. Renou. G\u00f6ttingen 1957.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u0100pGS",
+            "full": "\u0100pastamba-Grhyas\u00fctra.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u0100pM",
+            "full": "\u0100pastamba-Mantrap\u00e4th\u00e4.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BBCS",
+            "full": "The Bulletin of the Board of Celtic Studies. Cardiff.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bee, Gramm",
+            "full": "R. S. P. Beekes, A Grammar of Gathic Avestan, Leiden etc. 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BL",
+            "full": "Bibliographie Linguistique / Linguistic Bibliography. Zuletzt ver\u00f6ffentlicht. Boston & London.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Brucker, Kulturep",
+            "full": "E. Brucker, Die sp\u00e4tvedische Kulturperiode nach den Quellen der \u015arautas\u016btras. [Alt- und Neu-Indische Studien 22]. Wiesbaden 1980.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Br\u0329Up",
+            "full": "Br\u0329had-\u0100ra\u1e47yaka-Upani\u1e63ad",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "BSlI",
+            "full": "Balt\u00f6-slavjanskie issledovaniia. Moskva.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CalBaudh\u015aS",
+            "full": "The Baudh\u00e4yana \u015arauta Sutra. Edited by Dr. W. Caland. 3 Bde., Calcutta 1904-13, 2nd ed: New Delhi 1982.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CalJB",
+            "full": "W. Caland, Das Jaiminiya-Br\u0101hma\u1e47a in Auswahl [VKNA 194]. Amsterdam 1919; Neudruck Wiesbaden 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DelbrSynt",
+            "full": "C. Delbr\u00fcck, Altindische Syntax. Halle 1888.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DialLitIndA",
+            "full": "C. Caillat (ed.), Dialectes des litt\u00e9ratures Indo-Aryennes. Actes du Colloque International. Paris, septembre 1989. Paris 1989.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Em\u00e9r",
+            "full": "Em\u00e9rita. Boletin de ling\u00fcistica y filologia clasica. Madrid.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Abaev",
+            "full": "Iransko-Indijskoe Jazykoznanie. Tipologija fonologija morfologija (K 1sie\u00a1111 piro11stogo 11b re\u00a1ultaty. Tbilisi 1976.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Polom\u00e9",
+            "full": "Languages and Cultures. Studies in Honor of Edgar C. Polom\u00e9. Berlin-New York-Amsterdam 1988",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bader, Langue des dieux",
+            "full": "F. Bader, ta langue des clieux, ou l'herm\u00e9tisme des po\u00e8tes indo-europ\u00e9ens. [Testi Linguistici 14). Pisa 1989.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BaldiChange",
+            "full": "Ph. Baldi (ed.), Linguistic Change and Reconstruction Methodology. Bertin. New York 1990",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BlochAs",
+            "full": "J. Bloch, Les inscriptions d'Asoka. Paris 1950",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Cal, KS",
+            "full": "W. Caland, Kleine Schrift1m. [Glasenapp-Stiftung Bd. 27]. Stuttgart 1990",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CampSIE",
+            "full": "E. Campanile (ed.), Studi indoeuropei. Pisa 1985",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Drlnd",
+            "full": "Drevnjaja Indija. Jazyk. Kul'tura. Tejcst. Moskau 1985",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Eich, Habilschr",
+            "full": "H. Eichner, Studien zu den indogermanischen Numeralia: Rekonstruktion des urindogermanischen Formensystems und Deklinationssystem seiner Einzelsprachen, wie es im Kardinalia zwei bis vier erscheint. Habilitationsschrift Universit\u00e4t Regensburg 1982 [M\u00fcnchner Studien]",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Bolelli II",
+            "full": "Tra linguistica storica e linguistica generale, Scritti in onore di T. Bolelli. Pisa 1985",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs de Jong",
+            "full": "lndological and Buddhist Studies. Volume in Honour of Professor J. W. de Jong on his Sixtieth Birthday. Canberra 1982",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Hofmann",
+            "full": "Ost und West: Band 2: Aufs\u00e4tze zur Slavischen und Baltischen Philologie und allgemeinen Sprachwissenschaft. Frankfurter Abhandlungen zur Slavistik Band 24. Wiesbaden 1976",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Lamotte",
+            "full": "Indianisme et Bouddhisme. M\u00e9langes offerts \u00e0 Mgr Etienne Lamotte. Louvain-la-Neuve 1980",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Otten I",
+            "full": "Festschrift Heinrich Otten. 12.9. 1913. Wiesbaden 1973",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Otten II",
+            "full": "Documentum Asiae Minoris Antiquae. Festschrift f\u00fcr Heinrich Otten zum 70. Geburtstag. Wiesbaden 1988",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Thomas",
+            "full": "Studia Indogermanica et Slavica Werner Thomas zum 65 Geburtstag. [Supplementa Philologiae Slavicae, Supplementband 26]. M\u00fcnchen 1988",
+            "type": "reference"
+        }
+    ],
+    "bib/EWAia-II.csv": [
+        {
+            "abbreviation": "Abs.",
+            "full": "Absolutivum",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "Akt.",
+            "full": "Aktiv",
+            "type": "grammar"
+        },
+        {
+            "abbreviation": "ALB",
+            "full": "The Adyar Library Bulletin. Madras",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "ASGM",
+            "full": "Atti del Sodalizio Glottologico Milanese",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "AVPari\u015b",
+            "full": "Atharvaveda-Pari\u015bista",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bg. Catsanicos, Recherches",
+            "full": "J. Catsanicos, Recherches sur le Vocabulaire de la Faute[.] Hitt. wa\u0161-tul et Gr. \u1f00(\u03dd)\u03ac-\u03c4\u03b7: Deux Repr\u00e9sentants de la Base I.-Eur. *H2wem- \u201eFaillir\u201c Paris [Cahiers de N.A.B.U. 2] 1991",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EIE",
+            "full": "Etudes indo-europeennes. Lyon",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EilNameng",
+            "full": "W. Eilers, Geographische Namen im und um Iran. Ein \u00dcberblick in Beispielen. SbAkM\u00fcnchen 1982: 5. M\u00fcnchen 1982",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Em-Bur, Borrowings",
+            "full": "M. B. Emeneau and T. Burrow: Dravidian borrowings from Indo-Aryan. University of California Publications in Linguistics Vol. 26. Berkeley; Los Angeles 1962",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Euler, Aor",
+            "full": "W. Euler, Modale Aoristbildungen und ihre Relikte in alteurop\u00e4ischen Sprachen. [Innsbrucker Beitr\u00e4ge zur Sprachwissenschaft 55] Innsbruck 1992",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Mitxelena",
+            "full": "Symbolae Louis Mitxelena septuagenario dicatae. Vitoria 1985",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Togan",
+            "full": "Zeki Velidi Togan'a Armagan [Symposium commemorating Z.V. Togan]. Istanbul 1985",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GenDatAkkDu",
+            "full": "G. Gnoli, Zoroaster's Time and Homeland. Naples 1980",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gnoli, ZorTime",
+            "full": "G. Gnoli, Zoroaster's Time and Homeland. Naples 1980",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Wackernagel",
+            "full": "Sprachwissenschaft und Philologie. Jakob Wackernagel und die Indogermanistik. Beitr\u00e4ge zu einem Kolloquium der Indogermanischen Gesellschaft. Wiesbaden 1992",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hi\u015aS",
+            "full": "Hira\u1e47yake\u015bi-\u015arautas\u016btra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "IEandlEans",
+            "full": "Indo-European and Indo-Europeans: Papers presented at the Third Indo-European Conference at the University of Pennsylvania, Philadelphia, 1970",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JIBS",
+            "full": "Journal of Indian and Buddhist Studies",
+            "type": "reference"
+        }
+    ],
+    "bib/EWAia-III.csv": [
+        {
+            "abbreviation": "Apte2",
+            "full": "V. S. Apte, Practical Sanskrit-English Dictionary. Revised and enlarged edition by P. K. Gode and C. G. Karve. 3 Bde. Poona 1957-1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Athena",
+            "full": "\u0391\u03b8\u03b7\u03bd\u1fb6, \u03a3\u03cd\u03b3\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1 \u03c0\u03b5\u03c1\u03b9\u03bf\u03b4\u03b9\u03ba\u1f78\u03bd \u03c4\u1fc6\u03c2 \u1f10\u03bd \u1f08\u03b8\u03ae\u03bd\u03b1\u03b9\u03c2 \u0395\u03c0\u03b9\u03c3\u03c4\u03b7\u03bc\u03bf\u03bd\u03b9\u03ba\u03ae\u03c2 \u0395\u03c4\u03b1\u03b9\u03c1\u03b5\u03af\u03b1\u03c2, Athen.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BachDN",
+            "full": "A. Bach, Deutsche Namenkunde. I-III. Heidelberg 1952-1956.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bai, KhotT VII",
+            "full": "H. W. Bailey, Indo-Scythian Studies. Being Khotanese Texts Volume VII. Cambridge etc. 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BDC",
+            "full": "Bulletin of the Deccan College Research Institute. Poona.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bechtel, HistPN",
+            "full": "F. Bechtel, Die historischen Personennamen des Griechischen bis zur Kaiserzeit. Halle 1917.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BerlIindS",
+            "full": "Berliner Indologische Studien. Reinbek.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Bhandarkar-Vol.",
+            "full": "D. R. Bhandarkar Volume. Kalkutta 1940.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Brough, CollP",
+            "full": "J. Brough, Collected Papers. London 1996",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "BS\u00fcdAF",
+            "full": "Beitr\u00e4ge zur S\u00fcdasienforschung. S\u00fcdasien-Institut Universit\u00e4t Heidelberg.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Cal Wunschopfer",
+            "full": "W. Caland, Altindische Zauberei. Darstellung der altindischen Wunschopfer. [VKNA Deel X No. 1, 1908]. Nachdruck Amsterdam 1983.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "CentRenou",
+            "full": "Langue, style et structure dans le monde indien. Centenaire de Louis Renou, Actes du colloque international (Paris, 25-27 janvier 1996). Paris 1996.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Couture",
+            "full": "A. Couture, L'enfance de Krishna. Traduction des chapitres 30 \u00e0 78. Laval 1991.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "C2",
+            "full": "s. S-W, C2 (unten III, XXX).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "DudenFWB",
+            "full": "Duden[.] Das Gro\u00dfe Fremdw\u00f6rterbuch. Herkunft und Bedeutung der Fremdw\u00f6rter. Mannheim etc. 1994.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EggermontACP",
+            "full": "P. H. O. Eggermont, Alexander's Campaigns in Sind and Baluchistan and the Siege of the Brahmin Town of Harma- telia. Leuven 1975.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EI",
+            "full": "Epigraphia Indica. Delhi.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Eil\u0100l",
+            "full": "W. Eilers, Die \u0100l, ein persisches Kindbettgespenst. [SbAkM\u00fcnchen 1979:7]. M\u00fcnchen 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EmKolami",
+            "full": "M. B. Emeneau, Kolami, A Dravidian Language. Berkeley 1955 (Reprinted Annamalainagar 1961).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EmmSk III",
+            "full": "EmmSk (o. I, XXIII), III (Wien 1997) [Sb\u00d6AW 651].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "EmSinduv\u0101ra",
+            "full": "M. B. Emeneau, The sinduv\u0101ra tree [and the sephalika] in Sanskrit literature. University of California Publications in Classical Philology 12 (1944) 333-346 [= SelP FalkSchrift 1-10].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "FalkSchrift",
+            "full": "H. Falk, Schrift im alten Indien. Ein Forschungsbericht mit Anmerkungen. T\u00fcbingen 1993.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Finot",
+            "full": "L. Finot, Les lapidaires indiens. Paris 1896.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Franke, KS",
+            "full": "R. O. Franke, Kleine Schriften. [Glasenapp-Stiftung Band 17]. Wiesbaden 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Frisk, SubstPriv",
+            "full": "H. Frisk, Substantiva privativa im Indogermanischen. [G\u00f6teborgs H\u00f6gskolas \u00c5rsskrift LIII 1947:31. G\u00f6teborg 1948.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Barton\u011bk",
+            "full": "Palaeograeca et Mycenaea Antonino Barton\u011bk Quinque et Sexagenario Oblata. Br\u00fcnn 1991",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Beekes",
+            "full": "Sound Law and Analogy. Papers in honor of Robert R. P. Beekes on the occasion of his 60th birthday. [LSIE 9]. Amsterdam- Atlanta 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Chhabra",
+            "full": "Svasti \u015ar\u012b. Dr. B. Ch. Chhabra Felicitation Volume. Delhi 1984.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs H\u00e4nsel",
+            "full": "XPONOE() Beitr\u00e4ge zur pr\u00e4historischen Arch\u00e4ologie zwischen Nord- und S\u00fcdost-europa(.) Festschrift f\u00fcr Bernhard H\u00e4nsel. Espelkamp 1997 - Schlerath, Metallg, o. II XXV].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Hirt",
+            "full": "Germanen und Indogermanen. Festschrift f\u00fcr Herman Hirt. 2 Bde, Heidelberg 1936.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Ji Xianlin",
+            "full": "Papers in Honour of Prof. Dr. Ji Xianlin on the Occasion of His 80th Birthday. Nan-chang 1991.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Lazard",
+            "full": "\u00c9tudes Irano-Aryennes Offertes \u00e0 G. Lazard. [Stir Cahier 7). Paris 1989.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Li Fang-kuei",
+            "full": "Bulletin of the Institute of History and Philology. Academia Sinica. 39 [In Honor of Dr. Li Fang-kuei). Taipei 1969.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Lochner-H\u00fcttenbach",
+            "full": "Studia Onomastica et Indogermanica. Fest-schrift Fritz Lochner von H\u00fcttenbach zum 65. Geburtstag. Graz 1995.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Ma\u0144czak",
+            "full": "Munus Amicitiae. Studia linguistica in honorem Witoldi Ma\u0144czak septuagenarii. Krakau 1995.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Puhvel",
+            "full": "Studies in Honor of Jaan Puhvel, Pt. I, II JIES Monogr. Nr. 20, 21, 1997).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Roth",
+            "full": "Festgru\u00df an R. v. Roth zum Doktor-Jubi- l\u00e4um 24. August 1893. Stuttgart 1893.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs R\u016b\u1d84e-Dravi\u1d87a",
+            "full": "Symposium Balticum. A Festschrift to hon- our Professor Velta R\u00fcke-Dravi\u0146a. Ham- burg 1990.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Schmidt",
+            "full": "Indogermanica et Caucasica. Festschrift f\u00fcr Karl Horst Schmidt zum 65. Geburtstag. Berlin New York 1994.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Shevoroshkin",
+            "full": "Indo-European, Nostratic, and Beyond: Festschrift for V. V. Shevoroshkin [JIES Monogr. Nr. 22, 1997].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs S\u0142uszkiewicz",
+            "full": "Anantap\u00e4rarh kila sabda\u015b\u00e4stram... Ksi\u0119ga pami\u0105tkowa ku czci Eugeniusza S\u0142uszkie- wicza. Warschau 1974. M\u00edr Curad. Studies in Honor of Calvert Watkins. Innsbruck 1998.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Fs Watkins",
+            "full": "G. Fussman und D. K\u00f6nig, Die Felsbildsta- tion Shatial. [Materialien zur Arch\u00e4ologie der Nordgebiete Pakistans Bd. 2]. Mainz 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GIndAPh",
+            "full": "Grundri\u00df der Indo-Arischen Philologie und Altertumskunde. Stra\u00dfburg.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "GiovStudio II, III",
+            "full": "P. Di Giovine, Studi sul Perfetto Indoeuro- peo (o. I, XXXI). Parte II, III [Biblioteca di Ricerche Linguistiche e Filologiche 40, 41]. Rom 1996.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gode",
+            "full": "s. Apte2, o. III XX.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Goto, Mat 1997",
+            "full": "T. Got\u014d, Materialien zu einer Liste altindi- scher Verbalformen: 16. chad, 17, chand/ chad, 18. chard/chrd, 19. dagh/dhag, 20. dves/dvis, 21. bandh/badh, 22. 'man, 23. 2man, 24. mn\u0103, 25. 'yav/yu, 26. yav/yu, 27. san', 28. star/str, 29. star/stj. Bulletin of the National Museum of Ethnology (o. 1, XXXII, II, XVI) 22 (1997 [1998]) 1001-1059.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Alsdorf",
+            "full": "Studien zum Jainismus und Buddhismus. Gedenkschrift f\u00fcr L. Alsdorf. [Alt- und Neuindische Studien 23]. Wiesbaden 1981.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Kury\u0142owicz I",
+            "full": "Kury\u0142owicz Memorial Volume, Part One, Krakau 1995.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Leroy",
+            "full": "Florilegium Historiographiae Linguisticae. Etudes d'historiographie de la linguistique et de grammaire compar\u00e9e \u00e0 la m\u00e9moire de Maurice Leroy. Louvain-la-Neuve 1994.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Gs Sircar",
+            "full": "Deyadharma. Studies in Memory of Dr. D. C. Sircar. Delhi 1986.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "G\u00fcnt, RW",
+            "full": "H. G\u00fcntert, \u00dcber Reimwortbildungen im Arischen und Altgriechischen. Heidelberg 1914.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HarvJAS",
+            "full": "Harvard Journal of Asiatic Studies. Cambridge/Mass.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Heidermanns",
+            "full": "F. Heidermanns, Etymologisches W\u00f6rterbuch der germanischen Prim\u00e4radjektive. Berlin New York 1993.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hiersche, DEW",
+            "full": "R. Hiersche, Deutsches etymologisches W\u00f6rterbuch. Buchstabe A, Heidelberg 1986; Buchstabe D, 1. Lieferung, Heidelberg 1990.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HinOPM",
+            "full": "O. v. Hin\u00fcber, The Oldest P\u00e1li Manuscript. [AAWL 1991: 6]. Mainz 1991.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HinP\u0101Lit",
+            "full": "O. v. Hin\u00fcber, A Handbook of P\u0101li Literature. Berlin - New York 1996.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HinSchrift",
+            "full": "O. v. Hin\u00fcber, Der Beginn der Schrift und fr\u00fche Schriftlichkeit in Indien. [AAWL 1989: 11]. Wiesbaden - Stuttgart 1990.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HinSelP",
+            "full": "O. v. Hin\u00fcber, Selected Papers on P\u00e1li Studies. Oxford 1994.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HinSprachentw",
+            "full": "O. v. Hin\u00fcber, Sprachentwicklung und Kulturgeschichte. Ein Beitrag zur materiellen Kultur des buddhistischen Klosterlebens. [AAWL 1992: 6] Stuttgart 1992.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HinUnters",
+            "full": "O. v. Hin\u00fcber, Untersuchungen zur M\u00fcndlichkeit fr\u00fcher mittelindischer Texte der Buddhisten. [AAWL 1994: 5] Stuttgart 1994.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Hoffm-Forssm",
+            "full": "K. Hoffmann - B. Forssman, Avestische Laut- und Flexionslehre. Innsbruck 1996. [Irrig o. II, XVIII (\u201e... und Formenlehre\u201c)].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "HopkinsEM",
+            "full": "E. W. Hopkins, Epic Mythology. [GIndAPh III, 1B]. Stra\u00dfburg 1915.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Huyse, \u0160KZ",
+            "full": "Ph. Huyse, Die dreisprachige Inschrift \u0160abuhrs I. an der Ka\u1d9cba-i Zardu\u0161t (\u0160KZ). Diss. Kathol. Univ. Leuven, Faculteit der Letteren en Wijsbegeerte 1991. Leuven 1991.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IHQ",
+            "full": "Indian Historical Quarterly. Kalkutta.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "IndIrIdg",
+            "full": "Indoarisch, Iranisch und die Indogermanistik, Arbeitstagung der Indogermanischen Gesellschaft... 1997 in Erlangen. Wiesbaden 2000.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JAsSoc",
+            "full": "Journal of the Asiatic Society. Kalkutta.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JE\u0100S",
+            "full": "Journal of the European \u0100yurvedic Society. Reinbek. [~ JEAyS, o. I, XXXVII].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "JollyMedicin",
+            "full": "J. Jolly, Medicin. [GIndAPh III, 10]. Stra\u00dfburg 1901.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Justi, Nb",
+            "full": "F. Justi, Iranisches Namenbuch. Marburg 1895, Nachdruck Hildesheim 1963.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KarttunenIHW",
+            "full": "K. Karttunen, India and the Hellenistic World. [StudOr 83]. Helsinki 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Karve",
+            "full": "s. Apte2, o. III XX.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Katre, P\u0101\u1e47",
+            "full": "A\u1e63\u1e6d\u0101dhy\u0101yi of P\u0101\u1e47ini, Roman Transliteration and English Translation by S. M. Katre. Delhi etc. 1989.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kazzazi, \u201eMann\u201c und \u201eFrau\u201c",
+            "full": "K. Kazzazi, \u201eMann\u201c und \u201eFrau\u201c im Rgveda. Mit einem Exkurs \u00fcber W\u00f6rter f\u00fcr \u201eFrau\u201c im Atharvaveda. Innsbruck 2001.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KirfelKosm",
+            "full": "W. Kirfel, Die Kosmographie der Inder nach den Quellen dargestellt. Bonn - Leipzig 1920.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Kittel",
+            "full": "F. Kittel, A Kannada-English Dictionary. Mangalore 1894.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "KuiKS",
+            "full": "F. B. J. Kuiper, Selected Writings on Indian Linguistics and Philology [LSIE 8]. Amsterdam - Atlanta 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lagarde, GesAbh",
+            "full": "P. de Lagarde, Gesammelte Abhandlungen. Leipzig 1866, Nachdruck Osnabr\u00fcck 1966,",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "LassenIA",
+            "full": "Ch. Lassen, Indische Alterthumskunde. I. Band, 2. Auflage, Leipzig - London 1867.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Leumann, KS",
+            "full": "M. Leumann, Kleine Schriften. Herausgegeben zum 60. Geburtstag am 6. Oktober 1959. Z\u00fcrich Stuttgart 1959.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lexis",
+            "full": "Lexis. Studien zur Sprachphilosophie, Sprachgeschichte und Begriffsforschung. Lahr i.B.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "LIV",
+            "full": "LIV. Lexikon der indogermanischen Verben. Die Wurzeln und ihre Prim\u00e4rstammbildungen. Unter Leitung von Helmut Rix ... bearbeitet von Martin K\u00fcmmel, Thomas Zehnder, Reiner Lipp, Brigitte Schirmer. Wiesbaden 1998.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Lokotsch",
+            "full": "-K. Lokotsch, Etymologisches W\u00f6rterbuch der europ\u00e4ischen (germanischen, romanischen und slavischen) W\u00f6rter orientalischen Ursprungs. Heidelberg 1927.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "L\u00fcders, Beob",
+            "full": "H. L\u00fcders, Beobachtungen \u00fcber die Sprache des buddhistischen Urkanons. [AbhAkWissBerlin 1952: 10). Berlin 1954.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "L\u00fcders, MathI",
+            "full": "H. L\u00fcders, Mathura Inscriptions. [AbhAkG\u00f6ttingen 3. Folge Nr. 47]. G\u00f6ttingen 1961.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "L\u00fcders, \u015aaubhikas",
+            "full": "H. L\u00fcders, Die Saubhikas. Ein Beitrag zur Geschichte des indischen Dramas. SbAk- Berlin 1916, 698\u2013737 | Phillnd 391\u2013428).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "L\u00fcders, Text",
+            "full": "H. L\u00fcders, Textilien im alten Turkestan. [AbhAkWissBerlin 1936: 3]. Berlin 1936.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Malten",
+            "full": "Th. Malten, Reduplizierte Verbst\u00e4mme im Tamil. [BS\u00fcdAF Band 127]. Stuttgart 1989.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Marzell",
+            "full": "H. Marzell, W\u00f6rterbuch der deutschen Pflanzennamen. I.-V. Band, Leipzig 1943-1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Medioir",
+            "full": "Medioiranica. Proceedings of the International Colloquium organized by the Katholieke Universiteit Leuven... 1990. [Orientalia Lovaniensia Analecta 48]. Leuven 1993).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Meyer",
+            "full": "J. J. Meyer, Das altindische Buch vom Welt- und Staatsleben. Leipzig 1926.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MeyerTril",
+            "full": "J. J. Meyer, Trilogie altindischer M\u00e4chte und Feste der Vegetation. Ein Beitrag zur vergleichenden Religions- und Kulturgeschichte, Fest- und Volkskunde. Z\u00fcrich und Leipzig 1937.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Mh, AKS [II]",
+            "full": "Mh, AKS [I] (o. I, XLIII), Band II (nach AKS [I] weiterlaufend paginiert). Wiesbaden 1996.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MyliusLit",
+            "full": "K. Mylius, Geschichte der altindischen Literatur. Bern-M\u00fcnchen-Wien 1988.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "MyliusP\u0101",
+            "full": "K. Mylius, W\u00f6rterbuch Pali-Deutsch, Wich- trach 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Norman, CollP",
+            "full": "K. R. Norman, Collected Papers I-V. Oxford 1990-1994.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Onions",
+            "full": "C. T. Onions (ed.), The Oxford Dictionary of English Etymology. New York und Oxford 1966 [Reprinted 1979].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Onoma",
+            "full": "Onoma. Bibliographical and Information Bulletin. Leuven.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Petersson, BuSl",
+            "full": "= H. Petersson, Baltisches und Slavisches. [Lunds Universitets \u00c5rsskrift N. F. Avd. 1, Bd. 12, No. 2]. Lund 1916.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Petersson, StFortR",
+            "full": "= H. Petersson, Studien zu Fortunatovs Regel, Lund 1911.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Pisani, LeC",
+            "full": "= V. Pisani, Lingue e Culture. Brescia 1969.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Puhvel IV",
+            "full": "= Puhvel (o. I, XLVII) Vol. 4: Words beginning with K. Berlin-New York 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "R\u00e9gamey",
+            "full": "= C. R\u00e9gamey, Bibliographie analytique des travaux relatifs aux \u00e9l\u00e9ments anaryens dans la civilisation et les langues de l'Inde. [Ex- trait du Bulletin de l'\u00c9cole Fran\u00e7aise d'Extr\u00eame-Orient, t. XXXIV, 1935].",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RESuppl XV",
+            "full": "= Paulys Realencyclop\u00e4die der Classischen Altertumswissenschaft. Neue Bearbeitung begonnen von G. Wissowa, fortgef\u00fchrt von W. Kroll und K. Mittelhaus... hg. von K. Ziegler. Supplementband XV. M\u00fcnchen 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Roesler, Licht",
+            "full": "= U. Roesler, Licht und Leuchten im Rgveda. Untersuchungen zum Wortfeld des Leuchens und zur Bedeutung des Lichts. [Indica et Tibetica Band 32]. Swisttal-Odendorf 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "RossilLEB",
+            "full": "= A. V. Rossi, Iranian Lexical Elements in Brahui. Neapel 1979.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Roth, SelP",
+            "full": "= G. Roth, Indian Studies (Selected Papers). Delhi 1986.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Scharfe, Unters",
+            "full": "H. Scharfe, Untersuchungen zur Staatsrechtslehre des Kautalya. Wiesbaden 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SchlingloffStadt",
+            "full": "D. Schlingloff, Die altindische Stadt. Eine vergleichende Untersuchung. [AAWL 1969: 51. Mainz 1969 (1970).",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schmid , Alteur",
+            "full": "W. P. Schmid, Alteurop\u00e4isch und Indo-germanisch. [AAWL 1968: 6]. Mainz 1968.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schm, IrNAisch",
+            "full": "R. Schmitt, Die Iranier-Namen bei Aischylos. (Iranica Graeca Vetustiora. I). SbOAW 337, Wien 1978.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SchokkerP\u0101d",
+            "full": "G. H. Schokker (ed.), The P\u00e4dat\u00e4ditaka of Syamilaka. [Indo-Iranian Monographs IX]. Den Haag-Paris 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Schwarzschild, CA",
+            "full": "L. A. Schwarzschild, Collected Articles on Indo-Aryan 1953-1979. Canberra 1991.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sharma-Vermeer",
+            "full": "A. Sharma - H. J. Vermeer, Hindi-Deutsches W\u00f6rterbuch. Band I. Hamburg 1987.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sircar",
+            "full": "D. C. Sircar, Indian Epigraphical Glossary. Delhi u.a. 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Sk\u00f6ldNir",
+            "full": "H. Sk\u00f6ld, The Nirukta. Its Place in Old Indian Literature[,] Its Etymologies. [Skri f- ter utgivna av kungl. humanistiska veten-skaps samfundet i Lund VIIIJ. Lund usw. 1926.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "\u0160milauer",
+            "full": "V. \u0160milauer, Handbuch der slawischen Toponomastik. Prag 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Speyer, Studies",
+            "full": "J. S. Speyer, Studies about the Kathasarit-s\u00e4gara. [VKNA Deel VIII. N\u00b0. 5]. Amsterdam 1908.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Stein, KS",
+            "full": "O. Stein, Kleine Schriften. [Glasenapp-Stiftung Bd. 25]. Stuttgart 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SteinR\u0101jat",
+            "full": "Kalhana's R\u0101jatarangini. Translated... by M. A. Stein. 2 Bde., Westminster 1900, Neudruck Delhi 1961.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Stietencron, IndSo",
+            "full": "H. v. Stietencron, Indische Sonnenpriester. Samba und die Sakadvipiya-Brahmana. Wiesbaden 1966.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "SuSermon",
+            "full": "W. Sundermann, Der Sermon von der Seele. [Berliner Turfantexte XIX]. Turnhout 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "S-W, C2",
+            "full": "N. Sims-Williams, The Christian Sogdian Manuscript C2. [Berliner Turfantexte 12]. Berlin 1985.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "TuReg",
+            "full": "R. L. Turner, A Comparative Dictionary of the Indo-Aryan Languages. Indexes [.] Compiled by D. R. Turner. London-New York-Toronto 1969.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Watkins, Dragon",
+            "full": "C. Watkins, How to Kill a Dragon. Aspects of Indo-European Poetics. New York - Oxford 1995.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Wiersmate Nijenhuis",
+            "full": "E. Wiersma - te Nijenhuis, Dattilam. A Compendium of Ancient Indian Music. [ORHT Vol. 11]. Leiden 1970.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Winternitz, KS",
+            "full": "M. Winternitz, Kleine Schriften. 2 Tle. [Glasenapp-Stiftung Bd. 30]. Stuttgart 1991.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "WinternitzLitt I, II",
+            "full": "M. Winternitz, Geschichte der indischen Litteratur. Band II, III. Leipzig 1920.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "WrbVIA I",
+            "full": "Ch. H. Werba, Verba Indoarica. Die prim\u00e4ren und sekund\u00e4ren Wurzeln der Sanskrit-Sprache. Pars I: Radices Primariae. Wien 1997.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Zachariae, Beitr",
+            "full": "Th. Zachariae, Beitr\u00e4ge zur indischen Lexicographie. Berlin 1883.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Zachariae, KS",
+            "full": "Th. Zachariae, Opera Minora 1, 2. [Glasenapp-Stiftung Bd. 12, 1, 2]. Wiesbaden 1977.",
+            "type": "reference"
+        },
+        {
+            "abbreviation": "Abhidh",
+            "full": "Abhidhanappadipik\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u0100ryav",
+            "full": "\u0100ryavidyasudhakara.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Ass.",
+            "full": "Assami, Assamesisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "A\u1e63\u1e6dG",
+            "full": "A\u1e63\u1e6d\u0101vakra-G\u012bt\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Astron.",
+            "full": "Astronomisch, in astronomischen Texten vorkommend.",
+            "type": "science"
+        },
+        {
+            "abbreviation": "A\u015bvav.",
+            "full": "A\u015bvavaidyaka.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Aua",
+            "full": "Austroasiatisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Aw.",
+            "full": "Awadhi.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "B\u0101dar",
+            "full": "B\u0101dar\u0101ya\u1e47a, Vedantas\u016btras.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "B\u0101lar",
+            "full": "B\u0101lar\u0101m\u0101ya\u1e47a.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Bhadrab",
+            "full": "Bhadrab\u0101hucarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Bh\u0101gP",
+            "full": "Bh\u0101gavata-Pur\u0101\u0146a.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Bh\u0101m",
+            "full": "Bh\u0101min\u012bvil\u0101sa.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Bha\u1e6d\u1e6d",
+            "full": "Bha\u1e6d\u1e6dik\u0101vya.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Bh\u0101vapr",
+            "full": "Bh\u0101vaprak\u0101\u015ba.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Bih.",
+            "full": "Bih\u0101r\u012b.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "BowerMs",
+            "full": "Bower-Manuskript.",
+            "type": "manuscript"
+        },
+        {
+            "abbreviation": "Br\u0329hatk",
+            "full": "Br\u0329hatkath\u0101\u015blokasa\u1e41graha.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "C\u0101\u1e47",
+            "full": "C\u0101\u1e47akya.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Ch\u0101g",
+            "full": "Ch\u0101galeya-Upani\u1e63ad.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Dam.",
+            "full": "Dameli (Dam\u1ebd\u1e0d\u012b\u0301)",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Damay",
+            "full": "Damayant\u012bkath\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Da\u015bak",
+            "full": "Da\u015bakum\u0101racarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Da\u015bar",
+            "full": "Da\u015bar\u016bpa.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Da\u015b\u0101v",
+            "full": "Da\u015b\u0101vat\u015bracarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "De\u015b",
+            "full": "De\u015b\u012bn\u0101mam\u0101l\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Dh\u016brtan",
+            "full": "Dh\u016brtanartaka.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Dh\u016brtas",
+            "full": "Dh\u016brtasam\u0101gama.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Gal",
+            "full": "Galanos.",
+            "type": "other"
+        },
+        {
+            "abbreviation": "Ga\u1e47ar",
+            "full": "Ga\u1e47aratnamahodadhi.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Ga\u1e47it",
+            "full": "Ga\u1e47it\u0101dhy\u0101ya",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Go.",
+            "full": "Gondi",
+            "type": "language"
+        },
+        {
+            "abbreviation": "GopKC",
+            "full": "Gop\u0101lakelicandrik\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Govardh",
+            "full": "Govardhana, \u0100ry\u0101sapta\u015bat\u012b",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Harav",
+            "full": "Haravijaya.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Hariv",
+            "full": "Hariva\u1e41\u015ba.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Har\u1e63ac",
+            "full": "Har\u1e63acarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Hasty\u0101",
+            "full": "Hasty\u0101yurveda.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Hcat",
+            "full": "Hem\u0101dri, Caturvargacint\u0101ma\u1e47i.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Hem",
+            "full": "Hemacandra",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u012a\u015bv",
+            "full": "\u012a\u015bvarag\u012bt\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "K\u0101d",
+            "full": "K\u0101dambar\u012b.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "K\u0101lac",
+            "full": "K\u0101lacakra",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "K\u0101mN",
+            "full": "K\u0101mandak\u012bya-N\u012btis\u0101ra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kat.",
+            "full": "Katalog(e).",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kath\u0101r\u1e47",
+            "full": "Kath\u0101r\u1e47ava.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kath\u0101s",
+            "full": "Kath\u0101sarits\u0101gara.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kau\u1e6d",
+            "full": "Kau\u1e6dilya.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "K\u0101vy\u0101d",
+            "full": "K\u0101vy\u0101dar\u015ba.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "K\u0101vyapr",
+            "full": "K\u0101vyaprak\u0101\u015ba.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kol.",
+            "full": "Kolami.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kull",
+            "full": "Kull\u016bka, Komm. zu Mn.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kum.",
+            "full": "Kumaon\u012b.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Kuval",
+            "full": "Kuvalay\u0101ndak\u0101rik\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Kur.",
+            "full": "Kurukh (Kurux).",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Ku\u1e6d\u1e6d",
+            "full": "Ku\u1e6d\u1e6dan\u012bmata.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Madanav",
+            "full": "Madanavinoda.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Mahavy",
+            "full": "Mah\u0101vyutpatti.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Maith.",
+            "full": "Maithil\u012b.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "MaitrUp",
+            "full": "Maitryupani\u1e63ad",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "M\u0101lat",
+            "full": "M\u0101lat\u012bm\u0101dhava",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "M\u0101nas",
+            "full": "M\u0101nasoll\u0101sa",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Manmath",
+            "full": "Manmathonmathana.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Mbg.",
+            "full": "Mittel-Bengali.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Mbh",
+            "full": "Mah\u0101bh\u0101rata.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Mlat.",
+            "full": "Mittellatein.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Mrcch",
+            "full": "Mr\u0329cchaka\u1e6dik\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Nai\u1e63",
+            "full": "Nai\u1e63adhacarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Nalac ",
+            "full": "Nalacamp\u016b.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Ne.",
+            "full": "Neuenglisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "N\u012blak.",
+            "full": "N\u012blaka\u1e47\u1e6dha.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "N\u012blam.",
+            "full": "N\u012blamata-Upapur\u0101\u1e47a.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Nk(Ch)",
+            "full": "Naiki (Chanda).",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Nl",
+            "full": "Niederl\u00e4ndisch.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "PadmaP",
+            "full": "Padma-Pur\u0101\u0146a.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "p\u0101m.",
+            "full": "den P\u0101mirsprachen zugeh\u00f6rig.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Pa\u00f1cad",
+            "full": "Pa\u00f1cada\u1e47\u1e0dacchattraprabandha.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Pa\u00f1car.",
+            "full": "Pa\u00f1caratra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Pancat",
+            "full": "Pa\u00f1catantra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "ParDh\u015a",
+            "full": "Par\u0101\u015baras Dharma\u015bastra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "P\u0101r\u015bvan",
+            "full": "P\u0101r\u015bvan\u0101thacarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Phal.",
+            "full": "Phal\u016b\u1e5ba.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Prab",
+            "full": "Prabodhacandrodaya.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Prabh\u0100r",
+            "full": "Prabh\u0101candra, \u0100r\u0101dhan\u0101kath\u0101prabandha.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Praca\u1e47\u1e0d",
+            "full": "Praca\u1e47\u1e0dap\u0101\u1e47\u1e0dava.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Prasannar",
+            "full": "Prasannar\u0101ghava.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "P\u016br\u1e47abh",
+            "full": "P\u016br\u1e47abhadra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "R\u0101jan",
+            "full": "R\u0101janigha\u1e47\u1e6du. ",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "R\u0101jat",
+            "full": "R\u0101jatara\u1e45gin\u012b.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "R\u0101jPrab",
+            "full": "R\u0101ja\u015bekharas\u016bri, Prabandhako\u015ba.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "R\u0101m",
+            "full": "R\u0101m\u0101ya\u1e47a",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "R\u0101matUp",
+            "full": "R\u0101mat\u0101pan\u012bya-Upani\u1e63ad.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Sa.",
+            "full": "Santali (Sant\u0101l\u012b).",
+            "type": "language"
+        },
+        {
+            "abbreviation": "\u015aabdar",
+            "full": "\u015aabdaratn\u0101kara.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "S\u0101h",
+            "full": "S\u0101hityadarpa\u1e47a.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u015ar\u0101\u1e45gS",
+            "full": "\u015ar\u0101\u1e45gadhara-Sa\u1e41hit\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Sarvad.",
+            "full": "Sarvadar\u015banasa\u1e41graha.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u015aatr",
+            "full": "\u015aatru\u00f1jayam\u0101h\u0101tmya.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Si.",
+            "full": "Sindh\u012b.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "Si\u1e41h\u0101s",
+            "full": "Si\u1e41h\u0101sanadv\u0101tri\u1e41\u015bik\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u015ai\u015b",
+            "full": "\u015ai\u015bup\u0101lavadha.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u015aKDr",
+            "full": "\u015aabdakalpadruma.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u015ar\u012bka\u1e47\u1e6dh",
+            "full": "\u015ar\u012bka\u1e47\u1e6dhacarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u0160KZ",
+            "full": "\u0160abuhr I., dreisprachige Inschrift an der Ka'ba-i Zardust. [S. auch Huyse, o. III XXV).",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "SaUB",
+            "full": "Sa\u1e41hitopani\u1e63adbr\u0101hma\u1e47a.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Subh",
+            "full": "Subh\u0101\u1e63it\u0101val\u012b.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "\u015auk [t. o.]",
+            "full": "\u015aukasaptati [textus ornatior].",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "S\u016bryas",
+            "full": "S\u016bryasiddh\u0101nta.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Tel.",
+            "full": "Telugu.",
+            "type": "language"
+        },
+        {
+            "abbreviation": "V\u0101gbh",
+            "full": "V\u0101gbhata, A\u1e63\u1e6d\u0101\u1e45gah\u1e5bdayasa\u1e41hit\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "VaikhGr\u0329S.",
+            "full": "Vaikh\u0101nasagr\u0329hyas\u016btra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Vaikh\u015arS.",
+            "full": "Vaikh\u0101nasa\u015brautas\u016btra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "VarBr\u0329j",
+            "full": "Var\u0101hamihira, Br\u0329hajj\u0101taka.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "VarHo",
+            "full": "Var\u0101hamihira, Hor\u0101\u015b\u0101stra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "VarLagh.",
+            "full": "Var\u0101hamihira, Laghuj\u0101taka.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "VarYog",
+            "full": "Var\u0101hamihira, Yogay\u0101tr\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "V\u0101sav",
+            "full": "V\u0101savadatt\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Vas\u015a\u0101k",
+            "full": "Vasantar\u0101jas \u015a\u0101kuna.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Vcar",
+            "full": "Vikram\u0101\u1e45kadevacarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Vcar",
+            "full": "Vikram\u0101\u1e45kadevacarita.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Ved\u0101ntas",
+            "full": "Ved\u0101ntas\u0101ra.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "VetJambh",
+            "full": "Vet\u0101lapa\u00f1cavi\u1e41satik\u0101, Jambhaladatta-Version.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "Viddh",
+            "full": "Viddha\u015b\u0101labha\u00f1jik\u0101.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "XVan",
+            "full": "Xerxes, Van.",
+            "type": "literature"
+        },
+        {
+            "abbreviation": "FlN",
+            "full": "Flu\u00dfname.",
+            "type": "\u00fcbrige"
+        },
+        {
+            "abbreviation": "incl.",
+            "full": "inclusie.",
+            "type": "\u00fcbrige"
+        },
+        {
+            "abbreviation": "Z. T(l)",
+            "full": "zum Teil.",
+            "type": "\u00fcbrige"
+        }
+    ]
+}
