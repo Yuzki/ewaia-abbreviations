@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     searchInput.addEventListener("input", function () {
         const searchTerm = searchInput.value.toLowerCase();
 
-        fetch("https://yuzki.github.io/SktTool/bib/web/ewaia.json")
+        fetch("./ewaia.json")
             .then(response => response.json())
             .then(data => {
                 resultsContainer.innerHTML = "";
