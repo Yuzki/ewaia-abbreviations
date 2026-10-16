@@ -12,7 +12,21 @@ Run this from the repository root. Python 3 and uv are required.
 uv run python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8000/> and it redirects to `bib/web/search.html`. The page fetches its JSON from `bib/web/ewaia.json` on the same site and does not depend on SktTool's data hosting. Because all URLs are relative, the site also works under a subpath such as GitHub Pages. Publishing setup is not part of the work in this repository.
+Open <http://127.0.0.1:8000/>. The page fetches its JSON from `data/ewaia.json` on the same site and does not depend on SktTool's data hosting. Because all URLs are relative, the site also works under a subpath such as GitHub Pages. Publishing setup is not part of the work in this repository.
+
+## Layout
+
+| Path | Contents |
+| --- | --- |
+| `index.html` | The search page (canonical URL: the site root) |
+| `assets/` | `script.js`, `styles.css`, `locales/` (interface dictionaries), `vendor/` (shared design copy) |
+| `data/ewaia.json` | Generated search data fetched by the page |
+| `data/source/` | Source CSV files and source notes ([README](data/source/README.md)) |
+| `scripts/joincsv.py` | Generator for `data/ewaia.json` |
+| `tests/` | Node tests |
+| `bib/web/` | Legacy URLs only: `search.html` redirects to the root (keeping `?lang=` and the hash) and `ewaia.json` is a generated identical copy of the data |
+
+The site is served from the repository root, so the root URL and `bib/web/search.html` (the old location) keep working. SktTool's relocation notice points at the site root only, so no other destination is needed. The old direct URLs of the other files under `bib/` (CSV files, scripts, styles, locales, vendor) were implementation details and are not kept.
 
 ## Using the search
 
@@ -27,27 +41,29 @@ Without JavaScript, the page shows its structure, a notice, and the source and l
 
 ## Shared design (pilot)
 
-The page uses the VEDA AI shared design as a pilot for [issue #1](https://github.com/Yuzki/ewaia-abbreviations/issues/1). The CSS and the optional language and theme scripts are copied unmodified from an unreleased snapshot (0.1.0, commit `fbeb384`) into `bib/web/vendor/veda-design/0.1.0-pilot-fbeb384/`. [SOURCE.md](bib/web/vendor/veda-design/0.1.0-pilot-fbeb384/SOURCE.md) there records the upstream commit, file digests, terms status, and update and rollback steps. The interface text is in `bib/web/locales/`, and service-specific styles are in `bib/web/styles.css`.
+The page uses the VEDA AI shared design as a pilot for [issue #1](https://github.com/Yuzki/ewaia-abbreviations/issues/1). The CSS and the optional language and theme scripts are copied unmodified from an unreleased snapshot (0.1.0, commit `fbeb384`) into `assets/vendor/veda-design/0.1.0-pilot-fbeb384/`. [SOURCE.md](assets/vendor/veda-design/0.1.0-pilot-fbeb384/SOURCE.md) there records the upstream commit, file digests, terms status, and update and rollback steps. The interface text is in `assets/locales/`, and service-specific styles are in `assets/styles.css`.
 
 The page loads no CDN, web font, or other external resource at run time, so it works offline once served. Applying this design to other services is not part of this pilot.
 
 ## Checks
 
 ```sh
-node --test tests/
+node --test
 ```
 
-`tests/search.test.cjs` compares the search with the original page's matching code on the real data and on small edge-case fixtures. `tests/locales.test.cjs` checks that the English and Japanese dictionaries match, that every key the page uses exists, and how counts are formatted. The tests use only Node built-in modules.
+(`node --test tests/` also works on Node versions before 24; Node 24 treats the directory argument as a module path. Plain `node --test` finds `tests/*.test.cjs` on all versions.)
+
+`tests/search.test.cjs` compares the search with the original page's matching code on the real data and on small edge-case fixtures. `tests/layout.test.cjs` checks that the page's local references resolve and that the legacy `bib/web/` URLs stay in place. `tests/locales.test.cjs` checks that the English and Japanese dictionaries match, that every key the page uses exists, and how counts are formatted. The tests use only Node built-in modules.
 
 ## Regenerating the data
 
 ```sh
-uv run python bib/web/joincsv.py
+uv run python scripts/joincsv.py
 ```
 
 Using only the Python standard library, the script generates 932 entries from the 4 CSV files. It can also be run from another working directory by giving the absolute path to the script. It preserves the JSON keys, row order, strings, and types, and reports missing required headers or values as errors. It does not strip whitespace, remove duplicates, normalize Unicode, or correct OCR errors.
 
-For the original sources, the mapping of CSV files, the conversion history, and unresolved rights questions, see [DATA_SOURCES.md](DATA_SOURCES.md). For the source notes, see [bib/README.md](bib/README.md). The data went through OCR and conversion by ChatGPT (GPT-3.5), so it contains typos and incorrect type assignments.
+For the original sources, the mapping of CSV files, the conversion history, and unresolved rights questions, see [DATA_SOURCES.md](DATA_SOURCES.md). For the source notes, see [data/source/README.md](data/source/README.md). The data went through OCR and conversion by ChatGPT (GPT-3.5), so it contains typos and incorrect type assignments.
 
 ## Dependencies and terms
 
