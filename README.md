@@ -44,7 +44,9 @@ Without JavaScript, the page shows its structure, a notice, and the source and l
 
 ## Shared design (pilot)
 
-The page uses the VEDA AI shared design as a pilot for [issue #1](https://github.com/Yuzki/ewaia-abbreviations/issues/1). The CSS and the optional language and theme scripts are copied unmodified from an unreleased snapshot (0.1.0, commit `fbeb384`) into `assets/vendor/veda-design/0.1.0-pilot-fbeb384/`. [SOURCE.md](assets/vendor/veda-design/0.1.0-pilot-fbeb384/SOURCE.md) there records the upstream commit, file digests, terms status, and update and rollback steps. The interface text is in `assets/locales/`, and service-specific styles are in `assets/styles.css`.
+The page uses the VEDA AI shared design as a pilot for [issue #1](https://github.com/Yuzki/ewaia-abbreviations/issues/1). The CSS and the optional language and theme scripts are copied unmodified from an unreleased snapshot (0.1.0, commit `0b90d3c`) into `assets/vendor/veda-design/0.1.0-pilot-0b90d3c/`. [SOURCE.md](assets/vendor/veda-design/0.1.0-pilot-0b90d3c/SOURCE.md) there records the upstream commit, file digests, terms status, and update and rollback steps. The interface text is in `assets/locales/`, and service-specific styles are in `assets/styles.css`. The previous snapshot (`0.1.0-pilot-fbeb384`) is kept for rollback.
+
+The footer has a "Report a problem" link to the public issue form in `Yuzki/veda-ai-feedback` (shared design PR #4, `scripts/report.js`). It pre-fills `service` with `EWAia Abbreviation Search` (always English) and, when JavaScript runs, `page` with the page origin and path only. The query string (including the search term and `lang`) and the hash are never sent. Reports become public GitHub issues and need a GitHub account; the link text and a note saying so are in the locale files. The upstream terms are still unconfirmed.
 
 The page loads no CDN, web font, or other external resource at run time, so it works offline once served. Applying this design to other services is not part of this pilot.
 
