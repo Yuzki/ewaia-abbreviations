@@ -13,7 +13,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const head = html.match(/<head>[\s\S]*?<\/head>/)[0];
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-e8154fd";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-9d65cf4";
 const KEY = "veda-theme";
 
 // Load theme.js the way index.html references it.
@@ -87,9 +87,9 @@ test("index.html wires one synchronous theme.js, one labelled select and hidden 
     assert.match(html, new RegExp(`<label[^>]*for="${id}"[^>]*data-i18n="common\\.theme\\.label"`));
     assert.deepEqual([...selects[0][1].matchAll(/<option value="([^"]*)"/g)].map((m) => m[1]), ["system", "light", "dark"]);
     assert.match(html, new RegExp(`<div[^>]*data-veda-requires-js hidden[^>]*>\\s*<label[^>]*for="${id}"`));
-    assert.match(html, /<details class="veda-settings" data-veda-settings hidden>\s*<summary class="veda-settings__summary"><span data-i18n="common\.settings\.label">/);
+    assert.match(html, /<div class="veda-header__tools">\s*<details class="veda-settings" data-veda-settings hidden>\s*<summary class="veda-settings__summary"><span data-i18n="common\.settings\.label">/);
     assert.equal(html.match(/<details\b/g).length, 1);
-    assert.doesNotMatch(html, /veda-header__tools/);
+    assert.equal(html.match(/veda-header__tools/g).length, 1);
     assert.doesNotMatch(html.match(/<html[^>]*>/)[0], /data-veda-theme/);
 });
 
@@ -100,8 +100,9 @@ test("theme dictionary keys exist in en and ja, and all CSS/JS come from one sna
         assert.ok(JSON.parse(read(`assets/locales/${lang}.json`)).common.settings.label, `${lang} settings.label`);
     }
     const refs = [...head.matchAll(/(?:href|src)="(assets\/vendor\/[^"]+)"/g)].map((m) => m[1]);
-    assert.equal(refs.length, 6);
+    assert.equal(refs.length, 7);
     for (const ref of refs) assert.ok(ref.startsWith(`${VENDOR}/`), ref);
+    assert.ok(refs.includes(`${VENDOR}/scripts/settings.js`));
 });
 
 // [name, initial attribute, saved value, expected data-veda-theme, expected get()]

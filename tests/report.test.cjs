@@ -12,7 +12,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const SERVICE = "EWAia Abbreviation Search";
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-e8154fd";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-9d65cf4";
 
 const link = html.match(/<a [^>]*data-veda-report-link[^>]*>/)[0];
 const attr = (name) => link.match(new RegExp(`\\b${name}="([^"]*)"`))[1];
@@ -37,11 +37,11 @@ test("index.html uses the new vendor dir and report.js only", () => {
     assert.ok(!html.includes("0.1.0-pilot-fbeb384") && !html.includes("0.1.0-pilot-0b90d3c"));
 });
 
-test("SOURCE.md digests match all six vendored files", () => {
+test("SOURCE.md digests match all seven vendored files", () => {
     const source = read(`${VENDOR}/SOURCE.md`);
     const rows = [...source.matchAll(/\| `((?:styles|scripts)\/[^`]+)` \| `([0-9a-f]{64})` \|/g)];
     assert.deepEqual(rows.map((row) => row[1]).sort(), [
-        "scripts/i18n.js", "scripts/report.js", "scripts/theme.js",
+        "scripts/i18n.js", "scripts/report.js", "scripts/settings.js", "scripts/theme.js",
         "styles/components.css", "styles/tokens.css", "styles/typography.css",
     ]);
     for (const [, file, digest] of rows) {

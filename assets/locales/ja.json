@@ -40,6 +40,18 @@
         "other": "{count}件（全{total}件中）"
       }
     },
+    "jump": {
+      "link": "検索結果へ移動"
+    },
+    "pagination": {
+      "label": "結果のページ移動",
+      "prev": "前のページ",
+      "next": "次のページ",
+      "page": "{page} / {pages} ページ",
+      "range": {
+        "other": "{from}–{to}件目 / 全{count}件"
+      }
+    },
     "meta": {
       "type": "種類",
       "source": "出典: EWAia 略号表（{file}）"
