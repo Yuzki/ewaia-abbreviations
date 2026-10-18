@@ -26,8 +26,8 @@ EWAia-I.csv,383,full,Proceedings of the 11th International Congress of Linguists
 EWAia-I.csv,387,full,SDJT1hitäs,Saṁhitās,garbled Sanskrit word; exact diacritics unknown
 EWAia-I.csv,387,full,M. 8.,M. S.,initial uncertain (8 vs S)
 EWAia-I.csv,392,full,"[,,(Großes) Petersburger Worterbuchj.",[„(Großes) Petersburger Wörterbuch“].,quotes and brackets garbled; Worterbuch may be original spelling
-EWAia-I.csv,405,full,~gveda-Samhitii.,Ṛgveda-Saṁhitā.,garbled Sanskrit title; spelling convention (Samhita vs Saṁhitā) unclear
-EWAia-I.csv,406,full,~eda-Prätisäkhya.,Ṛgveda-Prātiśākhya.,garbled Sanskrit title; a letter is missing
+EWAia-I.csv,405,full,~gveda-Samhitii.,R̩gveda-Saṁhitā.,garbled Sanskrit title; spelling convention (Samhita vs Saṁhitā) unclear
+EWAia-I.csv,406,full,~eda-Prätisäkhya.,R̩gveda-Prātiśākhya.,garbled Sanskrit title; a letter is missing
 EWAia-I.csv,431,full,(~µex 5/6),(Index 5/6),garbled volume note; reading uncertain
 EWAia-I.csv,449,full,Heidel-berg,Heidelberg,"line-break hyphen; row not flagged as a candidate, so not corrected"
 EWAia-I.csv,476,full,Wörter-buch,Wörterbuch,"line-break hyphen; row not flagged as a candidate, so not corrected"
