@@ -11,12 +11,15 @@ and a separate change.
   (request: [issue #5](https://github.com/Yuzki/veda-ai-design-system/issues/5)),
   plus [PR #7](https://github.com/Yuzki/veda-ai-design-system/pull/7), which
   groups language and theme into a collapsed "Display settings"
-  `details.veda-settings`. Pinned merge commit
-  `e8154fdfcabb617b0ca4c2585b7da6fe458b84e9` (PR #7).
-- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-e8154fd/`
-  ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-e8154fd/SOURCE.md)).
-  `components.css`, `theme.js` and `i18n.js` differ from the previous snapshot
-  (`0.1.0-pilot-0a4c491`, kept for rollback).
+  `details.veda-settings`, and
+  [issue #9](https://github.com/Yuzki/veda-ai-design-system/issues/9), which
+  makes it a right-end popover (`settings.js`) and adds the results jump link
+  and pagination styles. Pinned commit
+  `9d65cf437a8ed34c70647f5dce19193bbb36e323`.
+- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-9d65cf4/`
+  ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-9d65cf4/SOURCE.md)).
+  `components.css` differs from `0.1.0-pilot-e8154fd` and `settings.js` is new;
+  the other five files are byte-identical (kept for rollback).
 - The header's separate language and theme selects are now inside the shared
   collapsed settings component (new key `common.settings.label`). Behavior is
   unchanged: system / light / dark saving and restoring, language switching.
@@ -32,7 +35,12 @@ node --test
 
 ## Automated checks (Node, no browser)
 
-`node --test`: 50 tests pass (search, layout, locales, report, theme).
+`node --test`: 56 tests pass (search, layout, locales, report, theme,
+pagination). `tests/pagination.test.cjs` runs `assets/script.js` against a
+minimal fake DOM: 50 entries mounted for the empty search (932 total), all 19
+pages traversed in data order, page reset on query/field change, page kept on
+`veda:languagechange`, focus on the results heading only for page/jump actions
+(not while typing), `RV` → 23 with no pager.
 `tests/theme.test.cjs` runs the vendored `theme.js` named in `index.html` in a
 VM stub and covers: start-up priority (valid attribute, saved value, invalid
 attribute/saved value, `system`), API `set`/`get`, select change, `system`
@@ -44,22 +52,37 @@ invalid initial attribute (empty, unknown, `system`), including "system
 attribute + saved dark".
 
 It also checks that `index.html` has one `details.veda-settings[data-veda-settings]`
-holding both selects (no leftover `veda-header__tools`), and that `theme.js`
-reveals the enclosing `details`.
+inside one `div.veda-header__tools` and holding both selects, that `settings.js`
+is loaded, and that `theme.js` reveals the enclosing `details`.
 
 The stub does not cover OS changes, CSS colors, rendering, or accessibility.
 
 ## Browser checks
 
-**Not performed.** No browser (Chromium-based or Firefox) was available to the
-implementing agent, so every row below is unconfirmed. Nothing here counts as
-passed, and the automated checks do not stand in for them. Fill in browser,
-OS, date, result, and evidence (screenshots under `.agents/` or elsewhere
-local) when someone runs them.
+**Partly performed.** Headless Firefox (via geckodriver's WebDriver API, local
+scripts `.agents/wd_check.py` and `.agents/wd_narrow.py`, not committed) on
+Linux, 2026-10-18. 320 and 390 px were measured in an iframe, because headless
+windows cannot go narrower than about 488 px. Results:
+
+- Settings popover (1280, 488, 390 and 320 px; en and ja): summary at the right
+  end of the header, brand not clipped, opening it keeps the header height and
+  does not push content, panel stays inside the viewport, Escape closes it and
+  returns focus to the summary, an outside click closes it, no horizontal
+  overflow.
+- Search row stacks with a full-width button below 40rem; the "Go to results"
+  link is shown.
+- Empty search mounts 50 of 932; all 19 pages reachable (932 entries); page
+  action and jump link move focus to the results heading; language and theme
+  changes keep page 19 and the input; typing `RV` gives 23 results with no
+  pager and the input keeps focus.
+
+Everything marked "not run" below is still unconfirmed, as are Chromium,
+screenshots, ja/en x dark comparison, 400 % zoom, forced colors, and
+failure/retry in a browser. The automated checks do not stand in for them.
 
 | Condition | Expected | Result | Evidence |
 | --- | --- | --- | --- |
-| Display settings component (new) | Header shows only a collapsed "Display settings / 表示設定" summary; it opens by mouse and keyboard, holds language and theme selects, stays closed when theme or language is changed through the API, and is hidden with JS off | not run | - |
+| Display settings component (new) | Header shows only a collapsed "Display settings / 表示設定" summary at the right end; it opens as an overlay by mouse and keyboard, holds language and theme selects, closes on Esc/outside click, stays closed when theme or language is changed through the API, and is hidden with JS off | open/close, Esc, outside click, layout: pass in Firefox headless (see above); keyboard Tab-out, JS off: not run | `.agents/wd_check.py` |
 | OS light/dark x select system/light/dark | Body, inputs, select, buttons, links, results, status text readable; explicit choice beats OS; system follows an OS change at once and `get()` stays `system` | not run | - |
 | Opposite-of-OS choice, reload | Choice and select restored; no wrong-color first paint (slow load or screen recording) | not run | - |
 | Back to system, reload | Root attribute and `veda-theme` key gone; follows OS | not run | - |
@@ -94,6 +117,10 @@ None in the automated checks. No visual problem could be observed. No
    separate step after explicit permission.
 
 ## Rollback
+
+To undo the issue #9 update only, point the asset paths in `index.html` back at
+`0.1.0-pilot-e8154fd`, drop `settings.js` and the `veda-header__tools` wrapper,
+and revert the pagination/jump markup, script and locale keys.
 
 Point the six asset paths in `index.html` (and the snapshot path in
 `tests/report.test.cjs` and `tests/theme.test.cjs`) back at
