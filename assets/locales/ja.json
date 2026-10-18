@@ -60,6 +60,8 @@
     "repository": "ソースコード（GitHub）",
     "dataSources": "データの出典と来歴（英語）",
     "license": "コードのライセンス（MIT、英語）",
-    "rights": "このプロジェクトのコードは MIT License で提供しています。略号データの利用条件は未定で、データには MIT License を適用しません。"
+    "rights": "このプロジェクトのコードは MIT License で提供しています。略号データの利用条件は未定で、データには MIT License を適用しません。",
+    "report": "問題を報告",
+    "reportNote": "報告は GitHub の公開 issue になります。GitHub アカウントが必要で、入力した内容は誰でも読めます。個人情報は書かないでください。"
   }
 }

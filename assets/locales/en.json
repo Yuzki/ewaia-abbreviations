@@ -61,6 +61,8 @@
     "repository": "Source code (GitHub)",
     "dataSources": "Data sources and provenance",
     "license": "Code license (MIT)",
-    "rights": "This project’s code is licensed under the MIT License. The terms for the abbreviation data are undecided, and the MIT License does not apply to the data."
+    "rights": "This project’s code is licensed under the MIT License. The terms for the abbreviation data are undecided, and the MIT License does not apply to the data.",
+    "report": "Report a problem",
+    "reportNote": "Reports become public GitHub issues. A GitHub account is required, and anything you write can be read by anyone. Do not include personal information."
   }
 }
