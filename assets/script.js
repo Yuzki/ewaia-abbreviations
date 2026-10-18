@@ -11,6 +11,7 @@
     "use strict";
 
     const DATA_URL = "data/ewaia.json";
+    const PAGE_SIZE = 50;
 
     // English messages for dynamic text before the dictionaries load or when
     // they fail. Must match locales/en.json (checked by tests/locales.test.cjs).
@@ -18,6 +19,15 @@
         "search.results.count": {
             one: "{count} entry (of {total})",
             other: "{count} entries (of {total})",
+        },
+        "search.jump.link": "Go to results",
+        "search.pagination.label": "Result pages",
+        "search.pagination.prev": "Previous page",
+        "search.pagination.next": "Next page",
+        "search.pagination.page": "Page {page} of {pages}",
+        "search.pagination.range": {
+            one: "Showing {from}–{to} of {count} entry",
+            other: "Showing {from}–{to} of {count} entries",
         },
         "search.meta.type": "Type",
         "search.meta.source": "Source: EWAia list of abbreviations ({file})",
@@ -53,6 +63,15 @@
         let total = 0;
         for (const group in data) total += data[group].length;
         return total;
+    }
+
+    // Clamps the page into range; from/to are 1-based and inclusive, start/end slice bounds.
+    function paginate(total, page, size = PAGE_SIZE) {
+        const pages = Math.max(1, Math.ceil(total / size));
+        const current = Math.min(Math.max(Math.trunc(page) || 1, 1), pages);
+        const start = (current - 1) * size;
+        const end = Math.min(start + size, total);
+        return { page: current, pages, start, end, from: start + 1, to: end };
     }
 
     function validateData(data) {
@@ -94,6 +113,15 @@
         const count = document.getElementById("resultCount");
         const status = document.getElementById("searchStatus");
         const resultsList = document.getElementById("searchResults");
+        const resultsTitle = document.getElementById("resultsTitle");
+        const jump = document.getElementById("resultsJump");
+        const jumpLink = document.getElementById("resultsJumpLink");
+        const jumpCount = document.getElementById("resultsJumpCount");
+        const pagination = document.getElementById("pagination");
+        const paginationRange = document.getElementById("paginationRange");
+        const pageCurrent = document.getElementById("pageCurrent");
+        const pagePrev = document.getElementById("pagePrev");
+        const pageNext = document.getElementById("pageNext");
 
         const STATUS = {
             loading: { tone: "info", title: "search.status.loadingTitle", body: "search.status.loadingBody" },
@@ -169,12 +197,26 @@
         function draw() {
             const { state } = view;
             initial.hidden = state !== "initial";
-            count.textContent = state === "results"
+            const countText = state === "results"
                 ? message("search.results.count", { count: view.results.length, total: view.total })
                 : "";
+            count.textContent = countText;
+            // The jump line is plain text; the count above is the only live region.
+            jumpCount.textContent = countText;
+            const paging = state === "results" ? paginate(view.results.length, view.page) : null;
+            if (paging) view.page = paging.page;
+            pagination.hidden = !paging || paging.pages === 1;
+            if (paging && paging.pages > 1) {
+                paginationRange.textContent = message("search.pagination.range", {
+                    from: paging.from, to: paging.to, count: view.results.length,
+                });
+                pageCurrent.textContent = message("search.pagination.page", { page: paging.page, pages: paging.pages });
+                pagePrev.disabled = paging.page === 1;
+                pageNext.disabled = paging.page === paging.pages;
+            }
             status.replaceChildren(...(STATUS[state] ? [statusBox(STATUS[state])] : []));
             resultsList.setAttribute("aria-busy", String(state === "loading"));
-            resultsList.replaceChildren(...(state === "results" ? view.results.map(resultItem) : []));
+            resultsList.replaceChildren(...(state === "results" ? view.results.slice(paging.start, paging.end).map(resultItem) : []));
             resultsList.hidden = state !== "results";
         }
 
@@ -209,7 +251,8 @@
 
         function showResults() {
             const results = searchEntries(data, input.value, selectedFields());
-            render(results.length ? { state: "results", results, total: countEntries(data) } : { state: "empty" });
+            // A new search always starts again from page 1.
+            render(results.length ? { state: "results", results, total: countEntries(data), page: 1 } : { state: "empty" });
         }
 
         // Shared by live input, Search/Enter, checkbox changes and Retry.
@@ -246,11 +289,22 @@
                 if (view.state !== "initial") runSearch();
             });
         }
+        // Page actions are explicit navigation, so focus moves to the results heading.
+        function goToPage(page) {
+            view.page = page;
+            draw();
+            resultsTitle.focus();
+        }
+        pagePrev.addEventListener("click", () => goToPage(view.page - 1));
+        pageNext.addEventListener("click", () => goToPage(view.page + 1));
+        jumpLink.addEventListener("click", () => resultsTitle.focus());
+        jump.hidden = false;
+        // Language and theme changes redraw the same page; input and page are kept.
         document.addEventListener("veda:languagechange", draw);
         draw();
     }
 
-    const api = { matchesEntry, searchEntries, countEntries, validateData, formatFallback, FALLBACK };
+    const api = { matchesEntry, searchEntries, countEntries, paginate, validateData, formatFallback, FALLBACK, PAGE_SIZE };
     if (typeof module === "object" && module.exports) module.exports = api;
 
     if (typeof document !== "undefined") {

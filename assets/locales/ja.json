@@ -4,6 +4,9 @@
     "language": {
       "label": "表示言語"
     },
+    "settings": {
+      "label": "表示設定"
+    },
     "theme": {
       "label": "配色",
       "system": "端末の設定に合わせる",
@@ -35,6 +38,18 @@
       "title": "検索結果",
       "count": {
         "other": "{count}件（全{total}件中）"
+      }
+    },
+    "jump": {
+      "link": "検索結果へ移動"
+    },
+    "pagination": {
+      "label": "結果のページ移動",
+      "prev": "前のページ",
+      "next": "次のページ",
+      "page": "{page} / {pages} ページ",
+      "range": {
+        "other": "{from}–{to}件目 / 全{count}件"
       }
     },
     "meta": {

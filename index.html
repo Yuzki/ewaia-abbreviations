@@ -7,13 +7,14 @@
     <meta name="color-scheme" content="light dark">
     <title data-i18n="page.title">EWAia Abbreviation and Bibliography Search</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-0b90d3c/styles/tokens.css">
-    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-0b90d3c/styles/typography.css">
-    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-0b90d3c/styles/components.css">
+    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/styles/tokens.css">
+    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/styles/typography.css">
+    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/styles/components.css">
     <link rel="stylesheet" href="assets/styles.css">
-    <script src="assets/vendor/veda-design/0.1.0-pilot-0b90d3c/scripts/theme.js"></script>
-    <script src="assets/vendor/veda-design/0.1.0-pilot-0b90d3c/scripts/i18n.js" data-veda-locales="../../../../locales/" defer></script>
-    <script src="assets/vendor/veda-design/0.1.0-pilot-0b90d3c/scripts/report.js" defer></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/scripts/theme.js"></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/scripts/i18n.js" data-veda-locales="../../../../locales/" defer></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/scripts/report.js" defer></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-9d65cf4/scripts/settings.js" defer></script>
     <script src="assets/script.js" defer></script>
 </head>
 
@@ -27,21 +28,26 @@
                 <span class="veda-brand__service" lang="en">EWAia Abbreviation Search</span>
             </a>
             <div class="veda-header__tools">
-                <div class="veda-tool" data-veda-requires-js hidden>
-                    <label class="veda-label" for="veda-language" data-i18n="common.language.label">Language</label>
-                    <select class="veda-select" id="veda-language" data-veda-language>
-                        <option value="en" lang="en">English</option>
-                        <option value="ja" lang="ja">日本語</option>
-                    </select>
-                </div>
-                <div class="veda-tool" data-veda-requires-js hidden>
-                    <label class="veda-label" for="veda-theme" data-i18n="common.theme.label">Color theme</label>
-                    <select class="veda-select" id="veda-theme" data-veda-theme-control>
-                        <option value="system" data-i18n="common.theme.system">Match device setting</option>
-                        <option value="light" data-i18n="common.theme.light">Light</option>
-                        <option value="dark" data-i18n="common.theme.dark">Dark</option>
-                    </select>
-                </div>
+                <details class="veda-settings" data-veda-settings hidden>
+                    <summary class="veda-settings__summary"><span data-i18n="common.settings.label">Display settings</span></summary>
+                    <div class="veda-settings__panel">
+                        <div class="veda-tool" data-veda-requires-js hidden>
+                            <label class="veda-label" for="veda-language" data-i18n="common.language.label">Language</label>
+                            <select class="veda-select" id="veda-language" data-veda-language>
+                                <option value="en" lang="en">English</option>
+                                <option value="ja" lang="ja">日本語</option>
+                            </select>
+                        </div>
+                        <div class="veda-tool" data-veda-requires-js hidden>
+                            <label class="veda-label" for="veda-theme" data-i18n="common.theme.label">Color theme</label>
+                            <select class="veda-select" id="veda-theme" data-veda-theme-control>
+                                <option value="system" data-i18n="common.theme.system">Match device setting</option>
+                                <option value="light" data-i18n="common.theme.light">Light</option>
+                                <option value="dark" data-i18n="common.theme.dark">Dark</option>
+                            </select>
+                        </div>
+                    </div>
+                </details>
             </div>
         </div>
         <nav class="veda-nav" aria-label="EWAia Abbreviation Search" data-i18n-attr="aria-label:common.nav.label">
@@ -62,7 +68,7 @@
             </noscript>
 
             <form class="ewaia-search veda-stack" id="searchForm" role="search" aria-label="Search EWAia abbreviations" data-i18n-attr="aria-label:search.form.label">
-                <div class="veda-search">
+                <div class="veda-search veda-search--responsive">
                     <div class="veda-field">
                         <label class="veda-label" for="searchInput" data-i18n="search.form.query">Search term</label>
                         <p class="veda-hint" id="searchInputHint" data-i18n="search.form.hint">Enter part of an abbreviation or full form. Case does not matter. To list every entry, leave the field empty and press Search.</p>
@@ -77,8 +83,13 @@
                 </fieldset>
             </form>
 
+            <p class="veda-search-jump" id="resultsJump" data-veda-requires-js hidden>
+                <a href="#resultsTitle" id="resultsJumpLink" data-i18n="search.jump.link">Go to results</a>
+                <span class="veda-hint" id="resultsJumpCount"></span>
+            </p>
+
             <section class="veda-stack ewaia-results" id="resultsSection" aria-labelledby="resultsTitle">
-                <h2 class="veda-h2" id="resultsTitle" data-i18n="search.results.title">Results</h2>
+                <h2 class="veda-h2" id="resultsTitle" tabindex="-1" data-i18n="search.results.title">Results</h2>
                 <div class="veda-status veda-status--info" id="searchInitial" data-veda-requires-js hidden>
                     <span class="veda-status__icon" aria-hidden="true">i</span>
                     <div class="veda-status__body">
@@ -91,6 +102,14 @@
                     <div id="searchStatus" role="status" aria-live="polite"></div>
                 </div>
                 <ol class="veda-results" id="searchResults" aria-labelledby="resultsTitle" hidden></ol>
+                <nav class="veda-pagination" id="pagination" aria-label="Result pages" data-i18n-attr="aria-label:search.pagination.label" hidden>
+                    <p class="veda-pagination__range veda-hint" id="paginationRange"></p>
+                    <div class="veda-pagination__controls">
+                        <button class="veda-button" type="button" id="pagePrev" data-i18n="search.pagination.prev">Previous page</button>
+                        <span class="veda-pagination__page" id="pageCurrent"></span>
+                        <button class="veda-button" type="button" id="pageNext" data-i18n="search.pagination.next">Next page</button>
+                    </div>
+                </nav>
             </section>
         </div>
     </main>

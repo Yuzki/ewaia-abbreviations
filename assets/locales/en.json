@@ -4,6 +4,9 @@
     "language": {
       "label": "Language"
     },
+    "settings": {
+      "label": "Display settings"
+    },
     "theme": {
       "label": "Color theme",
       "system": "Match device setting",
@@ -36,6 +39,19 @@
       "count": {
         "one": "{count} entry (of {total})",
         "other": "{count} entries (of {total})"
+      }
+    },
+    "jump": {
+      "link": "Go to results"
+    },
+    "pagination": {
+      "label": "Result pages",
+      "prev": "Previous page",
+      "next": "Next page",
+      "page": "Page {page} of {pages}",
+      "range": {
+        "one": "Showing {from}–{to} of {count} entry",
+        "other": "Showing {from}–{to} of {count} entries"
       }
     },
     "meta": {
