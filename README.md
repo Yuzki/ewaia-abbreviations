@@ -23,8 +23,10 @@ Open <http://127.0.0.1:8000/>. The page fetches its JSON from `data/ewaia.json` 
 | `data/ewaia.json` | Generated search data fetched by the page |
 | `data/source/` | Source CSV files and source notes ([README](data/source/README.md)) |
 | `scripts/joincsv.py` | Generator for `data/ewaia.json` |
+| `data/corrections/` | `applied.csv` (before/after log of every corrected field) and `review.csv` (suspected errors left unfixed) |
+| `scripts/apply_corrections.py` | Applies, reverts, or checks the correction log on `data/source/` |
 | `scripts/find_ocr_candidates.py` | Detector for suspected OCR errors (writes `docs/ocr-candidates.md`) |
-| `tests/` | Node tests |
+| `tests/` | Node tests (`*.test.cjs`) and Python unittests (`test_*.py`) |
 | `bib/web/` | Legacy URLs only: `search.html` redirects to the root (keeping `?lang=` and the hash) and `ewaia.json` is a generated identical copy of the data |
 
 The site is served from the repository root, so the root URL and `bib/web/search.html` (the old location) keep working. SktTool's relocation notice points at the site root only, so no other destination is needed. The old direct URLs of the other files under `bib/` (CSV files, scripts, styles, locales, vendor) were implementation details and are not kept.
@@ -56,15 +58,21 @@ node --test
 
 `tests/search.test.cjs` compares the search with the original page's matching code on the real data and on small edge-case fixtures. `tests/layout.test.cjs` checks that the page's local references resolve and that the legacy `bib/web/` URLs stay in place. `tests/locales.test.cjs` checks that the English and Japanese dictionaries match, that every key the page uses exists, and how counts are formatted. The tests use only Node built-in modules.
 
+```sh
+python3 -I -m unittest discover -s tests -p 'test_*.py'
+```
+
+The Python unittests cover the OCR candidate rules (`tests/test_find_ocr_candidates.py`) and the correction tool (`tests/test_apply_corrections.py`), including a check that the committed log matches `data/source/`.
+
 ## Regenerating the data
 
 ```sh
 uv run python scripts/joincsv.py
 ```
 
-Using only the Python standard library, the script generates 932 entries from the 4 CSV files. It can also be run from another working directory by giving the absolute path to the script. It preserves the JSON keys, row order, strings, and types, and reports missing required headers or values as errors. It does not strip whitespace, remove duplicates, normalize Unicode, or correct OCR errors.
+Using only the Python standard library, the script generates 932 entries from the 4 CSV files. It can also be run from another working directory by giving the absolute path to the script. It preserves the JSON keys, row order, strings, and types, and reports missing required headers or values as errors. It does not strip whitespace, remove duplicates, normalize Unicode, or correct OCR errors; corrections reach the data only through the CSV files (see "Correcting the data").
 
-For the original sources, the mapping of CSV files, the conversion history, and unresolved rights questions, see [DATA_SOURCES.md](DATA_SOURCES.md). For the source notes, see [data/source/README.md](data/source/README.md). The data went through OCR and conversion by ChatGPT (GPT-3.5), so it contains typos and incorrect type assignments.
+For the original sources, the mapping of CSV files, the conversion history, and unresolved rights questions, see [DATA_SOURCES.md](DATA_SOURCES.md). For the source notes, see [data/source/README.md](data/source/README.md). The data went through OCR and conversion by ChatGPT (GPT-3.5), so it still contains typos (the certain ones are corrected through the log) and incorrect type assignments.
 
 ## Finding OCR error candidates
 
@@ -72,7 +80,22 @@ For the original sources, the mapping of CSV files, the conversion history, and 
 python3 scripts/find_ocr_candidates.py [--format md|csv] [--output PATH]
 ```
 
-The script reads the 4 CSV files without modifying them and writes a heuristic list of suspicious spots (stray symbols, look-alike characters, rare words close to frequent ones, duplicates, and so on) to [docs/ocr-candidates.md](docs/ocr-candidates.md). It lists candidates only, not corrections: expect false positives, and the data is changed only after a person reviews the list. It uses only the Python standard library; `python3 -I -m unittest discover -s tests -p 'test_*.py'` runs its tests.
+The script reads the 4 CSV files without modifying them and writes a heuristic list of suspicious spots (stray symbols, look-alike characters, rare words close to frequent ones, duplicates, and so on) to [docs/ocr-candidates.md](docs/ocr-candidates.md). It lists candidates only, not corrections: expect false positives, and the data is changed only after a person reviews the list, through the correction log below. It uses only the Python standard library.
+
+## Correcting the data
+
+Reviewed corrections are recorded as before/after rows in [data/corrections/applied.csv](data/corrections/applied.csv); the CSV files are never edited by hand. Doubtful spots stay in [data/corrections/review.csv](data/corrections/review.csv). The policy is in [DATA_SOURCES.md](DATA_SOURCES.md).
+
+```sh
+python3 scripts/apply_corrections.py            # apply the log (idempotent)
+python3 scripts/apply_corrections.py --check    # exit 1 if a correction is not in place
+python3 scripts/apply_corrections.py --revert   # restore the original values
+python3 scripts/apply_corrections.py --revert --id 12   # revert one row only
+uv run python scripts/joincsv.py                # then regenerate the JSON files
+python3 scripts/find_ocr_candidates.py          # and the candidate list
+```
+
+The script edits only the changed fields (quoting, line endings, and row order stay byte-identical) and checks every row before it writes anything, so a mismatch changes nothing. It uses only the Python standard library.
 
 ## Dependencies and terms
 

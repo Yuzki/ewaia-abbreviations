@@ -14,7 +14,31 @@ The source is the Abkürzungsverzeichnis of Manfred Mayrhofer, *Etymologisches W
 
 The JSON keys keep the CSV paths from before the directory restructure (they are labels, not file locations), so the data file is unchanged byte for byte.
 
-`scripts/joincsv.py` reads the files in the order of the table and writes `data/ewaia.json` (plus an identical copy at the legacy URL `bib/web/ewaia.json`). Each row of each array has 3 string columns: `abbreviation`, `full`, and `type`. The generation script preserves the original order, whitespace, spelling, and classification. Values such as `report`, `literature`, `übrige`, and ` reference` are also original values. The file names alone do not show which volume, edition, or pages of the original source each CSV corresponds to, nor what I-New specifically corresponds to.
+`scripts/joincsv.py` reads the files in the order of the table and writes `data/ewaia.json` (plus an identical copy at the legacy URL `bib/web/ewaia.json`). Each row of each array has 3 string columns: `abbreviation`, `full`, and `type`. The generation script does not change values: it preserves the order, whitespace, spelling, and classification of the CSV files as they are. Those CSV files now contain the logged corrections described below; the pre-correction values are recorded in the log and in git history. Type values such as `report`, `literature`, and `journal` are original values that were deliberately kept. The file names alone do not show which volume, edition, or pages of the original source each CSV corresponds to, nor what I-New specifically corresponds to.
+
+## Corrections
+
+The CSV files were corrected for OCR errors (issue #7) in a way that can be reviewed and reverted. Values change only through `data/corrections/applied.csv` and `scripts/apply_corrections.py`; the CSV files are not edited by hand. Rows are never added, deleted, reordered, merged, or split, so the physical line numbers and the total of 932 entries are unchanged, and bytes outside the changed fields (quoting style, line endings, the missing final newline of `EWAia-III.csv`) stay as they were.
+
+**Log.** `data/corrections/applied.csv` has one row per corrected field: `id` (stable, never reused), `file`, physical `line` (header = 1), `field`, the whole `before` and `after` values, a `category`, and short `evidence`. Categories and number of rows (183 in total):
+
+| Category | Rows | What it covers |
+| --- | ---: | --- |
+| `whitespace` | 15 | space before `.`/`,`, space inside parentheses, double or trailing spaces, split ordinals (`11 th`) |
+| `type-label` | 19 | ` reference` → `reference` (16) and `übrige` → `other` (3) |
+| `confusable` | 41 | look-alike characters inside a word (`lndo-` → `Indo-`, `Troms0` → `Tromsø`, `W1SSenschaften` → `Wissenschaften`, `1966tf.` → `1966ff.`) |
+| `symbol` | 76 | junk symbols where the intended text is certain, and mismatched brackets (`[ … )` → `[ … ]`) |
+| `spelling` | 32 | well-attested names and titles (`Bertin` → `Berlin`, `Matcriali` → `Materiali`), line-break hyphens in known words (`Bom-bay` → `Bombay`), and garbled Sanskrit titles whose reading is unambiguous (`Brähmlll)a` → `Brāhmaṇa`) |
+
+A field with several fixes is one row, and the `category` is the most substantive one (spelling, then symbol, confusable, whitespace, type-label). The `evidence` says why the new value is right, for example a correct spelling of the same name elsewhere in the data.
+
+**Policy.** A value is corrected only when the intended text is mechanically certain or there is strong evidence for it: a well-known place, person, or title, or the same name spelled correctly elsewhere in the data. A correction changes a field only when it was flagged in [docs/ocr-candidates.md](docs/ocr-candidates.md). Where a Sanskrit or Avestan word was restored, a spelling already used in the data is preferred, otherwise standard IAST.
+
+**Not corrected.** German, Latin, French, Italian, and transliterated Russian spellings that may be correct or old orthography (missing French accents, `Grundriss`, `Worterbuch`); abbreviation conventions and distinct entries that look like duplicates (`PW`/`pw`, `AV`/`Av.`); possibly merged or duplicate entries, because fixing them would need row changes; intentional symbols (`[- Anm.]`, `=`, `°`, `*`, `√`, `~` in reconstructions); the systematic `ä` for `ā`, which is mixed with legitimate German `ä`; and anything that needs a guess between two plausible readings. The type labels `literature`, `journal`, `book`, `text`, `report`, `research`, `science`, and `manuscript` stay as they are, because they distinguish primary texts from journals and books, which `reference` would erase. The malformed raw field `"Aksl".` also stays (its parsed value is correct).
+
+**Open items.** `data/corrections/review.csv` lists spots that are probably wrong but not certain, with a suggested reading where there is one and a reason, plus systemic items with an empty `line`. It is not exhaustive: the regenerated `docs/ocr-candidates.md` remains the full list of unreviewed candidates (424 after the corrections, from 713).
+
+**Apply, revert, check.** `python3 scripts/apply_corrections.py` applies the log (idempotent), `--revert` restores the `before` values, `--check` verifies that every `after` value is in place, and `--id N` (repeatable) limits any of these to chosen rows, so a single correction can be reverted alone. A mismatch between the log and the CSV is an error and nothing is written. After applying or reverting, run `uv run python scripts/joincsv.py` to regenerate the JSON files.
 
 ## Supporting history
 
