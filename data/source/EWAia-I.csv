@@ -19,7 +19,7 @@ abbreviation,full,type
 "AION-L","Annali dell'Istituto Orientale di Napoli, Sezione linguistica. Neapel. [S. AION].",reference
 "Air.","Altirisch.",language
 "AitĀr","Aitareya-Ära.oyaka.",other
-"AitB","Aitareya-Brähmaoa .",other
+"AitB","Aitareya-Brāhmaṇa.",other
 "AkkDu","Akkusativ Dual.",grammar
 "AkkPI","Akkusativ Plural.",grammar
 "AkkSg","Akkusativ Singular.",grammar
@@ -34,10 +34,10 @@ abbreviation,full,type
 "Anm.","Anmerkung.",other
 "AnnBhl","Annals of the Bhandarkar Oriental Research Institute. Poona.",reference
 "AÖAW","Anzeiger der Österreichischen Akademie der Wissenschaften. Philosophisch-historische Klasse. Wien.",reference
-"AoF","AJtorientalische Forschungen . Schriften zur Geschichte und Kultur des Alten Orienls . Berlin.",reference
+"AoF","Altorientalische Forschungen. Schriften zur Geschichte und Kultur des Alten Orients. Berlin.",reference
 "AON","Acta Orientalia Neerlandica. Proceedings of the Congress of the Dutch Oriental Society held in Leiden . .. 1970. Leiden 1971.",reference
 "Ap.","Altpersisch.",language
-"Apabhr.","Apabhra.ri:lsa.",reference
+"Apabhr.","Apabhraṁśa.",reference
 "ApH","W. Brandenstein - M. Mayrhofer, Handbuch des Altpersischen. Wiesbaden 1964.",reference
 "Apreuß.","Altpreußisch.",language
 "ĀpSS","Äpastamba-Srautasütra.",reference
@@ -62,14 +62,14 @@ abbreviation,full,type
 "Benv, Oss","E. Benveniste, Etudes sur la langue ossete. Paris 1959.",reference
 "bes.","besonders.",other
 "BhG","Bhagavad-Gitä.",reference
-"BhP","Bhav~ya-Purä!)a.",reference
+"BhP","Bhaviṣya-Purāṇa.",reference
 "BNF","Beiträge zur Namenforschung [Neue Folge, 1966ff.; - BzN]. Heidelberg.",reference
 "Bohl","S. Bohl, Ausdrucksmittel für ein Besitzverhältnis im Vedischen und Griechischen. Louvain-la- Neuve 1980.",reference
 "Bollee, Studien [I]","W. B. Bollee, Studien zum Süyagada. Teil I. Wiesbaden 1977.",reference
-"Br","Brähmlll)a.",language
+"Br","Brāhmaṇa.",language
 "Brereton, Ādityas","J. P. Brereton, The Ṛgvedic Ädityas. [American Oriental Series Vol. 63]. New Haven 1981.",reference
 "Brugmann, Demonstr","K. Brugmann, Die Demonstrativa der indogermanischen Sprachen. Eine bedeutungsgeschicht- llche Untersuchung. Leipzig [AbhAkWiss XXII No. VI] 1904.",reference
-"Brugmann, Grundriss","K. Brugmann [und B. Delbrück], Grundriss der vergleichenden Grammatik der indogermani- schen Sprachen Zweite Bearbeitung . Straßburg 1897-1916. [Nachdruck Berlin-New York 1970).",reference
+"Brugmann, Grundriss","K. Brugmann [und B. Delbrück], Grundriss der vergleichenden Grammatik der indogermanischen Sprachen Zweite Bearbeitung. Straßburg 1897-1916. [Nachdruck Berlin-New York 1970].",reference
 "Brugmann, Wörter für 'heute'","K. Brugmann, Zu den Wörtern für 'heute', 'gestern', 'morgen' in den indogermanischen Sprachen. Berichte über die Verhandlungen der Sächsischen Gesellschaft der Wissenschaften zu Leipzig 69 (1917) 1. Heft.",reference
 "BSOAS","Bulletin of the School of Oriental and African Studies. London. [Bis 1943 = BSOS].",reference
 "BSOS","Bulletin of the School of Oriental Studies. London. [S. BSOAS.",reference
@@ -83,8 +83,8 @@ abbreviation,full,type
 "Cal","W. Caland.",reference
 "Cal, ĀpŚS","W. Caland, Das Srautasütra des Äpastarnba. Aus dem Sanskrit übersetzt. I (Göttingen-Leipzig 1921) ff.",reference
 "Camp","E. Campanile.",reference
-"CampMat","E. Campanile ( ed.), Nuovi Matcriali per la Ricerca lndoeuropeistica. Pisa 1981.",reference
-"CampProbl","E. Campanile (ed.), Problemi di Lingua e di Cultura nel Carnpo lndoeuropeo. Pisa 1983.",reference
+"CampMat","E. Campanile (ed.), Nuovi Materiali per la Ricerca Indoeuropeistica. Pisa 1981.",reference
+"CampProbl","E. Campanile (ed.), Problemi di Lingua e di Cultura nel Campo Indoeuropeo. Pisa 1983.",reference
 "CFS","Cahiers Ferdinand de Saussure. Genf.",reference
 "Chantraine","P. Chantraine, Dictionnaire etymologique de la langue grecque. Paris 1968(-1980).",reference
 "Charp","J. Charpentier.",reference
@@ -92,7 +92,7 @@ abbreviation,full,type
 "Colllnd I","Collectanea Indoeuropaea I. Univerza v Ljubljani, Filozofska Fakulteta, Oddelek za primerjalno jezikoslovje in orientalistiko. Series Comparativa m. Laibach 1978",reference
 "CPHL","Current Progress in Historical Linguistics. Proceedings of the Second International Conference on Historical Linguistics, Tucson, Arizona, 12-16 January 1976. [North-Holland Linguistic Series 31]. Amsterdam-New York-Oxford 1976.",reference
 "c.-r.","comptes-rendus.",other
-"Dand, VedBibl","RN. Dandekar, Vedic Bibliography. Vol. I, Bom-bay 1946; II, Poona 1961; III, Poona 1973.",reference
+"Dand, VedBibl","RN. Dandekar, Vedic Bibliography. Vol. I, Bombay 1946; II, Poona 1961; III, Poona 1973.",reference
 "Darms","G. Darms, Schwäher und Schwager, Hahn und Huhn. Die Vrddhi-Ableitung im Germanischen. [MSS Beiheft 9, Neue Folge]. München 1978.",reference
 "DatDu","Dativ Dual.",grammar
 "DatPl","Dativ Plural.",grammar
@@ -114,7 +114,7 @@ abbreviation,full,type
 "EmmSk","R. E. Emmerick-P. O. Skjærvø, Studies in the Vocabulary of Khotanese, I (Wien 1982) ff.",reference
 "Ét","Éōtimologija. Moskau.",other
 "ÉtMithr","Études mithriaques. Actes du 2° Congres International Tllheran, du 1°' au 8 septembre 1975. [Acta Iranica 17]. Teheran-Lüttich-Leiden 1978.",reference
-"Euler, dōnom dō-","W. Euler, dōnom dō-. Einejigura etymologica der Sprachen Altitaliens. [IBS-VKS 29). Innsbruck 1982.",reference
+"Euler, dōnom dō-","W. Euler, dōnom dō-. Eine figura etymologica der Sprachen Altitaliens. [IBS-VKS 29]. Innsbruck 1982.",reference
 "EVP","s. Renou, EVP.",other
 "F","Farhang i oīn.",other
 "F. (°F), f.","Femininum.",grammar
@@ -262,7 +262,7 @@ abbreviation,full,type
 "JIES","The Journal of Indo-European Studies. Zuletzt Washington (D.C.).",reference
 "Joachim","U. Joachim, Mehrfachpräsentien im Ṛgveda. [Europäische Hochschulschriften Reihe XXI Band 4]. Frankfurt a.M.-Bern-Las Vegas 1978.",reference
 "Joki","A. J. Joki, Uralier und Indogermanen. Die älteren Berührungen zwischen den uralischen und indogermanischen Sprachen. [Suomalais-Ugri-Iaisen Seuran Toimituksia 151]. Helsinki 1973.",reference
-"JuB","Jaiminiya-Upani$ad-BrähmaQ.a.",reference
+"JuB","Jaiminiya-Upaniṣad-Brāhmaṇa.",reference
 "Justi, Hb","F. Justi, Handbuch der Zendsprache. Altbactrisches Woerterbuch. Grammatik. Chrestomathie. Leipzig 1864. [Nachdruck Wiesbaden 1969].",reference
 "KammArier","A. Kammenhuber, Die Arier im Vorderen Orient. Heidelberg 1968.",reference
 "Kāṭh","Käthaka-Samhit.ii.",reference
@@ -288,7 +288,7 @@ abbreviation,full,type
 "Kui, Nounlnfl","F. B. I. Kuiper, Notes on Vedic Noun-Inflexion. [MKNA Deel 5, N° 4]. Amsterdam 1942.",reference
 "Kui, Shortening","F. B. J. Kuiper, Shortening of Final Vowels in the Rigveda. [MKNA Deel 18, N° 11]. Amsterdam 1955.",reference
 "Kur","I. Kurylowicz.",reference
-"Kur, Ét","I. Kurylowicz, Études Indoeuropeennes [I]. [Polska Akadetaja Umiej~tnosci, Prace Komisji J~zykowej N' 21]. Krakau 1935.",reference
+"Kur, Ét","I. Kurylowicz, Études Indoeuropeennes [I]. [Polska Akademia Umiejętności, Prace Komisji Językowej N° 21]. Krakau 1935.",reference
 "KZ","Zeitschrift für Vergleichende Sprachforschung. Begründet von Adalbert Kuhn. Zuletzt Göttingen.",reference
 "Larson (ed.), Myth","G. I. Larson (ed.), Myth in Indo-European Antiquity. Berkeley-Los Angeles-London 1974.",reference
 "Lat","Lateinisch.",language
@@ -327,7 +327,7 @@ abbreviation,full,type
 "Mh, Nach hundert Jahren","M. Mayrhofer, Nach hundert Jahren. Ferdinand de Saussures Frühwerk und seine Rezeption durch die heutige Indogermanistik. [SbAkHeidelberg 1981, 8]. Heidelberg 1981.",reference
 "Mh, OnP","M. Mayrhofer, Onomastica Persepolitana. Das altiranische Namengut der Persepolis-Täfelchen. [SbÖAW 286 c: Veröffentlichungen der Iranischen Kommission Bd. 1]. Wien 1973.",reference
 "Mi.","Mittelindoarisch.",language
-"Minard, Trois énigmes","A. Minard, Trois énigmes sur les cent chemins. Recherches sur le Satapatha-BrähmaQa. Bd. I [Annales de l'Universite de Lyon. 3•m• serie, Lettres, Fase. 17], Paris 1949; II [Publications de l'Institut de Civilisation Indienne, Serie in-8°, Fase. 3), Paris 1956.",reference
+"Minard, Trois énigmes","A. Minard, Trois énigmes sur les cent chemins. Recherches sur le Satapatha-Brāhmaṇa. Bd. I [Annales de l'Universite de Lyon. 3•m• serie, Lettres, Fase. 17], Paris 1949; II [Publications de l'Institut de Civilisation Indienne, Serie in-8°, Fase. 3], Paris 1956.",reference
 "Miran.","Mitteliranisch.",language
 "MithrSt","Mithraic Studies. Proceedings of the First International Congress of Mithraic Studies. Manchester 1975.",reference
 "MK","A. A. Macdonell-A. B. Keith, Vedic Index of Names and Subjects. 2 Bde., London 1912 [Neudruck Delhi usw. 1967].",reference
@@ -417,10 +417,10 @@ abbreviation,full,type
 "Schm","R. Schmitt.",reference
 "Schm, Di","R. Schmitt, Dichtung und Dichtersprache in indogermanischer Zeit. Wiesbaden 1967.",reference
 "Schmidt, Nasalpr","W. P. Schmid, Untersuchungen zur Stellung der Nasalprösentien im indo-iranischen Verbalsystem. Diss. Tübingen 1955. [Maschinenschriftl.].",reference
-"Schmidt, Br̩l","H.-P. Schmidt, Br̩haspati und lndra. Unter-suchungen zur vedischen Mythologie und Kulturgeschichte. Wiesbaden 1968.",reference
+"Schmidt, Br̩l","H.-P. Schmidt, Br̩haspati und Indra. Untersuchungen zur vedischen Mythologie und Kulturgeschichte. Wiesbaden 1968.",reference
 "Schmidt, Nachtr","R. Schmidt, Nachträge zum Sanskrit-Wörterbuch in kürzerer Fassung von Otto Böhtlingk. Leipzig 1928.",reference
 "Schmidt, Pers","G. Schmidt, Stammbildung und Aexion der indo-germanischen Personalpronomina. Wiesbaden 1978.",reference
-"Schmitt-Brandt","R. Schmitt-Brandt, Die Entwicklung des indoger-manischen Vokalsystems. [W1SSenschaftliche Bibliothek Bd. VII]. Heidelberg 1967, 21973.",reference
+"Schmitt-Brandt","R. Schmitt-Brandt, Die Entwicklung des indogermanischen Vokalsystems. [Wissenschaftliche Bibliothek Bd. VII]. Heidelberg 1967, 21973.",reference
 "Schrader, KS","F. 0. Schrader, Kleine Schriften. [Glasenapp-Stiftung Bd. 19]. Wiesbaden 1983.",reference
 "Schulze, KS","W. Schulze, Kleine Schriften. Göttingen 1934. (21966 mit Nachträgen, S. 783-895).",reference
 "Schwyzer","E. Schwyzer, Griechische Grammatik. 2 Bde. [Handbuch der Altertumswissenschaft II 1,1-2]. München 1939, 1950.",reference
@@ -428,7 +428,7 @@ abbreviation,full,type
 "SelP","Selected Papers.",reference
 "SelStud","Selected Studies.",reference
 "Sg.","Singular.",language
-"Sha","A. Sharma, Beiträge zur vedischen Lexikogra-phie: Neue Wörter in M. Bloomfields Vedic Con-cordance. (~µex 5/6). München 1959/1960.",reference
+"Sha","A. Sharma, Beiträge zur vedischen Lexikographie: Neue Wörter in M. Bloomfields Vedic Concordance. (~µex 5/6). München 1959/1960.",reference
 "SII","Studien zur Indologie und Iranistik. Reinbek.",reference
 "SILTA","Studi italiani de linguistica teorica ed applicata. Padua.",reference
 "Singh.","Singhalesisch.",language
@@ -442,7 +442,7 @@ abbreviation,full,type
 "Sprwlnnsbruck","Sprachwissenschaft in Innsbruck. Arbeiten von Mitgliedern und Freunden des Instituts für Sprachwissenschaft der Universität Innsbruck. [IBK Sonderheft SO]. Innsbruck 1982.",reference
 "ŚrSū","Śrauta-Sūtra.",language
 "SSL","Studi e saggi linguistici. Supplemento alla rivista ,,L'Italia dialettale“. Pisa.",reference
-"StangVglGramm","C. S. Stang, Vergleichende Grammatik der Bal-tischen Sprachen. Oslo-Bergen-Troms0 1966.",reference
+"StangVglGramm","C. S. Stang, Vergleichende Grammatik der Baltischen Sprachen. Oslo-Bergen-Tromsø 1966.",reference
 "Steinbauer","s. Fassunke.",reference
 "Stlr","Studia Iranica. Paris.",reference
 "Stru","K. Strunk.",reference
@@ -450,7 +450,7 @@ abbreviation,full,type
 "Suśr","Suśruta.",reference
 "SV","Sämaveda.",language
 "Szem","0. Szemerenyi.",reference
-"Szem, Sync","0. Szemerenyi, Syncope in Greek and lndo-European and the Nature of Indo-European Ac-cent. [Quaderni della Sezione Linguistica degli Annali, Istituto Orientale di Napoli, III]. Neapel 1964.",reference
+"Szem, Sync","O. Szemerenyi, Syncope in Greek and Indo-European and the Nature of Indo-European Accent. [Quaderni della Sezione Linguistica degli Annali, Istituto Orientale di Napoli, III]. Neapel 1964.",reference
 "TA","Taittiriya-Ärimyaka.",language
 "Ta.","Tamil.",language
 "TB","Taittiriya-Brähmaoa.",language
@@ -458,15 +458,15 @@ abbreviation,full,type
 "Thi","P. Thieme.",reference
 "Thi, KS","P. Thieme, Kleine Schriften. [Glasenapp-Stiftung Bd. S,1-2]. Wiesbaden 1971.",reference
 "Thi. MaA","P. Toieme, Mitra and Aryarnan. [Transactions of the Connecticut Academy of Arts and Sciences 41]. New Haven (Conn.) 1957.",reference
-"Thi. Studien","P. Thieme, Studien zur indogermanischen Won-kunde und Religionsgeschichte. [Berichte über die Verhandlungen der Sächsischen Akademie der W1SSenschaften zu Leipzig, phil.-hist. Klasse Bd. 98 Heft 5). Berlin 1952.",reference
+"Thi. Studien","P. Thieme, Studien zur indogermanischen Wortkunde und Religionsgeschichte. [Berichte über die Verhandlungen der Sächsischen Akademie der Wissenschaften zu Leipzig, phil.-hist. Klasse Bd. 98 Heft 5]. Berlin 1952.",reference
 "Thi, Unt","P. Toieme, Untersuchungen zur Wortkunde und Auslegung des Rigveda. [Hallische Monographien Nr. 7]. Halle 1949.",reference
 "Tischler","J. Tischler, Hethitisches etymologisches Glossar. [IBS Bd. 20]. Teil I (Innsbruck 1983) tf.",reference
-"TLIE","Travaux de Linguistique indo-europeenne. Brüs-sel.",reference
+"TLIE","Travaux de Linguistique indo-europeenne. Brüssel.",reference
 "Toch.","Tocharisch.",language
 "Toporov","V. I. Toporov, Prusskij Jazyk. Slovar'. A-0 [Bd. I], Moskau 1975, ff.",reference
 "TPS","Transactions of the Philological Society. Oxford.",reference
 "TS","Taittiriya-Sarhhitä.",language
-"Tu","R. L. Turner, A Comparative Dictionary of the lndo-Aryan Languages. London-New York-To-ronto 1966. [Wird nach Nummern der Lemmata, nicht nach Seitenzahlen, zitiert].",reference
+"Tu","R. L. Turner, A Comparative Dictionary of the Indo-Aryan Languages. London-New York-Toronto 1966. [Wird nach Nummern der Lemmata, nicht nach Seitenzahlen, zitiert].",reference
 "TuAdd","R. L. Turner, A Comparative Dictionary of the Indo-Aryan Languages. Addenda and Corrigenda, ed. by J. C. Wright London 1985. (Zitierweise wie bei Tu).",reference
 "Tucci, Report","G. Tucci, Preliminary Report on Two Scientific Expeditions in Nepal. (Serie Orientale Roma X, 1 ). Rom 1956.",report
 "Uhl","C. C. Uhlenbeck, Kurzgefaßtes etymologisches Worterbuch der Altindischen Sprache. Amsterdam 1898/1899. [Nachdruck Osnabrück 1973].",reference
@@ -474,11 +474,11 @@ abbreviation,full,type
 "Var 76","Varia 1976. [Acta Iranica 12]. Teheran-Lüttich-Leiden 1977.",reference
 "Var 77","Varia 1977. [Acta Iranica 16]. Teheran-Lüttich-Leiden 1977.",reference
 "Vasmer","M. Vasmer, Russisches etymologisches Wörter-buch. 3 Bde. Heidelberg 1953, 1955, 1958.",reference
-"VBdh","Visvo(-]Bandhu [Sästri), A Vedic Word-Concor-dance. 5 Vois., sub-divided into sixteen Parts. Labore 1942-Hoshiarpur 1965.",reference
+"VBdh","Visvo(-]Bandhu [Sästri), A Vedic Word-Concordance. 5 Vois., sub-divided into sixteen Parts. Labore 1942-Hoshiarpur 1965.",reference
 "Vd","Videvdät.",language
 "VedStud","R. Pischel-K. Geldner, Vedische Studien. 3 Bde. Stuttgart 1889, 1892, 1901.",reference
 "Verbum","Verbum. Revue de linguistique publiee par l'Uni-versite de Nancy II. Nancy.",journal
-"VIJ","Vishveshvaranand lndological Journal. Hosbiar-pur.",journal
+"VIJ","Vishveshvaranand Indological Journal. Hoshiarpur.",journal
 "VokDu","Vokativ Dual.",language
 "VokPl","Vokativ Plural.",language
 "VokSg","Vokativ Singular.",language
