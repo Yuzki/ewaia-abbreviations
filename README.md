@@ -23,6 +23,7 @@ Open <http://127.0.0.1:8000/>. The page fetches its JSON from `data/ewaia.json` 
 | `data/ewaia.json` | Generated search data fetched by the page |
 | `data/source/` | Source CSV files and source notes ([README](data/source/README.md)) |
 | `scripts/joincsv.py` | Generator for `data/ewaia.json` |
+| `scripts/find_ocr_candidates.py` | Detector for suspected OCR errors (writes `docs/ocr-candidates.md`) |
 | `tests/` | Node tests |
 | `bib/web/` | Legacy URLs only: `search.html` redirects to the root (keeping `?lang=` and the hash) and `ewaia.json` is a generated identical copy of the data |
 
@@ -64,6 +65,14 @@ uv run python scripts/joincsv.py
 Using only the Python standard library, the script generates 932 entries from the 4 CSV files. It can also be run from another working directory by giving the absolute path to the script. It preserves the JSON keys, row order, strings, and types, and reports missing required headers or values as errors. It does not strip whitespace, remove duplicates, normalize Unicode, or correct OCR errors.
 
 For the original sources, the mapping of CSV files, the conversion history, and unresolved rights questions, see [DATA_SOURCES.md](DATA_SOURCES.md). For the source notes, see [data/source/README.md](data/source/README.md). The data went through OCR and conversion by ChatGPT (GPT-3.5), so it contains typos and incorrect type assignments.
+
+## Finding OCR error candidates
+
+```sh
+python3 scripts/find_ocr_candidates.py [--format md|csv] [--output PATH]
+```
+
+The script reads the 4 CSV files without modifying them and writes a heuristic list of suspicious spots (stray symbols, look-alike characters, rare words close to frequent ones, duplicates, and so on) to [docs/ocr-candidates.md](docs/ocr-candidates.md). It lists candidates only, not corrections: expect false positives, and the data is changed only after a person reviews the list. It uses only the Python standard library; `python3 -I -m unittest discover -s tests -p 'test_*.py'` runs its tests.
 
 ## Dependencies and terms
 
