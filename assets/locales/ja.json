@@ -4,6 +4,9 @@
     "language": {
       "label": "表示言語"
     },
+    "settings": {
+      "label": "表示設定"
+    },
     "theme": {
       "label": "配色",
       "system": "端末の設定に合わせる",

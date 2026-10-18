@@ -7,13 +7,13 @@
     <meta name="color-scheme" content="light dark">
     <title data-i18n="page.title">EWAia Abbreviation and Bibliography Search</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-0a4c491/styles/tokens.css">
-    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-0a4c491/styles/typography.css">
-    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-0a4c491/styles/components.css">
+    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-e8154fd/styles/tokens.css">
+    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-e8154fd/styles/typography.css">
+    <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-e8154fd/styles/components.css">
     <link rel="stylesheet" href="assets/styles.css">
-    <script src="assets/vendor/veda-design/0.1.0-pilot-0a4c491/scripts/theme.js"></script>
-    <script src="assets/vendor/veda-design/0.1.0-pilot-0a4c491/scripts/i18n.js" data-veda-locales="../../../../locales/" defer></script>
-    <script src="assets/vendor/veda-design/0.1.0-pilot-0a4c491/scripts/report.js" defer></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-e8154fd/scripts/theme.js"></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-e8154fd/scripts/i18n.js" data-veda-locales="../../../../locales/" defer></script>
+    <script src="assets/vendor/veda-design/0.1.0-pilot-e8154fd/scripts/report.js" defer></script>
     <script src="assets/script.js" defer></script>
 </head>
 
@@ -26,23 +26,26 @@
                 <span class="veda-brand__project">VEDA AI</span>
                 <span class="veda-brand__service" lang="en">EWAia Abbreviation Search</span>
             </a>
-            <div class="veda-header__tools">
-                <div class="veda-tool" data-veda-requires-js hidden>
-                    <label class="veda-label" for="veda-language" data-i18n="common.language.label">Language</label>
-                    <select class="veda-select" id="veda-language" data-veda-language>
-                        <option value="en" lang="en">English</option>
-                        <option value="ja" lang="ja">日本語</option>
-                    </select>
+            <details class="veda-settings" data-veda-settings hidden>
+                <summary class="veda-settings__summary"><span data-i18n="common.settings.label">Display settings</span></summary>
+                <div class="veda-settings__panel">
+                    <div class="veda-tool" data-veda-requires-js hidden>
+                        <label class="veda-label" for="veda-language" data-i18n="common.language.label">Language</label>
+                        <select class="veda-select" id="veda-language" data-veda-language>
+                            <option value="en" lang="en">English</option>
+                            <option value="ja" lang="ja">日本語</option>
+                        </select>
+                    </div>
+                    <div class="veda-tool" data-veda-requires-js hidden>
+                        <label class="veda-label" for="veda-theme" data-i18n="common.theme.label">Color theme</label>
+                        <select class="veda-select" id="veda-theme" data-veda-theme-control>
+                            <option value="system" data-i18n="common.theme.system">Match device setting</option>
+                            <option value="light" data-i18n="common.theme.light">Light</option>
+                            <option value="dark" data-i18n="common.theme.dark">Dark</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="veda-tool" data-veda-requires-js hidden>
-                    <label class="veda-label" for="veda-theme" data-i18n="common.theme.label">Color theme</label>
-                    <select class="veda-select" id="veda-theme" data-veda-theme-control>
-                        <option value="system" data-i18n="common.theme.system">Match device setting</option>
-                        <option value="light" data-i18n="common.theme.light">Light</option>
-                        <option value="dark" data-i18n="common.theme.dark">Dark</option>
-                    </select>
-                </div>
-            </div>
+            </details>
         </div>
         <nav class="veda-nav" aria-label="EWAia Abbreviation Search" data-i18n-attr="aria-label:common.nav.label">
             <div class="veda-container">

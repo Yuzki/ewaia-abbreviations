@@ -4,6 +4,9 @@
     "language": {
       "label": "Language"
     },
+    "settings": {
+      "label": "Display settings"
+    },
     "theme": {
       "label": "Color theme",
       "system": "Match device setting",

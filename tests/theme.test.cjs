@@ -13,7 +13,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const head = html.match(/<head>[\s\S]*?<\/head>/)[0];
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-0a4c491";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-e8154fd";
 const KEY = "veda-theme";
 
 // Load theme.js the way index.html references it.
@@ -35,11 +35,16 @@ function makeEnv({ attr, saved, readyState = "loading", controls = 1, storage = 
             hidden: true,
             removeAttribute(name) { if (name === "hidden") this.hidden = false; },
         };
+        const settings = {
+            hidden: true,
+            removeAttribute(name) { if (name === "hidden") this.hidden = false; },
+        };
         const handlers = [];
         return {
             value: "",
             wrapper,
-            closest: () => wrapper,
+            settings,
+            closest: (sel) => (sel === "[data-veda-settings]" ? settings : wrapper),
             addEventListener(type, fn) { if (type === "change") handlers.push(fn); },
             choose(value) { this.value = value; handlers.forEach((fn) => fn()); },
         };
@@ -82,6 +87,9 @@ test("index.html wires one synchronous theme.js, one labelled select and hidden 
     assert.match(html, new RegExp(`<label[^>]*for="${id}"[^>]*data-i18n="common\\.theme\\.label"`));
     assert.deepEqual([...selects[0][1].matchAll(/<option value="([^"]*)"/g)].map((m) => m[1]), ["system", "light", "dark"]);
     assert.match(html, new RegExp(`<div[^>]*data-veda-requires-js hidden[^>]*>\\s*<label[^>]*for="${id}"`));
+    assert.match(html, /<details class="veda-settings" data-veda-settings hidden>\s*<summary class="veda-settings__summary"><span data-i18n="common\.settings\.label">/);
+    assert.equal(html.match(/<details\b/g).length, 1);
+    assert.doesNotMatch(html, /veda-header__tools/);
     assert.doesNotMatch(html.match(/<html[^>]*>/)[0], /data-veda-theme/);
 });
 
@@ -89,6 +97,7 @@ test("theme dictionary keys exist in en and ja, and all CSS/JS come from one sna
     for (const lang of ["en", "ja"]) {
         const common = JSON.parse(read(`assets/locales/${lang}.json`)).common.theme;
         for (const key of ["label", "system", "light", "dark"]) assert.ok(common[key], `${lang} ${key}`);
+        assert.ok(JSON.parse(read(`assets/locales/${lang}.json`)).common.settings.label, `${lang} settings.label`);
     }
     const refs = [...head.matchAll(/(?:href|src)="(assets\/vendor\/[^"]+)"/g)].map((m) => m[1]);
     assert.equal(refs.length, 6);
@@ -128,12 +137,15 @@ test("root is set before DOMContentLoaded; controls connect after it", () => {
     assert.equal(attrOf(env), "dark");
     assert.equal(env.list[0].value, "");
     assert.equal(env.list[0].wrapper.hidden, true);
+    assert.equal(env.list[0].settings.hidden, true);
     env.domReady();
+    assert.equal(env.list[0].settings.hidden, false);
     assert.equal(env.list[0].value, "dark");
     assert.equal(env.list[0].wrapper.hidden, false);
     const later = makeEnv({ saved: "light", readyState: "complete" });
     assert.equal(later.list[0].value, "light");
     assert.equal(later.list[0].wrapper.hidden, false);
+    assert.equal(later.list[0].settings.hidden, false);
 });
 
 test("select change applies, stores, and notifies; system clears attribute and key", () => {

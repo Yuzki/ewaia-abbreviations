@@ -12,7 +12,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const SERVICE = "EWAia Abbreviation Search";
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-0a4c491";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-e8154fd";
 
 const link = html.match(/<a [^>]*data-veda-report-link[^>]*>/)[0];
 const attr = (name) => link.match(new RegExp(`\\b${name}="([^"]*)"`))[1];

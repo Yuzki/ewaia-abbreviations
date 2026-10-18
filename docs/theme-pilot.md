@@ -9,13 +9,18 @@ and a separate change.
 
 - Contract: [veda-ai-design-system PR #6](https://github.com/Yuzki/veda-ai-design-system/pull/6)
   (request: [issue #5](https://github.com/Yuzki/veda-ai-design-system/issues/5)),
-  merge commit `0a4c4915f0189c6efdd1696bf3b4e4aab37c3c7e`.
-- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-0a4c491/`
-  ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-0a4c491/SOURCE.md)).
-  Only `scripts/theme.js` differs from the previous snapshot
-  (`0.1.0-pilot-0b90d3c`, kept for rollback).
-- The page already had the labelled theme `select`; this trial replaces the
-  script with the contracted version and adds `tests/theme.test.cjs`.
+  plus [PR #7](https://github.com/Yuzki/veda-ai-design-system/pull/7), which
+  groups language and theme into a collapsed "Display settings"
+  `details.veda-settings`. Pinned merge commit
+  `e8154fdfcabb617b0ca4c2585b7da6fe458b84e9` (PR #7).
+- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-e8154fd/`
+  ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-e8154fd/SOURCE.md)).
+  `components.css`, `theme.js` and `i18n.js` differ from the previous snapshot
+  (`0.1.0-pilot-0a4c491`, kept for rollback).
+- The header's separate language and theme selects are now inside the shared
+  collapsed settings component (new key `common.settings.label`). Behavior is
+  unchanged: system / light / dark saving and restoring, language switching.
+  `tests/theme.test.cjs` covers the contract.
 
 ## How to run it
 
@@ -38,6 +43,10 @@ against the previous `theme.js`, the same table fails exactly the cases with an
 invalid initial attribute (empty, unknown, `system`), including "system
 attribute + saved dark".
 
+It also checks that `index.html` has one `details.veda-settings[data-veda-settings]`
+holding both selects (no leftover `veda-header__tools`), and that `theme.js`
+reveals the enclosing `details`.
+
 The stub does not cover OS changes, CSS colors, rendering, or accessibility.
 
 ## Browser checks
@@ -50,6 +59,7 @@ local) when someone runs them.
 
 | Condition | Expected | Result | Evidence |
 | --- | --- | --- | --- |
+| Display settings component (new) | Header shows only a collapsed "Display settings / 表示設定" summary; it opens by mouse and keyboard, holds language and theme selects, stays closed when theme or language is changed through the API, and is hidden with JS off | not run | - |
 | OS light/dark x select system/light/dark | Body, inputs, select, buttons, links, results, status text readable; explicit choice beats OS; system follows an OS change at once and `get()` stays `system` | not run | - |
 | Opposite-of-OS choice, reload | Choice and select restored; no wrong-color first paint (slow load or screen recording) | not run | - |
 | Back to system, reload | Root attribute and `veda-theme` key gone; follows OS | not run | - |
@@ -87,4 +97,4 @@ None in the automated checks. No visual problem could be observed. No
 
 Point the six asset paths in `index.html` (and the snapshot path in
 `tests/report.test.cjs` and `tests/theme.test.cjs`) back at
-`0.1.0-pilot-0b90d3c`. Stored `veda-theme` values need no migration.
+`0.1.0-pilot-0a4c491` (or `0.1.0-pilot-0b90d3c`, which has the header selects but the older theme script; revert the `index.html` header markup and the `common.settings` locale key too). Stored `veda-theme` values need no migration.
