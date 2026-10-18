@@ -1,0 +1,54 @@
+file,line,field,value,suggestion,reason
+,,,type labels outside language/reference/grammar/other,,"off-schema type labels kept: literature (107), journal (12), report (3), text (3), research (2), book (2), science (1), manuscript (1); they carry a distinction (primary text, journal, book) that reference would erase"
+,,,missing French and Italian accents,,"e.g. europeens, publiee, Etudes; may be original orthography, so not changed"
+,,,titles without final period (broken-ending candidates),,"e.g. Altkirchenslavisch; parsed values are consistent with the source, not changed"
+,,,duplicate abbreviations differing only in case or punctuation,,"e.g. PW/pw, AV/Av., TA/Ta.; usually distinct entries, not changed (see docs/ocr-candidates.md)"
+EWAia-I.csv,,,ä where Sanskrit ā is meant,,"systemic OCR pattern (e.g. Brähmana for Brāhmaṇa, Samhitä for Saṁhitā); about 100 occurrences mixed with legitimate German ä, so not bulk-converted"
+EWAia-I.csv,27,abbreviation,Aksl.,,"raw CSV field is ""Aksl"". (stray period after the closing quote); parsed value Aksl. kept as is"
+EWAia-I.csv,38,full,Leiden . .. 1970.,Leiden ... 1970.,ellipsis or OCR noise unclear
+EWAia-I.csv,56,full,Göttin- gen,Göttingen,"line-break hyphen; row not flagged as a candidate, so not corrected"
+EWAia-I.csv,75,full,[S. BSOAS.,[S. BSOAS].,"closing bracket missing, possibly truncated source"
+EWAia-I.csv,95,full,"RN. Dandekar, Vedic Bibliography. Vol. I, Bombay 1946; II, Poona 1961; III, Poona 1973.","R. N. Dandekar, ...",possible merged entry (one row for three volumes); initials R. N. as in EWAia-I-New.csv:7
+EWAia-I.csv,105,full,Dhätupii\ha.,Dhātupāṭha.,garbled Sanskrit title; exact diacritics unknown
+EWAia-I.csv,108,full,indo-europeens lt Rome,indo-européens à Rome,lt could be à or et; French accents missing throughout
+EWAia-I.csv,116,full,Tllheran,Téhéran,garbled place name; spelling in the source (Teheran vs Téhéran) unknown
+EWAia-I.csv,120,full,Femininum.,,same full title as EWAia-I.csv:123 under another abbreviation; fixing may need a row change
+EWAia-I.csv,123,full,Femininum.,,same full title as EWAia-I.csv:120; fixing may need a row change
+EWAia-I.csv,206,abbreviation,Gs Morgenstieme,Gs Morgenstierne,abbreviation left unchanged; the full title was corrected to Morgenstierne
+EWAia-I.csv,224,full,Nebenüberlieferungen ..,Nebenüberlieferungen ...,ellipsis or OCR noise unclear
+EWAia-I.csv,269,full,Kau$itaki-BrähmaQ.a.,Kauṣītaki-Brāhmaṇa.,vowel length of Kauṣītaki not certain
+EWAia-I.csv,325,full,U2J.,I/2].,series number unreadable
+EWAia-I.csv,339,full,Bd. SJ.,Bd. 8].,"volume number likely 8, not certain"
+EWAia-I.csv,343,full,Maiträya.Qi-Sarilhitä.,Maitrāyaṇī-Saṁhitā.,garbled Sanskrit title; exact diacritics unknown
+EWAia-I.csv,376,full,Paiicavimsa-Brähmaoa [= Tfu)4ya-Mahä-BrähmaoaJ.,Pañcaviṃśa-Brāhmaṇa [= Tāṇḍya-Mahā-Brāhmaṇa].,garbled Sanskrit title; exact diacritics unknown
+EWAia-I.csv,382,full,Proceedings of the 11th International Congress of Linguists,,same full title as EWAia-I.csv:383 (PICL X/4 vs PICL XI); possible duplicate
+EWAia-I.csv,383,full,Proceedings of the 11th International Congress of Linguists,,same full title as EWAia-I.csv:382; possible duplicate
+EWAia-I.csv,387,full,SDJT1hitäs,Saṁhitās,garbled Sanskrit word; exact diacritics unknown
+EWAia-I.csv,387,full,M. 8.,M. S.,initial uncertain (8 vs S)
+EWAia-I.csv,392,full,"[,,(Großes) Petersburger Worterbuchj.",[„(Großes) Petersburger Wörterbuch“].,quotes and brackets garbled; Worterbuch may be original spelling
+EWAia-I.csv,405,full,~gveda-Samhitii.,R̩gveda-Saṁhitā.,garbled Sanskrit title; spelling convention (Samhita vs Saṁhitā) unclear
+EWAia-I.csv,406,full,~eda-Prätisäkhya.,R̩gveda-Prātiśākhya.,garbled Sanskrit title; a letter is missing
+EWAia-I.csv,431,full,(~µex 5/6),(Index 5/6),garbled volume note; reading uncertain
+EWAia-I.csv,449,full,Heidel-berg,Heidelberg,"line-break hyphen; row not flagged as a candidate, so not corrected"
+EWAia-I.csv,476,full,Wörter-buch,Wörterbuch,"line-break hyphen; row not flagged as a candidate, so not corrected"
+EWAia-I.csv,477,full,Visvo(-]Bandhu [Sästri),,garbled personal name and brackets; intended text unknown
+EWAia-I.csv,480,full,Uni-versite,Universite,"line-break hyphen; row not flagged as a candidate, so not corrected"
+EWAia-I.csv,494,full,Translated . .. by,Translated ... by,ellipsis or OCR noise unclear
+EWAia-I.csv,501,full,('Pi'jµ« 8-11),('Ρῆμα' 8-11),garbled Greek series title; compare EWAia-I.csv:398
+EWAia-I.csv,509,full,Ya!t.,Yašt.,Yašt vs Yast not decidable from the data
+EWAia-I-New.csv,34,full,1949; 1950.],1949; 1950.,stray closing bracket after the series note
+EWAia-I-New.csv,55,full,Sprache . .[VgL die o.,Sprache. [Vgl. die o.,garbled cross reference; exact text unclear
+EWAia-I-New.csv,57,full,Taittii:iya Sarihitä •.,Taittirīya Saṁhitā.,garbled Sanskrit title; exact diacritics unknown
+EWAia-I-New.csv,74,full,"4än• Mition, 4~ tirage augmente • • •","4e édition, 4e tirage augmenté ...",garbled French edition note; exact wording uncertain
+EWAia-I-New.csv,76,full,[Henning. SelP 1,,garbled tail of the entry; intended text unknown
+EWAia-I-New.csv,128,full,(K 1sie¡111 piro11stogo 11b re¡ultaty.,,garbled Russian transliteration; intended text unknown
+EWAia-II.csv,14,full,"G. Gnoli, Zoroaster's Time and Homeland. Naples 1980",,same full title as EWAia-II.csv:15; possible duplicate
+EWAia-II.csv,15,full,"G. Gnoli, Zoroaster's Time and Homeland. Naples 1980",,same full title as EWAia-II.csv:14; possible duplicate
+EWAia-III.csv,26,full,LIII 1947:31.,LIII 1947:3].,closing bracket missing; volume number uncertain
+EWAia-III.csv,37,full,"JIES Monogr. Nr. 20, 21, 1997).","[JIES Monogr. Nr. 20, 21, 1997).",opening bracket missing
+EWAia-III.csv,46,full,"s. Apte2, o. III XX.",,same full title as EWAia-III.csv:72 under another abbreviation; possible duplicate
+EWAia-III.csv,72,full,"s. Apte2, o. III XX.",,same full title as EWAia-III.csv:46; possible duplicate
+EWAia-III.csv,90,full,Leuven 1993).,Leuven 1993.,stray closing parenthesis
+EWAia-III.csv,109,full,[AAWL 1969: 51.,[AAWL 1969: 5].,closing bracket missing; volume number uncertain
+EWAia-III.csv,250,abbreviation,Vcar,,same abbreviation and title as EWAia-III.csv:251; possible duplicate row
+EWAia-III.csv,251,abbreviation,Vcar,,same abbreviation and title as EWAia-III.csv:250; possible duplicate row
