@@ -12,7 +12,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const SERVICE = "EWAia Abbreviation Search";
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-0b90d3c";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-0a4c491";
 
 const link = html.match(/<a [^>]*data-veda-report-link[^>]*>/)[0];
 const attr = (name) => link.match(new RegExp(`\\b${name}="([^"]*)"`))[1];
@@ -34,12 +34,17 @@ test("report link is in the footer links and describes itself with an existing n
 
 test("index.html uses the new vendor dir and report.js only", () => {
     assert.ok(html.includes(`${VENDOR}/scripts/report.js`));
-    assert.ok(!html.includes("0.1.0-pilot-fbeb384"));
+    assert.ok(!html.includes("0.1.0-pilot-fbeb384") && !html.includes("0.1.0-pilot-0b90d3c"));
 });
 
-test("SOURCE.md digests match the vendored files", () => {
+test("SOURCE.md digests match all six vendored files", () => {
     const source = read(`${VENDOR}/SOURCE.md`);
-    for (const [, file, digest] of source.matchAll(/\| `((?:styles|scripts)\/[^`]+)` \| `([0-9a-f]{64})` \|/g)) {
+    const rows = [...source.matchAll(/\| `((?:styles|scripts)\/[^`]+)` \| `([0-9a-f]{64})` \|/g)];
+    assert.deepEqual(rows.map((row) => row[1]).sort(), [
+        "scripts/i18n.js", "scripts/report.js", "scripts/theme.js",
+        "styles/components.css", "styles/tokens.css", "styles/typography.css",
+    ]);
+    for (const [, file, digest] of rows) {
         assert.equal(crypto.createHash("sha256").update(fs.readFileSync(path.join(root, VENDOR, file))).digest("hex"), digest, file);
     }
 });
