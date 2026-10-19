@@ -17,6 +17,9 @@
       "label": "EWAia Abbreviation Search",
       "search": "検索"
     },
+    "project": {
+      "partOf": "VEDA AI プロジェクト（veda-ai.org）の一部"
+    },
     "noscript": "JavaScript が無効なため、検索は動作しません。下のデータの出典と利用条件は読めます。"
   },
   "page": {
