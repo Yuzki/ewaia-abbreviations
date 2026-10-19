@@ -13,12 +13,13 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const head = html.match(/<head>[\s\S]*?<\/head>/)[0];
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-cad0076";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-af6d1dc";
 const KEY = "veda-theme";
 
-// Load theme.js the way index.html references it.
-const themeSrc = head.match(/<script src="([^"]*\/theme\.js)"[^>]*><\/script>/)[1];
-const code = read(themeSrc);
+// Load settings.js then theme.js the way index.html references them.
+const srcOf = (name) => head.match(new RegExp(`<script src="([^"]*/${name}\\.js)"[^>]*></script>`))[1];
+const settingsCode = read(srcOf("settings"));
+const code = read(srcOf("theme"));
 
 function makeEnv({ attr, saved, readyState = "loading", controls = 1, storage = {} } = {}) {
     const store = new Map(saved === undefined ? [] : [[KEY, saved]]);
@@ -65,7 +66,11 @@ function makeEnv({ attr, saved, readyState = "loading", controls = 1, storage = 
     };
     class CustomEvent { constructor(type, init) { this.type = type; this.detail = init?.detail; } }
     const window = {};
-    vm.runInNewContext(code, { document, window, localStorage, CustomEvent });
+    const location = { hostname: "localhost", protocol: "http:", href: "http://localhost/" };
+    const sandbox = { document, window, localStorage, CustomEvent, location, URL, navigator: { languages: ["en-US"] }, history: { state: null, replaceState() {} } };
+    vm.createContext(sandbox);
+    vm.runInContext(settingsCode, sandbox);
+    vm.runInContext(code, sandbox);
     const env = { document, window, store, attrs, log, list, listeners };
     env.domReady = () => { document.readyState = "complete"; (listeners.DOMContentLoaded || []).forEach((fn) => fn()); };
     // Count events dispatched after start-up only.
@@ -116,7 +121,7 @@ const startup = [
     ["valid dark attribute beats saved", "dark", "light", "dark", "dark"],
     ["empty attribute, saved dark", "", "dark", "dark", "dark"],
     ["unknown attribute, saved dark", "sepia", "dark", "dark", "dark"],
-    ["system attribute, saved dark (old regression)", "system", "dark", "dark", "dark"],
+    ["explicit system attribute beats saved dark", "system", "dark", null, "system"],
     ["system attribute, nothing saved", "system", undefined, null, "system"],
     ["empty attribute, nothing saved", "", undefined, null, "system"],
     ["unknown attribute, garbage saved", "sepia", "purple", null, "system"],
@@ -149,7 +154,7 @@ test("root is set before DOMContentLoaded; controls connect after it", () => {
     assert.equal(later.list[0].settings.hidden, false);
 });
 
-test("select change applies, stores, and notifies; system clears attribute and key", () => {
+test("select change applies, stores, and notifies; system removes attribute and is stored", () => {
     const env = makeEnv({ saved: "light" });
     env.domReady();
     const seen = env.subscribe();
@@ -159,7 +164,8 @@ test("select change applies, stores, and notifies; system clears attribute and k
     assert.equal(env.window.VedaTheme.get(), "dark");
     env.list[0].choose("system");
     assert.equal(attrOf(env), null);
-    assert.equal(env.store.has(KEY), false);
+    assert.equal(env.store.get(KEY), "system");
+    assert.deepEqual(env.log.removed, []);
     assert.equal(env.window.VedaTheme.get(), "system");
     assert.deepEqual(seen, ["dark", "system"]);
     const event = env.log.events.at(-1);

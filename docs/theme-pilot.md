@@ -5,7 +5,47 @@ contract. It documents the EWAia trial only. It is **not** permission to apply
 the contract to other services; that needs the maintainer's explicit approval
 and a separate change.
 
-## Purpose and pinned source
+## Shared display preferences (current revision)
+
+Adopts [veda-ai-design-system PR #13](https://github.com/Yuzki/veda-ai-design-system/pull/13)
+(request: [issue #12](https://github.com/Yuzki/veda-ai-design-system/issues/12))
+at commit `af6d1dc9f565b9d9a561a6479fef11131c75e3e4`, vendored unmodified in
+`assets/vendor/veda-design/0.1.0-pilot-af6d1dc/`
+([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-af6d1dc/SOURCE.md); the
+seven files were compared with upstream and their SHA-256 digests match).
+
+- Goal: a language or theme chosen at veda-ai.org applies at abbr.veda-ai.org,
+  even when this origin holds a stale local value.
+- Priority (each preference separately; invalid values fall through): URL
+  `?lang=` / `?theme=` > explicit `data-veda-theme` (theme) > shared cookie
+  `veda-lang` / `veda-theme` > legacy `localStorage` > `navigator.languages` /
+  system > service default language. `<html lang="en">` is static fallback text,
+  not a choice.
+- Cookies: only on `veda-ai.org` and `*.veda-ai.org`, HTTPS writes only,
+  `Domain=veda-ai.org; Path=/; Max-Age=31536000; SameSite=Lax; Secure`. Off
+  those hosts (localhost, `github.io`, HTTP) choices stay in this origin's
+  `localStorage`; there is no weaker-cookie fallback.
+- Only explicit choices and valid URL values are saved (cookie and
+  `localStorage` independently). Automatic resolution saves nothing and adds no
+  URL parameter. `system` is stored as a value and overrides a shared dark.
+- A change replaces only its own URL key; query, hash and `history.state` are
+  kept. No live cross-tab synchronization.
+- `index.html` loads `settings.js` then `theme.js` synchronously in `<head>`;
+  `i18n.js` and `report.js` stay deferred. Do not duplicate this logic in
+  `assets/script.js`.
+- Verified: `node --test tests/*.test.cjs` (VM stubs for cookie jar, location,
+  history, navigator, storage and fetch; see `tests/shared-preferences.test.cjs`).
+  **Browser validation of this revision was not run** (see below): no real
+  cookies, `Domain` handling, rendering or screenshots have been observed for it.
+  The browser records further down are historical (the previous snapshot) and do
+  not validate this revision.
+- Rollback to `0.1.0-pilot-cad0076`: point the seven asset paths in `index.html`
+  back, restore its script order (`theme.js` synchronous; `i18n.js`,
+  `report.js` and `settings.js` deferred), and the old test expectations
+  (`system` removes the saved key; `tests/shared-preferences.test.cjs` removed).
+  Cookies already set stay in browsers; the older scripts ignore them.
+
+## Purpose and pinned source (earlier pilot, historical)
 
 - Contract: [veda-ai-design-system PR #6](https://github.com/Yuzki/veda-ai-design-system/pull/6)
   (request: [issue #5](https://github.com/Yuzki/veda-ai-design-system/issues/5)),
@@ -16,7 +56,7 @@ and a separate change.
   makes it a right-end popover (`settings.js`) and adds the results jump link
   and pagination styles. Pinned commit
   `9d65cf437a8ed34c70647f5dce19193bbb36e323`.
-- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-cad0076/`
+- Used by EWAia at that pilot stage (superseded by af6d1dc): `assets/vendor/veda-design/0.1.0-pilot-cad0076/`
   ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-cad0076/SOURCE.md);
   commit `cad0076`, shared design PR #11, adds only the parent-site styles
   over `0.1.0-pilot-9d65cf4`, which is kept for rollback).
@@ -37,7 +77,7 @@ node --test
 
 ## Automated checks (Node, no browser)
 
-`node --test`: 56 tests pass (search, layout, locales, report, theme,
+`node --test`: 72 tests pass at the shared-preferences revision (56 earlier; search, layout, locales, report, theme,
 pagination). `tests/pagination.test.cjs` runs `assets/script.js` against a
 minimal fake DOM: 50 entries mounted for the empty search (932 total), all 19
 pages traversed in data order, page reset on query/field change, page kept on
@@ -59,7 +99,7 @@ is loaded, and that `theme.js` reveals the enclosing `details`.
 
 The stub does not cover OS changes, CSS colors, rendering, or accessibility.
 
-## Browser checks
+## Browser checks (historical: previous snapshot, not this revision)
 
 **Partly performed.** Headless Firefox (via geckodriver's WebDriver API, local
 scripts `.agents/wd_check.py` and `.agents/wd_narrow.py`, not committed) on
