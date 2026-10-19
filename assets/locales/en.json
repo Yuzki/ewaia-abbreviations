@@ -17,6 +17,9 @@
       "label": "EWAia Abbreviation Search",
       "search": "Search"
     },
+    "project": {
+      "partOf": "Part of the VEDA AI project (veda-ai.org)"
+    },
     "noscript": "JavaScript is disabled, so the search does not run. The data sources and terms below remain readable."
   },
   "page": {

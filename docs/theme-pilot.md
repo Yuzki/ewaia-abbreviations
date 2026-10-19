@@ -16,8 +16,10 @@ and a separate change.
   makes it a right-end popover (`settings.js`) and adds the results jump link
   and pagination styles. Pinned commit
   `9d65cf437a8ed34c70647f5dce19193bbb36e323`.
-- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-9d65cf4/`
-  ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-9d65cf4/SOURCE.md)).
+- Used by EWAia: `assets/vendor/veda-design/0.1.0-pilot-cad0076/`
+  ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-cad0076/SOURCE.md);
+  commit `cad0076`, shared design PR #11, adds only the parent-site styles
+  over `0.1.0-pilot-9d65cf4`, which is kept for rollback).
   `components.css` differs from `0.1.0-pilot-e8154fd` and `settings.js` is new;
   the other five files are byte-identical (kept for rollback).
 - The header's separate language and theme selects are now inside the shared

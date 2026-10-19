@@ -32,3 +32,16 @@ test("legacy bib/web/search.html leads to the site root without looping", () => 
     assert.ok(fs.existsSync(path.join(root, "index.html")));
     assert.ok(!/search\.html/.test(read("index.html")));
 });
+
+test("footer has a same-tab parent-site reference with a localized label", () => {
+    const html = read("index.html");
+    const ref = html.match(/<footer[\s\S]*<p class="veda-project-reference">(<a [^>]*>)[^<]+<\/a><\/p>/);
+    assert.ok(ref, "veda-project-reference in footer");
+    assert.match(ref[1], /href="https:\/\/veda-ai\.org"/);
+    assert.match(ref[1], /data-i18n="common\.project\.partOf"/);
+    assert.ok(!/target=/.test(ref[1]), "no new-tab behavior");
+    for (const lang of ["en", "ja"]) {
+        const dict = JSON.parse(read(`assets/locales/${lang}.json`));
+        assert.ok(dict.common.project.partOf.includes("veda-ai.org"), lang);
+    }
+});
