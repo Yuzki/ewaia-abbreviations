@@ -31,10 +31,9 @@
         "search.status.loadingTitle": "Loading entries",
         "search.status.emptyTitle": "No matching entries",
         "search.status.emptyBody": "Try a shorter search term or search in both the abbreviation and the full form.",
-        "search.status.noFieldsTitle": "No search field selected",
-        "search.status.errorTitle": "Could not load entries",
-        "search.status.errorBody": "Check your connection and try again.",
-        "search.status.retry": "Try again",
+        "search.status.noFieldsTitle": "Select a search field",
+        "search.status.errorTitle": "Could not load abbreviations",
+        "search.status.retry": "Reload",
     };
 
     function matchesEntry(entry, query, fields) {
@@ -127,7 +126,7 @@
             loading: { tone: "info", title: "search.status.loadingTitle" },
             empty: { tone: "info", icon: "i", title: "search.status.emptyTitle", body: "search.status.emptyBody" },
             noFields: { tone: "warning", icon: "!", title: "search.status.noFieldsTitle" },
-            error: { tone: "error", icon: "×", title: "search.status.errorTitle", body: "search.status.errorBody", retry: true },
+            error: { tone: "error", icon: "×", title: "search.status.errorTitle", retry: true },
         };
 
         let data = null;
@@ -235,7 +234,7 @@
                         data = loaded;
                         return loaded;
                     }, (error) => {
-                        // Let Retry start a new request.
+                        // Let Reload start a new request.
                         loading = null;
                         throw error;
                     });
@@ -253,7 +252,7 @@
             render(results.length ? { state: "results", results, total: countEntries(data), page: 1 } : { state: "empty" });
         }
 
-        // Shared by live input, Search/Enter, checkbox changes and Retry.
+        // Shared by live input, Search/Enter, checkbox changes and Reload.
         // Only the latest call may update the page.
         function runSearch() {
             const id = ++latest;

@@ -20,10 +20,10 @@
     "project": {
       "partOf": "Part of the VEDA AI project (veda-ai.org)"
     },
-    "noscript": "JavaScript is disabled, so the search does not run."
+    "noscript": "Enable JavaScript to search."
   },
   "page": {
-    "title": "Abbreviation Search | EWAia Abbreviation Search"
+    "title": "EWAia Abbreviation Search | VEDA AI"
   },
   "search": {
     "title": "Abbreviation search",
@@ -62,19 +62,18 @@
       "loadingTitle": "Loading entries",
       "emptyTitle": "No matching entries",
       "emptyBody": "Try a shorter search term or search in both the abbreviation and the full form.",
-      "noFieldsTitle": "No search field selected",
-      "errorTitle": "Could not load entries",
-      "errorBody": "Check your connection and try again.",
-      "retry": "Try again"
+      "noFieldsTitle": "Select a search field",
+      "errorTitle": "Could not load abbreviations",
+      "retry": "Reload"
     }
   },
   "footer": {
-    "about": "Formatted from Mayrhofer’s EWAia list of abbreviations by OCR and AI. It may contain errors; check the original.",
+    "about": "Based on Mayrhofer’s EWAia abbreviation list. Check the original for exact wording.",
     "repository": "Source code (GitHub)",
-    "dataSources": "Data sources and provenance",
+    "dataSources": "Sources",
     "license": "Code license (MIT)",
     "rights": "This project’s code is licensed under the MIT License. The terms for the abbreviation data are undecided, and the MIT License does not apply to the data.",
     "report": "Report a problem",
-    "reportNote": "Reports become public GitHub issues. A GitHub account is required, and anything you write can be read by anyone. Do not include personal information."
+    "reportNote": "Reports are public and require a GitHub account. Do not include personal information."
   }
 }

@@ -20,10 +20,10 @@
     "project": {
       "partOf": "VEDA AI プロジェクト（veda-ai.org）の一部"
     },
-    "noscript": "JavaScript が無効なため、検索は動作しません。"
+    "noscript": "検索には JavaScript を有効にしてください。"
   },
   "page": {
-    "title": "略号検索 | EWAia Abbreviation Search"
+    "title": "EWAia 略号検索 | VEDA AI"
   },
   "search": {
     "title": "略号検索",
@@ -61,19 +61,18 @@
       "loadingTitle": "項目を読み込んでいます",
       "emptyTitle": "該当する項目はありません",
       "emptyBody": "検索語を短くするか、略号と正式名の両方を検索対象にしてください。",
-      "noFieldsTitle": "検索対象が未選択です",
-      "errorTitle": "読み込めませんでした",
-      "errorBody": "接続を確認して再試行してください。",
-      "retry": "再試行"
+      "noFieldsTitle": "検索対象を選んでください",
+      "errorTitle": "略号を読み込めませんでした",
+      "retry": "再読み込み"
     }
   },
   "footer": {
-    "about": "Mayrhofer の EWAia 略号表を OCR と AI で整形した資料です。誤りを含む可能性があるため、原典で確認してください。",
+    "about": "Mayrhofer の EWAia 略号表に基づきます。表記は原典で確認してください。",
     "repository": "ソースコード（GitHub）",
-    "dataSources": "データの出典と来歴（英語）",
+    "dataSources": "資料の出典（英語）",
     "license": "コードのライセンス（MIT、英語）",
     "rights": "このプロジェクトのコードは MIT License で提供しています。略号データの利用条件は未定で、データには MIT License を適用しません。",
     "report": "問題を報告",
-    "reportNote": "報告は GitHub の公開 issue になります。GitHub アカウントが必要で、入力した内容は誰でも読めます。個人情報は書かないでください。"
+    "reportNote": "報告内容は公開されます。GitHub アカウントが必要です。個人情報は含めないでください。"
   }
 }
