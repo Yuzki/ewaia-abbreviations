@@ -20,7 +20,7 @@
     "project": {
       "partOf": "VEDA AI プロジェクト（veda-ai.org）の一部"
     },
-    "noscript": "JavaScript が無効なため、検索は動作しません。下のデータの出典と利用条件は読めます。"
+    "noscript": "JavaScript が無効なため、検索は動作しません。"
   },
   "page": {
     "title": "略号検索 | EWAia Abbreviation Search"
@@ -63,7 +63,7 @@
       "emptyBody": "検索語を短くするか、略号と正式名の両方を検索対象にしてください。",
       "noFieldsTitle": "検索対象が未選択です",
       "errorTitle": "読み込めませんでした",
-      "errorBody": "検索語と検索対象は保持されています。接続を確認して再試行してください。",
+      "errorBody": "接続を確認して再試行してください。",
       "retry": "再試行"
     }
   },

@@ -5,7 +5,61 @@ contract. It documents the EWAia trial only. It is **not** permission to apply
 the contract to other services; that needs the maintainer's explicit approval
 and a separate change.
 
-## Shared display preferences (current revision)
+## Quiet UI snapshot (current)
+
+The page now loads `assets/vendor/veda-design/0.1.0-pilot-d08f1bf/`
+([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-d08f1bf/SOURCE.md); commit
+`d08f1bf748f5804fb376968f0378526727564ee4`, upstream
+[PR #15](https://github.com/Yuzki/veda-ai-design-system/pull/15) quiet UI rules).
+All seven files were compared with upstream and match; only `components.css`
+differs from the `af6d1dc` snapshot below, which is kept for rollback.
+
+### Validation of the quiet UI (2026-10-20)
+
+Real browser: Firefox (headless, geckodriver WebDriver), page served over local
+HTTP with a switchable data endpoint (ok / slow / fail). Window widths below
+about 490px are impossible in headless Firefox, so 390px and 320px use an
+iframe of that CSS width. "200% text" is approximated by a 640px viewport, 400%
+by 320px. Before = `788a64f`, after = this branch. Screenshots (42 after, 8
+before), `report.json` and the scripts are local-only and not committed.
+
+- Screenshots: initial and results for ja/en × light/dark × 390/1280px (16),
+  empty / no-fields / error / loading for ja/en × 390/1280px (16), plus 320px,
+  640px, forced colors, and no-JavaScript.
+- Checks (21, all pass): no horizontal overflow at 320, 640 and 1280px; forced
+  colors active and readable; `prefers-reduced-motion` leaves no running
+  animation or transition; noscript message visible; Retry after a failed load
+  returns results (ja, en); Tab reaches every control in order, each focused
+  control has a 3px outline and none is hidden; Enter in the search field lists
+  results; Next by keyboard moves to "Items 51–100".
+- Computed styles (1280px, light): results list, items, status, count and
+  pagination have `box-shadow: none` and `border-radius: 0`; only the input and
+  button have a 6px radius (operation boundaries, not content groups).
+- Visible characters (whitespace removed, `innerText` of `main` / whole page):
+
+| State | ja before | ja after | en before | en after |
+| --- | --- | --- | --- | --- |
+| Initial | 177 / 501 | 64 / 381 | 344 / 916 | 146 / 668 |
+| Results ("Rigveda", 4 entries) | 787 / 1111 | 612 / 929 | 1040 / 1612 | 723 / 1245 |
+
+  Result text is full text and unchanged. Counts do not differ between widths.
+
+Q1–Q10 audit (exceptions are by target and reason):
+
+| Rule | Result |
+| --- | --- |
+| Q1 short noun phrases | h1, h2, legend, labels, options, nav, summary all within ja 12 / en 4. Exceptions: service name "EWAia Abbreviation Search" (official name, also shown in ja); footer links ja 13–17 chars and en "Part of the VEDA AI project" (links, not names; "(英語)" and "(MIT)" tell the destination language or license). |
+| Q2 lead | One sentence, ja 19 chars / en 7 words. |
+| Q3 hints | One: "空欄で検索すると全件表示します。" on the search field. Kept because blank-search-lists-all is not discoverable and is not an error. |
+| Q4 callouts | None at rest. Loading is title only; empty, error and noscript are one sentence each (the error and noscript bodies were cut from two sentences in this round); Retry is the recovery action. |
+| Q5 nesting | Only the "Search in" fieldset has a frame; no frame inside a frame. |
+| Q6 badges | None. Type is plain metadata. |
+| Q7 duplicates | One total count; range ("Items 1–50") carries no total; jump link has no count. Exception: per-entry source line, because each entry's origin must stay visible. |
+| Q8 buttons | Search, Previous, Next, Try again: 1–2 words / ja ≤ 3 chars. |
+| Q9 shape/shadow | Content groups: radius 0, no shadow, no tinted surface. Exceptions: status tones (state color), input/button radius 6px (operation boundary, not a content group). |
+| Q10 decoration | No decorative `strong`/`b`, no feature list, no section intro. |
+
+## Shared display preferences (previous revision, af6d1dc)
 
 Adopts [veda-ai-design-system PR #13](https://github.com/Yuzki/veda-ai-design-system/pull/13)
 (request: [issue #12](https://github.com/Yuzki/veda-ai-design-system/issues/12))

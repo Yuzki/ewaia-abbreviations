@@ -33,7 +33,7 @@
         "search.status.emptyBody": "Try a shorter search term or search in both the abbreviation and the full form.",
         "search.status.noFieldsTitle": "No search field selected",
         "search.status.errorTitle": "Could not load entries",
-        "search.status.errorBody": "Your search term and options are kept. Check your connection and try again.",
+        "search.status.errorBody": "Check your connection and try again.",
         "search.status.retry": "Try again",
     };
 

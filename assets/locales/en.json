@@ -20,7 +20,7 @@
     "project": {
       "partOf": "Part of the VEDA AI project (veda-ai.org)"
     },
-    "noscript": "JavaScript is disabled, so the search does not run. The data sources and terms below remain readable."
+    "noscript": "JavaScript is disabled, so the search does not run."
   },
   "page": {
     "title": "Abbreviation Search | EWAia Abbreviation Search"
@@ -64,7 +64,7 @@
       "emptyBody": "Try a shorter search term or search in both the abbreviation and the full form.",
       "noFieldsTitle": "No search field selected",
       "errorTitle": "Could not load entries",
-      "errorBody": "Your search term and options are kept. Check your connection and try again.",
+      "errorBody": "Check your connection and try again.",
       "retry": "Try again"
     }
   },
