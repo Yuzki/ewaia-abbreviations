@@ -19,14 +19,21 @@ differs from the `af6d1dc` snapshot below, which is kept for rollback.
 Real browser: Firefox (headless, geckodriver WebDriver), page served over local
 HTTP with a switchable data endpoint (ok / slow / fail). Window widths below
 about 490px are impossible in headless Firefox, so 390px and 320px use an
-iframe of that CSS width. "200% text" is approximated by a 640px viewport, 400%
-by 320px. Before = `788a64f`, after = this branch. Screenshots (42 after, 8
-before), `report.json` and the scripts are local-only and not committed.
+iframe of that CSS width. Before = `788a64f`, after = this branch. Screenshots,
+`report.json`, `report2.json`, `zoom-*.json` and the scripts are local-only and
+not committed.
 
-- Screenshots: initial and results for ja/en × light/dark × 390/1280px (16),
-  empty / no-fields / error / loading for ja/en × 390/1280px (16), plus 320px,
-  640px, forced colors, and no-JavaScript.
-- Checks (21, all pass): no horizontal overflow at 320, 640 and 1280px; forced
+- Screenshots, fixed condition (blank query = all 932 entries, both targets,
+  page 1 = 50 results; settings via `?lang=` / `?theme=`, window height 900,
+  full page): initial and results for ja/en × light/dark × 1100/390px, for both
+  before (16) and after (16). Also after: empty / no-fields / error / loading
+  for ja/en × 390/1280px, 320px and 640px, forced colors, no-JavaScript.
+- Text enlargement: real Firefox zoom (`ZoomManager`, not a narrow window) at
+  200% and 400%, ja and en, blank query: page zoom gives a 640px / 320px CSS
+  viewport; text-only zoom keeps 1280px and raises body text to 36px / 72px.
+  All eight runs: 50 results, no horizontal overflow, no control or text past
+  the viewport (`zoom-page.json`, `zoom-text.json`).
+- Other checks (all pass): no horizontal overflow at 320, 640 and 1280px; forced
   colors active and readable; `prefers-reduced-motion` leaves no running
   animation or transition; noscript message visible; Retry after a failed load
   returns results (ja, en); Tab reaches every control in order, each focused
@@ -35,14 +42,36 @@ before), `report.json` and the scripts are local-only and not committed.
 - Computed styles (1280px, light): results list, items, status, count and
   pagination have `box-shadow: none` and `border-radius: 0`; only the input and
   button have a 6px radius (operation boundaries, not content groups).
-- Visible characters (whitespace removed, `innerText` of `main` / whole page):
+- Visible characters: DOM-order text nodes under `body`, excluding `hidden`,
+  `display:none`, `visibility:hidden`, closed `details` bodies, script, style
+  and noscript; whitespace removed; counted in Unicode code points
+  (`.agents/browser_check2.py`, `COUNT`). "Data" is text inside `.ewaia-text`
+  (abbreviation, full form, type); "UI" is every other visible text, including
+  the per-entry source line. Red. = reduction rate.
 
-| State | ja before | ja after | en before | en after |
-| --- | --- | --- | --- | --- |
-| Initial | 177 / 501 | 64 / 381 | 344 / 916 | 146 / 668 |
-| Results ("Rigveda", 4 entries) | 787 / 1111 | 612 / 929 | 1040 / 1612 | 723 / 1245 |
+| State | Lang | Width | Theme | Total before | Total after | Diff | Red. | UI before | UI after | UI diff | UI red. | Data before | Data after |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| initial | en | 1100 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
+| initial | en | 1100 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
+| initial | en | 390 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
+| initial | en | 390 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
+| initial | ja | 1100 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
+| initial | ja | 1100 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
+| initial | ja | 390 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
+| initial | ja | 390 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
+| results | en | 1100 | dark | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
+| results | en | 1100 | light | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
+| results | en | 390 | dark | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
+| results | en | 390 | light | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
+| results | ja | 1100 | dark | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
+| results | ja | 1100 | light | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
+| results | ja | 390 | dark | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
+| results | ja | 390 | light | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
 
-  Result text is full text and unchanged. Counts do not differ between widths.
+  Data text is unchanged (2510 code points in both). The page-level reduction
+  is smaller in results than in the UI-only reduction because the 50 entries'
+  own text is untouched. Counts do not differ between widths or themes, since
+  nothing is hidden by media query or theme.
 
 Q1–Q10 audit (exceptions are by target and reason):
 
