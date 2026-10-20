@@ -25,7 +25,9 @@ not committed.
 
 - Screenshots, fixed condition (blank query = all 932 entries, both targets,
   page 1 = 50 results; settings via `?lang=` / `?theme=`, window height 900,
-  full page): initial and results for ja/en × light/dark × 1100/390px, for both
+  full page; at 390px and 320px the iframe is resized to its document height
+  before capture, so the whole narrow page is in the image, e.g. after en dark
+  390 results is 11472px tall): initial and results for ja/en × light/dark × 1100/390px, for both
   before (16) and after (16). Also after: empty / no-fields / error / loading
   for ja/en × 390/1280px, 320px and 640px, forced colors, no-JavaScript.
 - Text enlargement: real Firefox zoom (`ZoomManager`, not a narrow window) at
@@ -45,33 +47,37 @@ not committed.
 - Visible characters: DOM-order text nodes under `body`, excluding `hidden`,
   `display:none`, `visibility:hidden`, closed `details` bodies, script, style
   and noscript; whitespace removed; counted in Unicode code points
-  (`.agents/browser_check2.py`, `COUNT`). "Data" is text inside `.ewaia-text`
-  (abbreviation, full form, type); "UI" is every other visible text, including
-  the per-entry source line. Red. = reduction rate.
+  (`.agents/browser_check2.py`, `COUNT`). Three groups, as in the UI/data split:
+  **Entry** = text inside `.ewaia-text` (abbreviation, full form, type);
+  **Source** = the per-entry source line (`.veda-source`, material metadata);
+  **UI** = every other visible text. Data = Entry + Source. Red. = reduction rate.
 
-| State | Lang | Width | Theme | Total before | Total after | Diff | Red. | UI before | UI after | UI diff | UI red. | Data before | Data after |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| initial | en | 1100 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
-| initial | en | 1100 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
-| initial | en | 390 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
-| initial | en | 390 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 |
-| initial | ja | 1100 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
-| initial | ja | 1100 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
-| initial | ja | 390 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
-| initial | ja | 390 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 |
-| results | en | 1100 | dark | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
-| results | en | 1100 | light | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
-| results | en | 390 | dark | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
-| results | en | 390 | light | 6075 | 4075 | -2000 | 33% | 3565 | 1565 | -2000 | 56% | 2510 | 2510 |
-| results | ja | 1100 | dark | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
-| results | ja | 1100 | light | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
-| results | ja | 390 | dark | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
-| results | ja | 390 | light | 4539 | 3470 | -1069 | 24% | 2029 | 960 | -1069 | 53% | 2510 | 2510 |
+| State | Lang | Width | Theme | Total before | Total after | Diff | Red. | UI before | UI after | UI diff | UI red. | Entry before | Entry after | Source before | Source after |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| initial | en | 1100 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | en | 1100 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | en | 390 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | en | 390 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | ja | 1100 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| initial | ja | 1100 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| initial | ja | 390 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| initial | ja | 390 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| results | en | 1100 | dark | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | en | 1100 | light | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | en | 390 | dark | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | en | 390 | light | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | ja | 1100 | dark | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+| results | ja | 1100 | light | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+| results | ja | 390 | dark | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+| results | ja | 390 | light | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
 
-  Data text is unchanged (2510 code points in both). The page-level reduction
-  is smaller in results than in the UI-only reduction because the 50 entries'
-  own text is untouched. Counts do not differ between widths or themes, since
-  nothing is hidden by media query or theme.
+  Entry text is unchanged (2510 code points in both). The source line is data,
+  not UI, but its wording was shortened on purpose (50 entries: en 2400 → 650,
+  ja 1400 → 450 code points: "Source: {short label}" instead of "Source: EWAia
+  list of abbreviations ({file})"); that is an intentional label change, shown
+  apart from the UI reduction. UI-only reduction in results is en 21% / ja 19%
+  (initial view: 27% / 24%). Counts do not differ between widths or themes,
+  since nothing is hidden by media query or theme.
 
 Q1–Q10 audit (exceptions are by target and reason):
 
