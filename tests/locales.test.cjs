@@ -94,5 +94,13 @@ test("result counts use plural forms and number formatting", () => {
     assert.equal(format(ja, "ja", key, { count: 1200, total: 1200 }), "1,200件（全1,200件中）");
     assert.equal(formatFallback(key, { count: 1, total: 932 }), "1 entry (of 932)");
     assert.equal(formatFallback(key, { count: 1200, total: 932 }), "1,200 entries (of 932)");
-    assert.equal(formatFallback("search.meta.source", { file: "bib/EWAia-I.csv" }), "Source: EWAia list of abbreviations (bib/EWAia-I.csv)");
+    assert.equal(formatFallback("search.meta.source", { file: "bib/EWAia-I.csv" }), "Source: bib/EWAia-I.csv");
+});
+
+test("the page has no initial callout and aria-describedby targets exist", () => {
+    assert.equal(html.includes("searchInitial"), false);
+    assert.equal(html.includes("resultsJumpCount"), false);
+    for (const [, ids] of html.matchAll(/aria-describedby="([^"]+)"/g)) {
+        for (const id of ids.split(/\s+/)) assert.ok(html.includes(`id="${id}"`), id);
+    }
 });

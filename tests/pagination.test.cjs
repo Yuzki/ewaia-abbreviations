@@ -8,7 +8,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
 
-const { paginate, searchEntries, PAGE_SIZE } = require("../assets/script.js");
+const { paginate, searchEntries, sourceLabel, PAGE_SIZE } = require("../assets/script.js");
 const data = require("../data/ewaia.json");
 
 const source = fs.readFileSync(path.join(__dirname, "../assets/script.js"), "utf8");
@@ -26,8 +26,8 @@ class Node {
     fire(type) { (this.listeners[type] || []).forEach((fn) => fn({ preventDefault() {} })); }
 }
 
-const IDS = ["searchForm", "searchInput", "searchAbbreviation", "searchFull", "searchInitial", "resultCount",
-    "searchStatus", "searchResults", "resultsTitle", "resultsJump", "resultsJumpLink", "resultsJumpCount",
+const IDS = ["searchForm", "searchInput", "searchAbbreviation", "searchFull", "resultCount",
+    "searchStatus", "searchResults", "resultsTitle", "resultsJump", "resultsJumpLink",
     "pagination", "paginationRange", "pageCurrent", "pagePrev", "pageNext"];
 
 async function page() {
@@ -63,10 +63,9 @@ test("empty search mounts at most 50 of 932 entries and the count is unchanged",
     await search("");
     assert.equal(n.searchResults.children.length, 50);
     assert.equal(n.resultCount.textContent, "932 entries (of 932)");
-    assert.equal(n.resultsJumpCount.textContent, "932 entries (of 932)");
     assert.equal(n.resultsJump.hidden, false);
     assert.equal(n.pagination.hidden, false);
-    assert.equal(n.paginationRange.textContent, "Showing 1–50 of 932 entries");
+    assert.equal(n.paginationRange.textContent, "Items 1–50");
     assert.equal(n.pageCurrent.textContent, "Page 1 of 19");
     assert.equal(n.pagePrev.disabled, true);
     assert.equal(n.pageNext.disabled, false);
@@ -88,7 +87,7 @@ test("every entry is reachable through the pages, in data order, with focus on t
     }
     assert.equal(n.pageNext.disabled, true);
     assert.equal(n.searchResults.children.length, 32);
-    assert.equal(n.paginationRange.textContent, "Showing 901–932 of 932 entries");
+    assert.equal(n.paginationRange.textContent, "Items 901–932");
     assert.deepEqual(seen, searchEntries(data, "", { abbreviation: true, full: true }).map((r) => r.entry.abbreviation));
     n.pagePrev.fire("click");
     assert.equal(n.pageCurrent.textContent, "Page 18 of 19");
@@ -124,7 +123,19 @@ test("a query with 50 or fewer matches shows every entry and no pager", async ()
     await search("zzzzzz-no-such-entry");
     assert.equal(n.searchResults.children.length, 0);
     assert.equal(n.pagination.hidden, true);
-    assert.equal(n.resultsJumpCount.textContent, "");
+});
+
+test("the total is announced in one place and the range repeats no count", async () => {
+    const { n, search } = await page();
+    await search("");
+    assert.equal(n.resultCount.textContent, "932 entries (of 932)");
+    assert.equal(n.paginationRange.textContent.includes("932"), false);
+});
+
+test("results show the source label; unknown groups keep their name", () => {
+    assert.equal(sourceLabel("bib/EWAia-I.csv"), "EWAia I");
+    assert.equal(sourceLabel("bib/EWAia-I-New.csv"), "EWAia I New");
+    assert.equal(sourceLabel("other/list.csv"), "other/list.csv");
 });
 
 test("the results jump link focuses the heading", async () => {
