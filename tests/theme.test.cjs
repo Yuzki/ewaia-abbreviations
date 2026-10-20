@@ -13,7 +13,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const head = html.match(/<head>[\s\S]*?<\/head>/)[0];
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-af6d1dc";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-d08f1bf";
 const KEY = "veda-theme";
 
 // Load settings.js then theme.js the way index.html references them.
