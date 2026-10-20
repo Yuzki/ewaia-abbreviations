@@ -23,15 +23,15 @@
     "noscript": "JavaScript is disabled, so the search does not run. The data sources and terms below remain readable."
   },
   "page": {
-    "title": "EWAia Abbreviation and Bibliography Search"
+    "title": "Abbreviation Search | EWAia Abbreviation Search"
   },
   "search": {
-    "title": "Abbreviation and bibliography search",
-    "lead": "Look up the abbreviations used in Manfred Mayrhofer’s etymological dictionary of Old Indo-Aryan (EWAia) and their full forms.",
+    "title": "Abbreviation search",
+    "lead": "Search abbreviations and full forms in EWAia.",
     "form": {
       "label": "Search EWAia abbreviations",
       "query": "Search term",
-      "hint": "Enter part of an abbreviation or full form. Case does not matter. To list every entry, leave the field empty and press Search.",
+      "hint": "Leave blank to list all entries.",
       "fields": "Search in",
       "abbreviation": "Abbreviation",
       "full": "Full form",
@@ -49,34 +49,27 @@
     },
     "pagination": {
       "label": "Result pages",
-      "prev": "Previous page",
-      "next": "Next page",
+      "prev": "Previous",
+      "next": "Next",
       "page": "Page {page} of {pages}",
-      "range": {
-        "one": "Showing {from}–{to} of {count} entry",
-        "other": "Showing {from}–{to} of {count} entries"
-      }
+      "range": "Items {from}–{to}"
     },
     "meta": {
       "type": "Type",
-      "source": "Source: EWAia list of abbreviations ({file})"
+      "source": "Source: {file}"
     },
     "status": {
-      "initialTitle": "Ready to search",
-      "initialBody": "Results appear as you type.",
       "loadingTitle": "Loading entries",
-      "loadingBody": "You can keep editing your search term and options.",
       "emptyTitle": "No matching entries",
       "emptyBody": "Try a shorter search term or search in both the abbreviation and the full form.",
       "noFieldsTitle": "No search field selected",
-      "noFieldsBody": "Select Abbreviation, Full form, or both.",
-      "errorTitle": "The entries could not be loaded",
-      "errorBody": "Your search term and options have been kept. Check your connection and try again.",
+      "errorTitle": "Could not load entries",
+      "errorBody": "Your search term and options are kept. Check your connection and try again.",
       "retry": "Try again"
     }
   },
   "footer": {
-    "about": "Abbreviations and full forms from the list of abbreviations in Mayrhofer’s EWAia, converted by OCR and AI-assisted formatting. Entries may contain typos and wrong types.",
+    "about": "Formatted from Mayrhofer’s EWAia list of abbreviations by OCR and AI. It may contain errors; check the original.",
     "repository": "Source code (GitHub)",
     "dataSources": "Data sources and provenance",
     "license": "Code license (MIT)",

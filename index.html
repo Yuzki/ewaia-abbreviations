@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <title data-i18n="page.title">EWAia Abbreviation and Bibliography Search</title>
+    <title data-i18n="page.title">Abbreviation Search | EWAia Abbreviation Search</title>
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-af6d1dc/styles/tokens.css">
     <link rel="stylesheet" href="assets/vendor/veda-design/0.1.0-pilot-af6d1dc/styles/typography.css">
@@ -61,8 +61,8 @@
 
     <main id="main" class="veda-main veda-container" tabindex="-1">
         <div class="veda-stack">
-            <h1 class="veda-h1" data-i18n="search.title">Abbreviation and bibliography search</h1>
-            <p class="veda-prose" data-i18n="search.lead">Look up the abbreviations used in Manfred Mayrhofer’s etymological dictionary of Old Indo-Aryan (EWAia) and their full forms.</p>
+            <h1 class="veda-h1" data-i18n="search.title">Abbreviation search</h1>
+            <p class="veda-prose" data-i18n="search.lead">Search abbreviations and full forms in EWAia.</p>
             <noscript>
                 <p class="veda-status veda-status--info" data-i18n="common.noscript">JavaScript is disabled, so the search does not run. The data sources and terms below remain readable.</p>
             </noscript>
@@ -71,7 +71,7 @@
                 <div class="veda-search veda-search--responsive">
                     <div class="veda-field">
                         <label class="veda-label" for="searchInput" data-i18n="search.form.query">Search term</label>
-                        <p class="veda-hint" id="searchInputHint" data-i18n="search.form.hint">Enter part of an abbreviation or full form. Case does not matter. To list every entry, leave the field empty and press Search.</p>
+                        <p class="veda-hint" id="searchInputHint" data-i18n="search.form.hint">Leave blank to list all entries.</p>
                         <input class="veda-input" type="search" id="searchInput" name="q" autocomplete="off" spellcheck="false" aria-describedby="searchInputHint">
                     </div>
                     <button class="veda-button veda-button--primary" type="submit" id="searchButton" data-i18n="search.form.submit">Search</button>
@@ -85,18 +85,10 @@
 
             <p class="veda-search-jump" id="resultsJump" data-veda-requires-js hidden>
                 <a href="#resultsTitle" id="resultsJumpLink" data-i18n="search.jump.link">Go to results</a>
-                <span class="veda-hint" id="resultsJumpCount"></span>
             </p>
 
             <section class="veda-stack ewaia-results" id="resultsSection" aria-labelledby="resultsTitle">
                 <h2 class="veda-h2" id="resultsTitle" tabindex="-1" data-i18n="search.results.title">Results</h2>
-                <div class="veda-status veda-status--info" id="searchInitial" data-veda-requires-js hidden>
-                    <span class="veda-status__icon" aria-hidden="true">i</span>
-                    <div class="veda-status__body">
-                        <p class="veda-status__title" data-i18n="search.status.initialTitle">Ready to search</p>
-                        <p data-i18n="search.status.initialBody">Results appear as you type.</p>
-                    </div>
-                </div>
                 <div class="ewaia-live">
                     <p class="veda-count" id="resultCount" aria-live="polite" aria-atomic="true"></p>
                     <div id="searchStatus" role="status" aria-live="polite"></div>
@@ -105,9 +97,9 @@
                 <nav class="veda-pagination" id="pagination" aria-label="Result pages" data-i18n-attr="aria-label:search.pagination.label" hidden>
                     <p class="veda-pagination__range veda-hint" id="paginationRange"></p>
                     <div class="veda-pagination__controls">
-                        <button class="veda-button" type="button" id="pagePrev" data-i18n="search.pagination.prev">Previous page</button>
+                        <button class="veda-button" type="button" id="pagePrev" data-i18n="search.pagination.prev">Previous</button>
                         <span class="veda-pagination__page" id="pageCurrent"></span>
-                        <button class="veda-button" type="button" id="pageNext" data-i18n="search.pagination.next">Next page</button>
+                        <button class="veda-button" type="button" id="pageNext" data-i18n="search.pagination.next">Next</button>
                     </div>
                 </nav>
             </section>
@@ -116,7 +108,7 @@
 
     <footer class="veda-footer">
         <div class="veda-container veda-footer__inner">
-            <p data-i18n="footer.about">Abbreviations and full forms from the list of abbreviations in Mayrhofer’s EWAia, converted by OCR and AI-assisted formatting. Entries may contain typos and wrong types.</p>
+            <p data-i18n="footer.about">Formatted from Mayrhofer’s EWAia list of abbreviations by OCR and AI. It may contain errors; check the original.</p>
             <ul class="veda-footer__links">
                 <li><a href="https://github.com/Yuzki/ewaia-abbreviations" data-i18n="footer.repository">Source code (GitHub)</a></li>
                 <li><a href="https://github.com/Yuzki/ewaia-abbreviations/blob/main/DATA_SOURCES.md" data-i18n="footer.dataSources">Data sources and provenance</a></li>

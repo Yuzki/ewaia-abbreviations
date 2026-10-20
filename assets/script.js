@@ -22,23 +22,18 @@
         },
         "search.jump.link": "Go to results",
         "search.pagination.label": "Result pages",
-        "search.pagination.prev": "Previous page",
-        "search.pagination.next": "Next page",
+        "search.pagination.prev": "Previous",
+        "search.pagination.next": "Next",
         "search.pagination.page": "Page {page} of {pages}",
-        "search.pagination.range": {
-            one: "Showing {from}–{to} of {count} entry",
-            other: "Showing {from}–{to} of {count} entries",
-        },
+        "search.pagination.range": "Items {from}–{to}",
         "search.meta.type": "Type",
-        "search.meta.source": "Source: EWAia list of abbreviations ({file})",
+        "search.meta.source": "Source: {file}",
         "search.status.loadingTitle": "Loading entries",
-        "search.status.loadingBody": "You can keep editing your search term and options.",
         "search.status.emptyTitle": "No matching entries",
         "search.status.emptyBody": "Try a shorter search term or search in both the abbreviation and the full form.",
         "search.status.noFieldsTitle": "No search field selected",
-        "search.status.noFieldsBody": "Select Abbreviation, Full form, or both.",
-        "search.status.errorTitle": "The entries could not be loaded",
-        "search.status.errorBody": "Your search term and options have been kept. Check your connection and try again.",
+        "search.status.errorTitle": "Could not load entries",
+        "search.status.errorBody": "Your search term and options are kept. Check your connection and try again.",
         "search.status.retry": "Try again",
     };
 
@@ -72,6 +67,13 @@
         const start = (current - 1) * size;
         const end = Math.min(start + size, total);
         return { page: current, pages, start, end, from: start + 1, to: end };
+    }
+
+    // User-facing source label for a data group, e.g. "bib/EWAia-I-New.csv" -> "EWAia I New".
+    // Unknown group names are shown as they are, so the origin is never lost.
+    function sourceLabel(group) {
+        const match = /^bib\/(EWAia(?:-[A-Za-z0-9]+)+)\.csv$/.exec(group);
+        return match ? match[1].replace(/-/g, " ") : group;
     }
 
     function validateData(data) {
@@ -109,14 +111,12 @@
         const input = document.getElementById("searchInput");
         const searchAbbreviation = document.getElementById("searchAbbreviation");
         const searchFull = document.getElementById("searchFull");
-        const initial = document.getElementById("searchInitial");
         const count = document.getElementById("resultCount");
         const status = document.getElementById("searchStatus");
         const resultsList = document.getElementById("searchResults");
         const resultsTitle = document.getElementById("resultsTitle");
         const jump = document.getElementById("resultsJump");
         const jumpLink = document.getElementById("resultsJumpLink");
-        const jumpCount = document.getElementById("resultsJumpCount");
         const pagination = document.getElementById("pagination");
         const paginationRange = document.getElementById("paginationRange");
         const pageCurrent = document.getElementById("pageCurrent");
@@ -124,9 +124,9 @@
         const pageNext = document.getElementById("pageNext");
 
         const STATUS = {
-            loading: { tone: "info", title: "search.status.loadingTitle", body: "search.status.loadingBody" },
+            loading: { tone: "info", title: "search.status.loadingTitle" },
             empty: { tone: "info", icon: "i", title: "search.status.emptyTitle", body: "search.status.emptyBody" },
-            noFields: { tone: "warning", icon: "!", title: "search.status.noFieldsTitle", body: "search.status.noFieldsBody" },
+            noFields: { tone: "warning", icon: "!", title: "search.status.noFieldsTitle" },
             error: { tone: "error", icon: "×", title: "search.status.errorTitle", body: "search.status.errorBody", retry: true },
         };
 
@@ -166,7 +166,7 @@
                 sourceText("h3", "veda-result__title", entry.abbreviation),
                 sourceText("p", "ewaia-full", entry.full),
                 meta,
-                element("p", "veda-source", message("search.meta.source", { file: group })),
+                element("p", "veda-source", message("search.meta.source", { file: sourceLabel(group) })),
             );
             return item;
         }
@@ -176,7 +176,8 @@
             const icon = spec.icon ? element("span", "veda-status__icon", spec.icon) : element("span", "veda-spinner");
             icon.setAttribute("aria-hidden", "true");
             const body = element("div", "veda-status__body");
-            body.append(element("p", "veda-status__title", message(spec.title)), element("p", "", message(spec.body)));
+            body.append(element("p", "veda-status__title", message(spec.title)));
+            if (spec.body) body.append(element("p", "", message(spec.body)));
             if (spec.retry) {
                 const retry = element("button", "veda-button", message("search.status.retry"));
                 retry.type = "button";
@@ -196,19 +197,16 @@
         // Exactly one state is shown at a time.
         function draw() {
             const { state } = view;
-            initial.hidden = state !== "initial";
-            const countText = state === "results"
+            // The count is the only live region; the jump line holds just the link.
+            count.textContent = state === "results"
                 ? message("search.results.count", { count: view.results.length, total: view.total })
                 : "";
-            count.textContent = countText;
-            // The jump line is plain text; the count above is the only live region.
-            jumpCount.textContent = countText;
             const paging = state === "results" ? paginate(view.results.length, view.page) : null;
             if (paging) view.page = paging.page;
             pagination.hidden = !paging || paging.pages === 1;
             if (paging && paging.pages > 1) {
                 paginationRange.textContent = message("search.pagination.range", {
-                    from: paging.from, to: paging.to, count: view.results.length,
+                    from: paging.from, to: paging.to,
                 });
                 pageCurrent.textContent = message("search.pagination.page", { page: paging.page, pages: paging.pages });
                 pagePrev.disabled = paging.page === 1;
@@ -304,7 +302,7 @@
         draw();
     }
 
-    const api = { matchesEntry, searchEntries, countEntries, paginate, validateData, formatFallback, FALLBACK, PAGE_SIZE };
+    const api = { matchesEntry, searchEntries, countEntries, paginate, sourceLabel, validateData, formatFallback, FALLBACK, PAGE_SIZE };
     if (typeof module === "object" && module.exports) module.exports = api;
 
     if (typeof document !== "undefined") {
