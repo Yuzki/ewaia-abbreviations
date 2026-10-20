@@ -20,18 +20,18 @@
     "project": {
       "partOf": "VEDA AI プロジェクト（veda-ai.org）の一部"
     },
-    "noscript": "JavaScript が無効なため、検索は動作しません。下のデータの出典と利用条件は読めます。"
+    "noscript": "JavaScript が無効なため、検索は動作しません。"
   },
   "page": {
-    "title": "略号・文献検索 | EWAia Abbreviation Search"
+    "title": "略号検索 | EWAia Abbreviation Search"
   },
   "search": {
-    "title": "略号・文献検索",
-    "lead": "Manfred Mayrhofer の古インド・アーリア語語源辞典（EWAia）で使われる略号と、その正式名を調べます。",
+    "title": "略号検索",
+    "lead": "EWAia の略号と正式名を検索します。",
     "form": {
       "label": "EWAia の略号を検索",
       "query": "検索語",
-      "hint": "略号または正式名の一部を入力します。大文字と小文字は区別しません。すべての項目を表示するには、空欄のまま「検索」を押します。",
+      "hint": "空欄で検索すると全件表示します。",
       "fields": "検索対象",
       "abbreviation": "略号",
       "full": "正式名",
@@ -47,34 +47,28 @@
       "link": "検索結果へ移動"
     },
     "pagination": {
-      "label": "結果のページ移動",
-      "prev": "前のページ",
-      "next": "次のページ",
+      "label": "ページ移動",
+      "prev": "前へ",
+      "next": "次へ",
       "page": "{page} / {pages} ページ",
-      "range": {
-        "other": "{from}–{to}件目 / 全{count}件"
-      }
+      "range": "{from}–{to}件目"
     },
     "meta": {
       "type": "種類",
-      "source": "出典: EWAia 略号表（{file}）"
+      "source": "出典: {file}"
     },
     "status": {
-      "initialTitle": "検索できます",
-      "initialBody": "入力すると、すぐに結果を表示します。",
       "loadingTitle": "項目を読み込んでいます",
-      "loadingBody": "検索語と検索対象は、このまま変更できます。",
       "emptyTitle": "該当する項目はありません",
       "emptyBody": "検索語を短くするか、略号と正式名の両方を検索対象にしてください。",
-      "noFieldsTitle": "検索対象が選ばれていません",
-      "noFieldsBody": "「略号」「正式名」の一方または両方を選んでください。",
-      "errorTitle": "項目を読み込めませんでした",
-      "errorBody": "検索語と検索対象は保持されています。接続を確認して、もう一度お試しください。",
+      "noFieldsTitle": "検索対象が未選択です",
+      "errorTitle": "読み込めませんでした",
+      "errorBody": "接続を確認して再試行してください。",
       "retry": "再試行"
     }
   },
   "footer": {
-    "about": "Mayrhofer の EWAia の略号表から、OCR と AI による整形で作成した略号と正式名です。誤字や種類の誤りが含まれることがあります。",
+    "about": "Mayrhofer の EWAia 略号表を OCR と AI で整形した資料です。誤りを含む可能性があるため、原典で確認してください。",
     "repository": "ソースコード（GitHub）",
     "dataSources": "データの出典と来歴（英語）",
     "license": "コードのライセンス（MIT、英語）",

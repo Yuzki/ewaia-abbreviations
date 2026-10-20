@@ -5,7 +5,96 @@ contract. It documents the EWAia trial only. It is **not** permission to apply
 the contract to other services; that needs the maintainer's explicit approval
 and a separate change.
 
-## Shared display preferences (current revision)
+## Quiet UI snapshot (current)
+
+The page now loads `assets/vendor/veda-design/0.1.0-pilot-d08f1bf/`
+([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-d08f1bf/SOURCE.md); commit
+`d08f1bf748f5804fb376968f0378526727564ee4`, upstream
+[PR #15](https://github.com/Yuzki/veda-ai-design-system/pull/15) quiet UI rules).
+All seven files were compared with upstream and match; only `components.css`
+differs from the `af6d1dc` snapshot below, which is kept for rollback.
+
+### Validation of the quiet UI (2026-10-20)
+
+Real browser: Firefox (headless, geckodriver WebDriver), page served over local
+HTTP with a switchable data endpoint (ok / slow / fail). Window widths below
+about 490px are impossible in headless Firefox, so 390px and 320px use an
+iframe of that CSS width. Before = `788a64f`, after = this branch. Screenshots,
+`report.json`, `report2.json`, `zoom-*.json` and the scripts are local-only and
+not committed.
+
+- Screenshots, fixed condition (blank query = all 932 entries, both targets,
+  page 1 = 50 results; settings via `?lang=` / `?theme=`, window height 900,
+  full page; at 390px and 320px the iframe is resized to its document height
+  before capture, so the whole narrow page is in the image, e.g. after en dark
+  390 results is 11472px tall): initial and results for ja/en × light/dark × 1100/390px, for both
+  before (16) and after (16). Also after: empty / no-fields / error / loading
+  for ja/en × 390/1280px, 320px and 640px, forced colors, no-JavaScript.
+- Text enlargement: real Firefox zoom (`ZoomManager`, not a narrow window) at
+  200% and 400%, ja and en, blank query: page zoom gives a 640px / 320px CSS
+  viewport; text-only zoom keeps 1280px and raises body text to 36px / 72px.
+  All eight runs: 50 results, no horizontal overflow, no control or text past
+  the viewport (`zoom-page.json`, `zoom-text.json`).
+- Other checks (all pass): no horizontal overflow at 320, 640 and 1280px; forced
+  colors active and readable; `prefers-reduced-motion` leaves no running
+  animation or transition; noscript message visible; Retry after a failed load
+  returns results (ja, en); Tab reaches every control in order, each focused
+  control has a 3px outline and none is hidden; Enter in the search field lists
+  results; Next by keyboard moves to "Items 51–100".
+- Computed styles (1280px, light): results list, items, status, count and
+  pagination have `box-shadow: none` and `border-radius: 0`; only the input and
+  button have a 6px radius (operation boundaries, not content groups).
+- Visible characters: DOM-order text nodes under `body`, excluding `hidden`,
+  `display:none`, `visibility:hidden`, closed `details` bodies, script, style
+  and noscript; whitespace removed; counted in Unicode code points
+  (`.agents/browser_check2.py`, `COUNT`). Three groups, as in the UI/data split:
+  **Entry** = text inside `.ewaia-text` (abbreviation, full form, type);
+  **Source** = the per-entry source line (`.veda-source`, material metadata);
+  **UI** = every other visible text. Data = Entry + Source. Red. = reduction rate.
+
+| State | Lang | Width | Theme | Total before | Total after | Diff | Red. | UI before | UI after | UI diff | UI red. | Entry before | Entry after | Source before | Source after |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| initial | en | 1100 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | en | 1100 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | en | 390 | dark | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | en | 390 | light | 916 | 668 | -248 | 27% | 916 | 668 | -248 | 27% | 0 | 0 | 0 | 0 |
+| initial | ja | 1100 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| initial | ja | 1100 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| initial | ja | 390 | dark | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| initial | ja | 390 | light | 501 | 381 | -120 | 24% | 501 | 381 | -120 | 24% | 0 | 0 | 0 | 0 |
+| results | en | 1100 | dark | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | en | 1100 | light | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | en | 390 | dark | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | en | 390 | light | 6075 | 4075 | -2000 | 33% | 1165 | 915 | -250 | 21% | 2510 | 2510 | 2400 | 650 |
+| results | ja | 1100 | dark | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+| results | ja | 1100 | light | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+| results | ja | 390 | dark | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+| results | ja | 390 | light | 4539 | 3470 | -1069 | 24% | 629 | 510 | -119 | 19% | 2510 | 2510 | 1400 | 450 |
+
+  Entry text is unchanged (2510 code points in both). The source line is data,
+  not UI, but its wording was shortened on purpose (50 entries: en 2400 → 650,
+  ja 1400 → 450 code points: "Source: {short label}" instead of "Source: EWAia
+  list of abbreviations ({file})"); that is an intentional label change, shown
+  apart from the UI reduction. UI-only reduction in results is en 21% / ja 19%
+  (initial view: 27% / 24%). Counts do not differ between widths or themes,
+  since nothing is hidden by media query or theme.
+
+Q1–Q10 audit (exceptions are by target and reason):
+
+| Rule | Result |
+| --- | --- |
+| Q1 short noun phrases | h1, h2, legend, labels, options, nav, summary all within ja 12 / en 4. Exceptions: service name "EWAia Abbreviation Search" (official name, also shown in ja); footer links ja 13–17 chars and en "Part of the VEDA AI project" (links, not names; "(英語)" and "(MIT)" tell the destination language or license). |
+| Q2 lead | One sentence, ja 19 chars / en 7 words. |
+| Q3 hints | One: "空欄で検索すると全件表示します。" on the search field. Kept because blank-search-lists-all is not discoverable and is not an error. |
+| Q4 callouts | None at rest. Loading is title only; empty, error and noscript are one sentence each (the error and noscript bodies were cut from two sentences in this round); Retry is the recovery action. |
+| Q5 nesting | Only the "Search in" fieldset has a frame; no frame inside a frame. |
+| Q6 badges | None. Type is plain metadata. |
+| Q7 duplicates | One total count; range ("Items 1–50") carries no total; jump link has no count. Exception: per-entry source line, because each entry's origin must stay visible. |
+| Q8 buttons | Search, Previous, Next, Try again: 1–2 words / ja ≤ 3 chars. |
+| Q9 shape/shadow | Content groups: radius 0, no shadow, no tinted surface. Exceptions: status tones (state color), input/button radius 6px (operation boundary, not a content group). |
+| Q10 decoration | No decorative `strong`/`b`, no feature list, no section intro. |
+
+## Shared display preferences (previous revision, af6d1dc)
 
 Adopts [veda-ai-design-system PR #13](https://github.com/Yuzki/veda-ai-design-system/pull/13)
 (request: [issue #12](https://github.com/Yuzki/veda-ai-design-system/issues/12))
