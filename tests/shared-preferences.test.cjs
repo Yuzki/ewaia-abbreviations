@@ -14,7 +14,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const head = html.match(/<head>[\s\S]*?<\/head>/)[0];
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-d08f1bf";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-a8b1e40";
 const src = (name) => read(`${VENDOR}/scripts/${name}.js`);
 const COOKIE_ATTRS = "Domain=veda-ai.org; Path=/; Max-Age=31536000; SameSite=Lax; Secure";
 

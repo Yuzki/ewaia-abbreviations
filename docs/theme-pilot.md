@@ -5,7 +5,30 @@ contract. It documents the EWAia trial only. It is **not** permission to apply
 the contract to other services; that needs the maintainer's explicit approval
 and a separate change.
 
-## Quiet UI snapshot (current)
+## Icon display settings (current, 2026-10-22)
+
+The page now loads `assets/vendor/veda-design/0.1.0-pilot-a8b1e40/`
+([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-a8b1e40/SOURCE.md); commit
+`a8b1e40dfa4666e0925f5fcc95abb0d9d7004bb1`, upstream
+[PR #17](https://github.com/Yuzki/veda-ai-design-system/pull/17)). All seven
+files were compared with upstream and match; the previous snapshot is kept for
+rollback.
+
+The single "Display settings" text entry is replaced by two icon entries in the
+header: a language globe with the current code (EN/JA) and a color theme icon.
+Each opens its own panel holding one labelled native select; opening one closes
+the other. The theme icon follows the selected preference: a monitor for
+`system` (even when the OS is dark), a sun for `light`, a moon for `dark`.
+Storage, URL keys, cookie attributes and events are unchanged; only the markup
+in `index.html` and the vendored assets changed.
+
+Verification: `node --test tests/*.test.cjs` (75 pass) and `node --check` on the
+scripts. Real-browser screenshots and measurements have **not** been taken yet.
+
+The sections below describe earlier snapshots and the single-panel layout; they
+are historical.
+
+## Quiet UI snapshot (historical)
 
 The page now loads `assets/vendor/veda-design/0.1.0-pilot-d08f1bf/`
 ([SOURCE.md](../assets/vendor/veda-design/0.1.0-pilot-d08f1bf/SOURCE.md); commit

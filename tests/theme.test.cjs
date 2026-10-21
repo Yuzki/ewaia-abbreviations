@@ -13,7 +13,7 @@ const root = path.join(__dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 const html = read("index.html");
 const head = html.match(/<head>[\s\S]*?<\/head>/)[0];
-const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-d08f1bf";
+const VENDOR = "assets/vendor/veda-design/0.1.0-pilot-a8b1e40";
 const KEY = "veda-theme";
 
 // Load settings.js then theme.js the way index.html references them.
@@ -92,8 +92,21 @@ test("index.html wires one synchronous theme.js, one labelled select and hidden 
     assert.match(html, new RegExp(`<label[^>]*for="${id}"[^>]*data-i18n="common\\.theme\\.label"`));
     assert.deepEqual([...selects[0][1].matchAll(/<option value="([^"]*)"/g)].map((m) => m[1]), ["system", "light", "dark"]);
     assert.match(html, new RegExp(`<div[^>]*data-veda-requires-js hidden[^>]*>\\s*<label[^>]*for="${id}"`));
-    assert.match(html, /<div class="veda-header__tools">\s*<details class="veda-settings" data-veda-settings hidden>\s*<summary class="veda-settings__summary"><span data-i18n="common\.settings\.label">/);
-    assert.equal(html.match(/<details\b/g).length, 1);
+    assert.match(html, /<div class="veda-header__tools">\s*<details class="veda-settings" data-veda-settings="language" hidden>\s*<summary [^>]*data-veda-language-entry[^>]*>/);
+    assert.match(html, /<\/details>\s*<details class="veda-settings" data-veda-settings="theme" hidden>\s*<summary [^>]*data-veda-theme-entry data-veda-theme-state="system"[^>]*>/);
+    assert.equal(html.match(/<details\b/g).length, 2);
+    for (const entry of html.matchAll(/<summary\b[^>]*>([\s\S]*?)<\/summary>/g)) {
+        assert.match(entry[0], /veda-settings__summary--icon/);
+        assert.match(entry[0], /\baria-label="[^"]+"/);
+        assert.doesNotMatch(entry[0], /data-i18n/);
+        for (const svg of entry[1].matchAll(/<svg\b[^>]*>/g)) assert.match(svg[0], /aria-hidden="true" focusable="false"/);
+    }
+    assert.match(html, /data-veda-language-code aria-hidden="true">EN</);
+    for (const v of ["system", "light", "dark"]) assert.ok(html.includes(`veda-icon veda-icon--${v}"`), v);
+    assert.doesNotMatch(html, /Display settings|common\.settings\.label/);
+    const panels = [...html.matchAll(/<details\b[\s\S]*?<\/details>/g)].map((m) => m[0]);
+    assert.equal(panels[0].match(/<select\b/g).length, 1);
+    assert.equal(panels[1].match(/<select\b/g).length, 1);
     assert.equal(html.match(/veda-header__tools/g).length, 1);
     assert.doesNotMatch(html.match(/<html[^>]*>/)[0], /data-veda-theme/);
 });
@@ -102,7 +115,6 @@ test("theme dictionary keys exist in en and ja, and all CSS/JS come from one sna
     for (const lang of ["en", "ja"]) {
         const common = JSON.parse(read(`assets/locales/${lang}.json`)).common.theme;
         for (const key of ["label", "system", "light", "dark"]) assert.ok(common[key], `${lang} ${key}`);
-        assert.ok(JSON.parse(read(`assets/locales/${lang}.json`)).common.settings.label, `${lang} settings.label`);
     }
     const refs = [...head.matchAll(/(?:href|src)="(assets\/vendor\/[^"]+)"/g)].map((m) => m[1]);
     assert.equal(refs.length, 7);
